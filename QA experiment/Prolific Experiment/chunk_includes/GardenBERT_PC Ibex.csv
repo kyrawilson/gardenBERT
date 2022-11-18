@@ -1,0 +1,1126 @@
+Group,code,context,question
+A,LC-A-AM,A cab driver spotted the traveller booked the flight.,Who spotted the traveller?
+A,LC-U-AM,A professor talked to the student who was found a scholarship.,Who talked?
+A,LC-A-A2,The audience greeted the chef presented the new knife.,What did the chef get?
+A,LC-U-AM,The banker bragged to the millionaire who was sculpted a statue.,Who bragged?
+A,LC-A-A2,The boy scout thanked the pack leader knitted a scarf.,What did the pack leader get?
+A,GP-U-AM,The boyfriend who was left a voicemail distrusted the girlfriend.,Who distrusted?
+A,LC-A-AM,The cardinal telephoned the priest mailed a request.,Who telephoned?
+A,LC-U-AM,The cashier smiled at the child who was bought an ice cream cone.,Who smiled?
+A,GP-A-PM,The child bought an ice cream cone smiled at the cashier.,Who was smiled at?
+A,GP-U-AM,The child who was saved a front row seat surprised the clown.,Who surprised the clown?
+A,GP-A-PM,The colonel granted leave phoned a travel agent.,Who was phoned?
+A,GP-U-AM,The dispatcher who was handed a pink slip worried about the driver.,Who worried about the driver?
+A,LC-A-A2,The employees praised the manager prepared the report.,What did the manager get?
+A,GP-U-AM,The general who was awarded the medal annoyed the soldier.,Who annoyed the soldier?
+A,GP-U-AM,The girl who was won a stuffed bear ignored the carnival worker.,Who ignored the carnival worker?
+A,GP-U-AM,The golfer who was cooked a special meal toasted the host.,Who toasted?
+A,LC-A-A2,The host toasted the golfer cooked a special meal.,What did the golfer get?
+A,GP-U-AM,The instructor who was submitted the plagiarized papers visited the dean.,Who visited the dean?
+A,LC-A-A2,The mailman envied the neighbour crocheted a blanket.,What did the neighbor get?
+A,LC-U-AM,The mayor waved to the woman who was painted the portrait.,Who waved?
+A,GP-A-PM,The neighbour crocheted a blanket envied the mailman.,Who was envied?
+A,GP-U-AM,The old man who was awarded the prize embraced a friend.,Who embraced a friend?
+A,LC-A-A2,The parents thanked the babysitter purchased a gift card.,What did the babysitter get?
+A,GP-U-AM,The priest who was mailed a request telephoned the cardinal.,Who telephoned?
+A,GP-A-PM,The reporter told the rumour yelled at the witness.,Who was yelled at?
+A,GP-U-AM,The scientist who was shipped critical supplies admired the tribesmen.,Who admired the tribesman?
+A,LC-A-A2,The soldier annoyed the general awarded the medal.,What did the general get?
+A,GP-A-PM,The student called a bad name knew the bus driver.,Who was known?
+A,LC-A-AM,The teacher emailed the principal taught the policy.,Who emailed?
+A,LC-U-AM,The tourist photographed the girl who was played a song.,Who photographed the girl?
+A,LC-A-A2,The tutor hugged the boy sent an invitation.,What did the boy get?
+A,LC-U-AM,The witness yelled at the reporter who was told the rumour.,Who yelled?
+A,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+A,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+A,FRC,The waiter that served the guest was tall.,What did the waiter do?
+A,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+A,FS,The cat chased the mouse.,Who was chased?
+A,FS,The hungry animal ate the human food.,What did the animal do?
+A,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+A,FS,The apple fell far from the tree.,What fell?
+A,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+A,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+A,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+A,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+A,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+B,LC-A-PM,A cab driver spotted the traveller booked the flight.,Who was spotted?
+B,LC-U-PM,A professor talked to the student who was found a scholarship.,Who was talked to?
+B,LC-A-AM,The audience greeted the chef presented the new knife.,Who greeted the chef?
+B,LC-U-PM,The banker bragged to the millionaire who was sculpted a statue.,Who was bragged to?
+B,LC-A-AM,The boy scout thanked the pack leader knitted a scarf.,Who thanked the pack leader?
+B,GP-U-PM,The boyfriend who was left a voicemail distrusted the girlfriend.,Who was distrusted?
+B,LC-A-PM,The cardinal telephoned the priest mailed a request.,Who was telephoned?
+B,LC-U-PM,The cashier smiled at the child who was bought an ice cream cone.,Who was smiled at?
+B,GP-A-PE,The child bought an ice cream cone smiled at the cashier.,Who got an ice cream cone?
+B,GP-U-PM,The child who was saved a front row seat surprised the clown.,Who was surprised?
+B,GP-A-PE,The colonel granted leave phoned a travel agent.,Who was granted leave?
+B,GP-U-PM,The dispatcher who was handed a pink slip worried about the driver.,Who was worried about?
+B,LC-A-AM,The employees praised the manager prepared the report.,Who praised the manager?
+B,GP-U-PM,The general who was awarded the medal annoyed the soldier.,Who was annoyed?
+B,GP-U-PM,The girl who was won a stuffed bear ignored the carnival worker.,Who was ignored?
+B,GP-U-PM,The golfer who was cooked a special meal toasted the host.,Who was toasted?
+B,LC-A-AM,The host toasted the golfer cooked a special meal.,Who toasted?
+B,GP-U-PM,The instructor who was submitted the plagiarized papers visited the dean.,Who was visited?
+B,LC-A-AM,The mailman envied the neighbour crocheted a blanket.,Who envied the neighbour?
+B,LC-U-PM,The mayor waved to the woman who was painted the portrait.,Who was waved to?
+B,GP-A-PE,The neighbour crocheted a blanket envied the mailman.,Who was crocheted a blanket?
+B,GP-U-PM,The old man who was awarded the prize embraced a friend.,Who was embraced?
+B,LC-A-AM,The parents thanked the babysitter purchased a gift card.,Who said thanks?
+B,GP-U-PM,The priest who was mailed a request telephoned the cardinal.,Who was telephoned?
+B,GP-A-PE,The reporter told the rumour yelled at the witness.,Who was told the rumour?
+B,GP-U-PM,The scientist who was shipped critical supplies admired the tribesmen.,Who was admired?
+B,LC-A-AM,The soldier annoyed the general awarded the medal.,Who annoyed the general?
+B,GP-A-PE,The student called a bad name knew the bus driver.,Who was called a bad name?
+B,LC-A-PM,The teacher emailed the principal taught the policy.,Who was emailed?
+B,LC-U-PM,The tourist photographed the girl who was played a song.,Who was played a song?
+B,LC-A-AM,The tutor hugged the boy sent an invitation.,Who gave a hug?
+B,LC-U-PM,The witness yelled at the reporter who was told the rumour.,Who was yelled at?
+B,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+B,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+B,FRC,The waiter that served the guest was tall.,What did the waiter do?
+B,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+B,FS,The cat chased the mouse.,Who was chased?
+B,FS,The hungry animal ate the human food.,What did the animal do?
+B,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+B,FS,The apple fell far from the tree.,What fell?
+B,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+B,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+B,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+B,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+B,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+C,LC-A-PE,A cab driver spotted the traveller booked the flight.,Who was booked the flight?
+C,LC-U-PE,A professor talked to the student who was found a scholarship.,Who was found a scholarship?
+C,LC-A-PM,The audience greeted the chef presented the new knife.,Who was greeted?
+C,LC-U-PE,The banker bragged to the millionaire who was sculpted a statue.,Who was sculpted a statue?
+C,LC-A-PM,The boy scout thanked the pack leader knitted a scarf.,Who was thanked?
+C,GP-U-PE,The boyfriend who was left a voicemail distrusted the girlfriend.,Who got a voicemail?
+C,LC-A-PE,The cardinal telephoned the priest mailed a request.,Who was mailed a request?
+C,LC-U-PE,The cashier smiled at the child who was bought an ice cream cone.,Who got an ice cream cone?
+C,GP-A-A1,The child bought an ice cream cone smiled at the cashier.,What did the child do?
+C,GP-U-PE,The child who was saved a front row seat surprised the clown.,Who was saved a front row seat?
+C,GP-A-A1,The colonel granted leave phoned a travel agent.,What did the colonel do?
+C,GP-U-PE,The dispatcher who was handed a pink slip worried about the driver.,Who was handed a pink slip?
+C,LC-A-PM,The employees praised the manager prepared the report.,Who was praised?
+C,GP-U-PE,The general who was awarded the medal annoyed the soldier.,Who was awarded the medal?
+C,GP-U-PE,The girl who was won a stuffed bear ignored the carnival worker.,Who was won a stuffed bear?
+C,GP-U-PE,The golfer who was cooked a special meal toasted the host.,Who was cooked a special meal?
+C,LC-A-PM,The host toasted the golfer cooked a special meal.,Who was toasted?
+C,GP-U-PE,The instructor who was submitted the plagiarized papers visited the dean.,Who was submitted the plagarized papers?
+C,LC-A-PM,The mailman envied the neighbour crocheted a blanket.,Who was envied?
+C,LC-U-PE,The mayor waved to the woman who was painted the portrait.,Who was painted the portrait?
+C,GP-A-A1,The neighbour crocheted a blanket envied the mailman.,What did the neighbor do?
+C,GP-U-PE,The old man who was awarded the prize embraced a friend.,Who was awarded the prize?
+C,LC-A-PM,The parents thanked the babysitter purchased a gift card.,Who was thanked?
+C,GP-U-PE,The priest who was mailed a request telephoned the cardinal.,Who was mailed a request?
+C,GP-A-A1,The reporter told the rumour yelled at the witness.,What did the reporter do?
+C,GP-U-PE,The scientist who was shipped critical supplies admired the tribesmen.,Who was shipped critical supplies?
+C,LC-A-PM,The soldier annoyed the general awarded the medal.,Who was annoyed?
+C,GP-A-A1,The student called a bad name knew the bus driver.,What did the student do?
+C,LC-A-PE,The teacher emailed the principal taught the policy.,Who was taught the policy?
+C,LC-U-PE,The tourist photographed the girl who was played a song.,Who was photographed?
+C,LC-A-PM,The tutor hugged the boy sent an invitation.,Who got a hug?
+C,LC-U-PE,The witness yelled at the reporter who was told the rumour.,Who was told the rumour?
+C,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+C,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+C,FRC,The waiter that served the guest was tall.,What did the waiter do?
+C,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+C,FS,The cat chased the mouse.,Who was chased?
+C,FS,The hungry animal ate the human food.,What did the animal do?
+C,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+C,FS,The apple fell far from the tree.,What fell?
+C,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+C,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+C,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+C,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+C,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+D,LC-A-A1,A cab driver spotted the traveller booked the flight.,What did the cab driver do?
+D,LC-U-A2,A professor talked to the student who was found a scholarship.,What did the student get?
+D,LC-A-PE,The audience greeted the chef presented the new knife.,Who got a new knife?
+D,LC-U-A2,The banker bragged to the millionaire who was sculpted a statue.,What did the millionaire get?
+D,LC-A-PE,The boy scout thanked the pack leader knitted a scarf.,Who was knitted a scarf?
+D,GP-U-A1,The boyfriend who was left a voicemail distrusted the girlfriend.,What did the boyfriend do?
+D,LC-A-A2,The cardinal telephoned the priest mailed a request.,What did the priest get?
+D,LC-U-A2,The cashier smiled at the child who was bought an ice cream cone.,What did the child get?
+D,GP-A-AM,The child bought an ice cream cone smiled at the cashier.,Who smiled?
+D,GP-U-A1,The child who was saved a front row seat surprised the clown.,What did the child do?
+D,GP-A-AM,The colonel granted leave phoned a travel agent.,Who phoned?
+D,GP-U-A1,The dispatcher who was handed a pink slip worried about the driver.,What did the dispatcher do?
+D,LC-A-PE,The employees praised the manager prepared the report.,Who was prepared the report?
+D,GP-U-A1,The general who was awarded the medal annoyed the soldier.,What did the general do?
+D,GP-U-A1,The girl who was won a stuffed bear ignored the carnival worker.,What did the girl do?
+D,GP-U-A1,The golfer who was cooked a special meal toasted the host.,What did the golfer do?
+D,LC-A-PE,The host toasted the golfer cooked a special meal.,Who was cooked a special meal?
+D,GP-U-A1,The instructor who was submitted the plagiarized papers visited the dean.,What did the instructor do?
+D,LC-A-PE,The mailman envied the neighbour crocheted a blanket.,Who was crocheted a blanket?
+D,LC-U-A2,The mayor waved to the woman who was painted the portrait.,What did the woman get?
+D,GP-A-AM,The neighbour crocheted a blanket envied the mailman.,Who envied the mailman?
+D,GP-U-A1,The old man who was awarded the prize embraced a friend.,What did the old man do?
+D,LC-A-PE,The parents thanked the babysitter purchased a gift card.,Who got a gift card?
+D,GP-U-A1,The priest who was mailed a request telephoned the cardinal.,What did the priest do?
+D,GP-A-AM,The reporter told the rumour yelled at the witness.,Who yelled?
+D,GP-U-A1,The scientist who was shipped critical supplies admired the tribesmen.,What did the scientist do?
+D,LC-A-PE,The soldier annoyed the general awarded the medal.,Who was awarded the medal?
+D,GP-A-AM,The student called a bad name knew the bus driver.,Who knew the bus driver?
+D,LC-A-A2,The teacher emailed the principal taught the policy.,What did the principal get?
+D,LC-U-A2,The tourist photographed the girl who was played a song.,What did the girl get?
+D,LC-A-PE,The tutor hugged the boy sent an invitation.,Who got an invitation?
+D,LC-U-A2,The witness yelled at the reporter who was told the rumour.,What did the reporter get?
+D,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+D,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+D,FRC,The waiter that served the guest was tall.,What did the waiter do?
+D,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+D,FS,The cat chased the mouse.,Who was chased?
+D,FS,The hungry animal ate the human food.,What did the animal do?
+D,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+D,FS,The apple fell far from the tree.,What fell?
+D,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+D,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+D,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+D,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+D,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+E,LC-A-A2,A cab driver spotted the traveller booked the flight.,What did the traveller get?
+E,LC-U-A1,A professor talked to the student who was found a scholarship.,What did a professor do?
+E,LC-A-A1,The audience greeted the chef presented the new knife.,What did the audience do?
+E,LC-U-A1,The banker bragged to the millionaire who was sculpted a statue.,What did the banker do?
+E,LC-A-A1,The boy scout thanked the pack leader knitted a scarf.,What did the boy scout do?
+E,GP-U-A2,The boyfriend who was left a voicemail distrusted the girlfriend.,What did the boyfriend get?
+E,LC-A-A1,The cardinal telephoned the priest mailed a request.,What did the cardinal do?
+E,LC-U-A1,The cashier smiled at the child who was bought an ice cream cone.,What did the cashier do?
+E,GP-A-A2,The child bought an ice cream cone smiled at the cashier.,What did the child get?
+E,GP-U-A2,The child who was saved a front row seat surprised the clown.,What did the child get?
+E,GP-A-A2,The colonel granted leave phoned a travel agent.,What did the colonel get?
+E,GP-U-A2,The dispatcher who was handed a pink slip worried about the driver.,What did the dispatcher get?
+E,LC-A-A1,The employees praised the manager prepared the report.,What did the employees do?
+E,GP-U-A2,The general who was awarded the medal annoyed the soldier.,What did the general get?
+E,GP-U-A2,The girl who was won a stuffed bear ignored the carnival worker.,What did the girl get?
+E,GP-U-A2,The golfer who was cooked a special meal toasted the host.,What did the golfer get?
+E,LC-A-A1,The host toasted the golfer cooked a special meal.,What did the host do?
+E,GP-U-A2,The instructor who was submitted the plagiarized papers visited the dean.,What did the instructor get?
+E,LC-A-A1,The mailman envied the neighbour crocheted a blanket.,What did the mailman do?
+E,LC-U-A1,The mayor waved to the woman who was painted the portrait.,What did the mayor do?
+E,GP-A-A2,The neighbour crocheted a blanket envied the mailman.,What did the neighbour get?
+E,GP-U-A2,The old man who was awarded the prize embraced a friend.,What did the old get?
+E,LC-A-A1,The parents thanked the babysitter purchased a gift card.,What did the parents do?
+E,GP-U-A2,The priest who was mailed a request telephoned the cardinal.,What did the priest get?
+E,GP-A-A2,The reporter told the rumour yelled at the witness.,What did the reporter get?
+E,GP-U-A2,The scientist who was shipped critical supplies admired the tribesmen.,What did the scientist get?
+E,LC-A-A1,The soldier annoyed the general awarded the medal.,What did the soldier do?
+E,GP-A-A2,The student called a bad name knew the bus driver.,What did the student get?
+E,LC-A-A1,The teacher emailed the principal taught the policy.,What did the teacher do?
+E,LC-U-A1,The tourist photographed the girl who was played a song.,What did the tourist do?
+E,LC-A-A1,The tutor hugged the boy sent an invitation.,What did the tutor do?
+E,LC-U-A1,The witness yelled at the reporter who was told the rumour.,What did the witness do?
+E,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+E,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+E,FRC,The waiter that served the guest was tall.,What did the waiter do?
+E,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+E,FS,The cat chased the mouse.,Who was chased?
+E,FS,The hungry animal ate the human food.,What did the animal do?
+E,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+E,FS,The apple fell far from the tree.,What fell?
+E,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+E,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+E,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+E,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+E,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+F,LC-U-AM,A cab driver spotted the traveller who was booked the flight.,Who spotted the traveller?
+F,LC-A-A2,A travel agent phoned the colonel granted leave.,What did the colonel get?
+F,LC-U-AM,The audience greeted the chef who was presented the new knife.,Who greeted the chef?
+F,LC-A-AM,The bartender winked at the woman offered a free drink.,Who winked?
+F,LC-U-AM,The boy scout thanked the pack leader who was knitted a scarf.,Who thanked the pack leader?
+F,GP-A-PM,The brit served the first ace defeated the italian.,Who was defeated?
+F,LC-U-AM,The cardinal telephoned the priest who was mailed a request.,Who telephoned?
+F,LC-A-AM,The cheerleader smiled at the teenager burned a cd.,Who smiled?
+F,GP-A-PM,The child read a story hugged the nanny.,Who was hugged?
+F,LC-U-AM,The classmate  tattled on the girl who was passed a note.,Who tattled?
+F,GP-U-AM,The colonel who was granted leave phoned a travel agent.,Who phoned?
+F,GP-A-PM,The doctor delivered the donor organ assisted several surgeons.,Who was assisted?
+F,LC-U-AM,The employees praised the manager who was prepared the report.,Who praised the manager?
+F,GP-A-PM,The girl passed a note tattled on the classmate.,Who was tattled on?
+F,GP-A-PM,The girl won a stuffed bear ignored the carnival worker.,Who was ignored?
+F,LC-A-A2,The guard whispered to the prisoner procured a weekend pass.,What did the prisoner get?
+F,LC-U-AM,The host toasted the golfer who was cooked a special meal.,Who toasted?
+F,LC-A-A2,The italian defeated the brit served the first ace.,What did the brit get?
+F,LC-U-AM,The mailman envied the neighbour who was crocheted a blanket.,Who envied the neighbour?
+F,GP-A-PM,The millionaire sculpted a statue bragged to the banker.,Who was bragged to?
+F,GP-U-AM,The neighbour who was crocheted a blanket envied the mailman.,Who envied the mailman?
+F,LC-A-A2,The other team interfered with the player tossed the ball.,What did the player get?
+F,LC-A-AM,The parents thanked the babysitter who was purchased a gift card.,Who said thanks?
+F,GP-A-PM,The principal taught the policy emailed the teacher.,Who was emailed?
+F,GP-U-AM,The reporter who was told the rumour yelled at the witness.,Who yelled?
+F,GP-A-PM,The secretary poured a beer chatted up the lawyer.,Who was chatted up?
+F,LC-U-AM,The soldier annoyed the general who was awarded the medal.,Who annoyed the general?
+F,GP-A-PM,The student found a scholarship talked to a professor.,Who was talked to?
+F,LC-U-AM,The teacher emailed the principal who was taught the policy.,Who emailed?
+F,GP-A-PM,The traveller booked the flight spotted a cab driver.,Who was spotted?
+F,LC-U-AM,The tutor hugged the boy who was sent an invitation.,Who gave a hug?
+F,GP-A-PM,The woman offered a free drink winked at the bartender.,Who was winked at?
+F,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+F,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+F,FRC,The waiter that served the guest was tall.,What did the waiter do?
+F,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+F,FS,The cat chased the mouse.,Who was chased?
+F,FS,The hungry animal ate the human food.,What did the animal do?
+F,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+F,FS,The apple fell far from the tree.,What fell?
+F,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+F,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+F,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+F,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+F,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+G,LC-U-PM,A cab driver spotted the traveller who was booked the flight.,Who was spotted?
+G,LC-A-AM,A travel agent phoned the colonel granted leave.,Who phoned?
+G,LC-U-PM,The audience greeted the chef who was presented the new knife.,Who was greeted?
+G,LC-A-PM,The bartender winked at the woman offered a free drink.,Who was winked at?
+G,LC-U-PM,The boy scout thanked the pack leader who was knitted a scarf.,Who was thanked?
+G,GP-A-PE,The brit served the first ace defeated the italian.,Who was served the first ace?
+G,LC-U-PM,The cardinal telephoned the priest who was mailed a request.,Who was telephoned?
+G,LC-A-PM,The cheerleader smiled at the teenager burned a cd.,Who was smiled at?
+G,GP-A-PE,The child read a story hugged the nanny.,Who was read a story?
+G,LC-U-PM,The classmate  tattled on the girl who was passed a note.,Who was tattled on?
+G,GP-U-PM,The colonel who was granted leave phoned a travel agent.,Who was phoned?
+G,GP-A-PE,The doctor delivered the donor organ assisted several surgeons.,Who was delivered the donor organ?
+G,LC-U-PM,The employees praised the manager who was prepared the report.,Who was praised?
+G,GP-A-PE,The girl passed a note tattled on the classmate.,Who was passed a note?
+G,GP-A-PE,The girl won a stuffed bear ignored the carnival worker.,Who was won a stuffed bear?
+G,LC-A-AM,The guard whispered to the prisoner procured a weekend pass.,Who whispered?
+G,LC-U-PM,The host toasted the golfer who was cooked a special meal.,Who was toasted?
+G,LC-A-AM,The italian defeated the brit served the first ace.,Who defeated?
+G,LC-U-PM,The mailman envied the neighbour who was crocheted a blanket.,Who was envied?
+G,GP-A-PE,The millionaire sculpted a statue bragged to the banker.,Who was sculpted a statue?
+G,GP-U-PM,The neighbour who was crocheted a blanket envied the mailman.,Who was envied?
+G,LC-A-AM,The other team interfered with the player tossed the ball.,Who interfered?
+G,LC-A-PM,The parents thanked the babysitter who was purchased a gift card.,Who was thanked?
+G,GP-A-PE,The principal taught the policy emailed the teacher.,Who was taught the policy?
+G,GP-U-PM,The reporter who was told the rumour yelled at the witness.,Who was yelled at?
+G,GP-A-PE,The secretary poured a beer chatted up the lawyer.,Who was poured a beer?
+G,LC-U-PM,The soldier annoyed the general who was awarded the medal.,Who was annoyed?
+G,GP-A-PE,The student found a scholarship talked to a professor.,Who was found a scholarship?
+G,LC-U-PM,The teacher emailed the principal who was taught the policy.,Who was emailed?
+G,GP-A-PE,The traveller booked the flight spotted a cab driver.,Who was booked the flight?
+G,LC-U-PM,The tutor hugged the boy who was sent an invitation.,Who got a hug?
+G,GP-A-PE,The woman offered a free drink winked at the bartender.,Who was offered a free drink?
+G,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+G,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+G,FRC,The waiter that served the guest was tall.,What did the waiter do?
+G,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+G,FS,The cat chased the mouse.,Who was chased?
+G,FS,The hungry animal ate the human food.,What did the animal do?
+G,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+G,FS,The apple fell far from the tree.,What fell?
+G,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+G,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+G,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+G,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+G,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+H,LC-U-PE,A cab driver spotted the traveller who was booked the flight.,Who was booked the flight?
+H,LC-A-PM,A travel agent phoned the colonel granted leave.,Who was phoned?
+H,LC-U-PE,The audience greeted the chef who was presented the new knife.,Who got a new knife?
+H,LC-A-PE,The bartender winked at the woman offered a free drink.,Who was offered a free drink?
+H,LC-U-PE,The boy scout thanked the pack leader who was knitted a scarf.,Who was knitted a scarf?
+H,GP-A-A1,The brit served the first ace defeated the italian.,What did the brit do?
+H,LC-U-PE,The cardinal telephoned the priest who was mailed a request.,Who was mailed a request?
+H,LC-A-PE,The cheerleader smiled at the teenager burned a cd.,Who was burned a cd?
+H,GP-A-A1,The child read a story hugged the nanny.,What did the child do?
+H,LC-U-PE,The classmate  tattled on the girl who was passed a note.,Who was passed a note?
+H,GP-U-PE,The colonel who was granted leave phoned a travel agent.,Who was granted leave?
+H,GP-A-A1,The doctor delivered the donor organ assisted several surgeons.,What did the doctor do?
+H,LC-U-PE,The employees praised the manager who was prepared the report.,Who was prepared the report?
+H,GP-A-A1,The girl passed a note tattled on the classmate.,What did the girl do?
+H,GP-A-A1,The girl won a stuffed bear ignored the carnival worker.,What did the girl do?
+H,LC-A-PM,The guard whispered to the prisoner procured a weekend pass.,Who was whispered to?
+H,LC-U-PE,The host toasted the golfer who was cooked a special meal.,Who was cooked a special meal?
+H,LC-A-PM,The italian defeated the brit served the first ace.,Who was defeated?
+H,LC-U-PE,The mailman envied the neighbour who was crocheted a blanket.,Who was crocheted a blanket?
+H,GP-A-A1,The millionaire sculpted a statue bragged to the banker.,What did the millionaire do?
+H,GP-U-PE,The neighbour who was crocheted a blanket envied the mailman.,Who was crocheted a blanket?
+H,LC-A-PM,The other team interfered with the player tossed the ball.,Who was interfered with?
+H,LC-U-PE,The parents thanked the babysitter who was purchased a gift card.,Who got a gift card?
+H,GP-A-A1,The principal taught the policy emailed the teacher.,What did the principal do?
+H,GP-U-PE,The reporter who was told the rumour yelled at the witness.,Who was told the rumour?
+H,GP-A-A1,The secretary poured a beer chatted up the lawyer.,What did the secretary do?
+H,LC-U-PE,The soldier annoyed the general who was awarded the medal.,Who was awarded the medal?
+H,GP-A-A1,The student found a scholarship talked to a professor.,What did the student do?
+H,LC-U-PE,The teacher emailed the principal who was taught the policy.,Who was taught the policy?
+H,GP-A-A1,The traveller booked the flight spotted a cab driver.,What did the traveller do?
+H,LC-U-PE,The tutor hugged the boy who was sent an invitation.,Who got an invitation?
+H,GP-A-A1,The woman offered a free drink winked at the bartender.,What did the woman do?
+H,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+H,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+H,FRC,The waiter that served the guest was tall.,What did the waiter do?
+H,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+H,FS,The cat chased the mouse.,Who was chased?
+H,FS,The hungry animal ate the human food.,What did the animal do?
+H,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+H,FS,The apple fell far from the tree.,What fell?
+H,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+H,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+H,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+H,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+H,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+I,LC-U-A2,A cab driver spotted the traveller who was booked the flight.,What did the traveller get?
+I,LC-A-PE,A travel agent phoned the colonel granted leave.,Who was granted leave?
+I,LC-U-A1,The audience greeted the chef who was presented the new knife.,What did the audience do?
+I,LC-A-A1,The bartender winked at the woman offered a free drink.,What did the bartender do?
+I,LC-U-A2,The boy scout thanked the pack leader who was knitted a scarf.,What did the pack leader get?
+I,GP-A-AM,The brit served the first ace defeated the italian.,Who defeated?
+I,LC-U-A2,The cardinal telephoned the priest who was mailed a request.,What did the priest get?
+I,LC-A-A1,The cheerleader smiled at the teenager burned a cd.,What did the cheerleader do?
+I,GP-A-AM,The child read a story hugged the nanny.,Who gave a hug?
+I,LC-U-A2,The classmate  tattled on the girl who was passed a note.,What did the girl get?
+I,GP-U-A1,The colonel who was granted leave phoned a travel agent.,What did the colonel do?
+I,GP-A-AM,The doctor delivered the donor organ assisted several surgeons.,Who assisted several surgeons?
+I,LC-U-A2,The employees praised the manager who was prepared the report.,What did the manager get?
+I,GP-A-AM,The girl passed a note tattled on the classmate.,Who tattled?
+I,GP-A-AM,The girl won a stuffed bear ignored the carnival worker.,Who ignored the carnival worker?
+I,LC-A-PE,The guard whispered to the prisoner procured a weekend pass.,Who was procured a weekend pass?
+I,LC-U-A2,The host toasted the golfer who was cooked a special meal.,What did the golfer get?
+I,LC-A-PE,The italian defeated the brit served the first ace.,Who was served the first ace?
+I,LC-U-A2,The mailman envied the neighbour who was crocheted a blanket.,What did the neighbor get?
+I,GP-A-AM,The millionaire sculpted a statue bragged to the banker.,Who bragged?
+I,GP-U-A1,The neighbour who was crocheted a blanket envied the mailman.,What did the neighbor do?
+I,LC-A-PE,The other team interfered with the player tossed the ball.,Who was tossed the ball?
+I,LC-U-A2,The parents thanked the babysitter who was purchased a gift card.,What did the babysitter get?
+I,GP-A-AM,The principal taught the policy emailed the teacher.,Who emailed?
+I,GP-U-A1,The reporter who was told the rumour yelled at the witness.,What did the reporter do?
+I,GP-A-AM,The secretary poured a beer chatted up the lawyer.,Who chatted up the lawyer?
+I,LC-U-A2,The soldier annoyed the general who was awarded the medal.,What did the general get?
+I,GP-A-AM,The student found a scholarship talked to a professor.,Who talked?
+I,LC-U-A2,The teacher emailed the principal who was taught the policy.,What did the principal get?
+I,GP-A-AM,The traveller booked the flight spotted a cab driver.,Who spotted a cab driver?
+I,LC-U-A1,The tutor hugged the boy who was sent an invitation.,What did the tutor do?
+I,GP-A-AM,The woman offered a free drink winked at the bartender.,Who winked?
+I,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+I,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+I,FRC,The waiter that served the guest was tall.,What did the waiter do?
+I,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+I,FS,The cat chased the mouse.,Who was chased?
+I,FS,The hungry animal ate the human food.,What did the animal do?
+I,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+I,FS,The apple fell far from the tree.,What fell?
+I,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+I,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+I,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+I,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+I,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+J,LC-U-A1,A cab driver spotted the traveller who was booked the flight.,What did the cab driver do?
+J,LC-A-A1,A travel agent phoned the colonel granted leave.,What did the travel agent do?
+J,LC-U-A2,The audience greeted the chef who was presented the new knife.,What did the chef get?
+J,LC-A-A2,The bartender winked at the woman offered a free drink.,What did the woman get?
+J,LC-U-A1,The boy scout thanked the pack leader who was knitted a scarf.,What did the boy scout do?
+J,GP-A-A2,The brit served the first ace defeated the italian.,What did the brit get?
+J,LC-U-A1,The cardinal telephoned the priest who was mailed a request.,What did the cardinal do?
+J,LC-A-A2,The cheerleader smiled at the teenager burned a cd.,What did the teenager get?
+J,GP-A-A2,The child read a story hugged the nanny.,What did the child get?
+J,LC-U-A1,The classmate  tattled on the girl who was passed a note.,What did the classmate do?
+J,GP-U-A2,The colonel who was granted leave phoned a travel agent.,What did the colonel get?
+J,GP-A-A2,The doctor delivered the donor organ assisted several surgeons.,What did the doctor get?
+J,LC-U-A1,The employees praised the manager who was prepared the report.,What did the employees do?
+J,GP-A-A2,The girl passed a note tattled on the classmate.,What did the girl get?
+J,GP-A-A2,The girl won a stuffed bear ignored the carnival worker.,What did the girl get?
+J,LC-A-A1,The guard whispered to the prisoner procured a weekend pass.,What did the guard do?
+J,LC-U-A1,The host toasted the golfer who was cooked a special meal.,What did the host do?
+J,LC-A-A1,The italian defeated the brit served the first ace.,What did the italian do?
+J,LC-U-A1,The mailman envied the neighbour who was crocheted a blanket.,What did the mailman do?
+J,GP-A-A2,The millionaire sculpted a statue bragged to the banker.,What did the millionaire get?
+J,GP-U-A2,The neighbour who was crocheted a blanket envied the mailman.,What did the neighbour get?
+J,LC-A-A1,The other team interfered with the player tossed the ball.,What did the other team do?
+J,LC-U-A1,The parents thanked the babysitter who was purchased a gift card.,What did the parents do?
+J,GP-A-A2,The principal taught the policy emailed the teacher.,What did the principal get?
+J,GP-U-A2,The reporter who was told the rumour yelled at the witness.,What did the reporter get?
+J,GP-A-A2,The secretary poured a beer chatted up the lawyer.,What did the secretary get?
+J,LC-U-A1,The soldier annoyed the general who was awarded the medal.,What did the soldier do?
+J,GP-A-A2,The student found a scholarship talked to a professor.,What did the student get?
+J,LC-U-A1,The teacher emailed the principal who was taught the policy.,What did the teacher do?
+J,GP-A-A2,The traveller booked the flight spotted a cab driver.,What did the traveller get?
+J,LC-U-A2,The tutor hugged the boy who was sent an invitation.,What did the boy get?
+J,GP-A-A2,The woman offered a free drink winked at the bartender.,What did the woman get?
+J,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+J,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+J,FRC,The waiter that served the guest was tall.,What did the waiter do?
+J,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+J,FS,The cat chased the mouse.,Who was chased?
+J,FS,The hungry animal ate the human food.,What did the animal do?
+J,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+J,FS,The apple fell far from the tree.,What fell?
+J,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+J,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+J,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+J,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+J,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+K,LC-A-A2,A friend embraced the old man awarded the prize.,What did the old man get?
+K,LC-U-AM,A travel agent phoned the colonel who was granted leave.,Who phoned?
+K,GP-A-AM,The babysitter purchased a gift card thanked the parents.,Who said thanks?
+K,LC-U-AM,The bartender winked at the woman who was offered a free drink.,Who winked?
+K,GP-A-PM,The boy sent an invitation hugged the tutor.,Who was hugged?
+K,GP-U-AM,The brit who was served the first ace defeated the italian.,Who defeated?
+K,LC-U-AM,The carnival worker ignored the girl who was won a stuffed bear.,Who ignored the girl?
+K,LC-U-AM,The cheerleader smiled at the teenager who was burned a cd.,Who smiled?
+K,GP-A-PM,The child saved a front row seat surprised the clown.,Who was surprised?
+K,LC-A-AM,The classmate tattled on the girl passed a note.,Who tattled?
+K,LC-A-A2,The dean visited the instructor submitted the plagiarized papers.,What did the instructor get?
+K,GP-U-AM,The doctor who was delivered the donor organ assisted several surgeons.,Who assisted several surgeons?
+K,LC-A-A2,The fireman argued with the inspector paid a fee.,What did the inspector get?
+K,GP-A-PM,The girl played a song photographed the tourist.,Who was photographed?
+K,LC-A-A2,The girlfriend distrusted the boyfriend left a voicemail.,What did the boyfriend get?
+K,LC-U-AM,The guard whispered to the prisoner who was procured a weekend pass.,Who whispered?
+K,GP-A-PM,The inspector paid a fee argued with the fireman.,Who was argued with?
+K,LC-U-AM,The italian defeated the brit who was served the first ace.,Who defeated?
+K,GP-A-PM,The manager prepared the report praised the employees.,Who was praised?
+K,GP-U-AM,The millionaire who was sculpted a statue bragged to the banker.,Who bragged?
+K,LC-A-AM,The neighbours thanked the settlers built a log cabin.,Who thanked the settlers?
+K,LC-U-AM,The other team interfered with the player who was tossed the ball.,Who interfered?
+K,GP-A-PM,The player tossed the ball interfered with the other team.,Who was interfered with?
+K,GP-U-AM,The principal who was taught the policy emailed the teacher.,Who emailed?
+K,LC-A-AM,The roommate called the student baked a cake.,Who called?
+K,GP-U-AM,The secretary who was poured a beer chatted up the lawyer.,Who chatted up the lawyer?
+K,GP-A-PM,The spy served a dry martini watched the villain.,Who was watched?
+K,GP-U-AM,The student who was baked a cake called the roommate.,Who called?
+K,GP-A-PM,The teenager burned a cd smiled at the cheerleader.,Who was smiled at?
+K,GP-U-AM,The traveller who was booked the flight spotted a cab driver.,Who spotted a cab driver?
+K,LC-A-AM,The villain watched the spy served a dry martini.,Who watched the spy?
+K,GP-A-PM,The woman painted the portrait waved at the mayor.,Who was waved to?
+K,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+K,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+K,FRC,The waiter that served the guest was tall.,What did the waiter do?
+K,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+K,FS,The cat chased the mouse.,Who was chased?
+K,FS,The hungry animal ate the human food.,What did the animal do?
+K,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+K,FS,The apple fell far from the tree.,What fell?
+K,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+K,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+K,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+K,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+K,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+L,LC-A-AM,A friend embraced the old man awarded the prize.,Who embraced the old man?
+L,LC-U-PM,A travel agent phoned the colonel who was granted leave.,Who was phoned?
+L,GP-A-PM,The babysitter purchased a gift card thanked the parents.,Who was thanked?
+L,LC-U-PM,The bartender winked at the woman who was offered a free drink.,Who was winked at?
+L,GP-A-PE,The boy sent an invitation hugged the tutor.,Who got an invitation?
+L,GP-U-PM,The brit who was served the first ace defeated the italian.,Who was defeated?
+L,LC-U-PM,The carnival worker ignored the girl who was won a stuffed bear.,Who was ignored?
+L,LC-U-PM,The cheerleader smiled at the teenager who was burned a cd.,Who was smiled at?
+L,GP-A-PE,The child saved a front row seat surprised the clown.,Who was saved a front row seat?
+L,LC-A-PM,The classmate tattled on the girl passed a note.,Who was tattled on?
+L,LC-A-AM,The dean visited the instructor submitted the plagiarized papers.,Who visited the instructor?
+L,GP-U-PM,The doctor who was delivered the donor organ assisted several surgeons.,Who was assisted?
+L,LC-A-AM,The fireman argued with the inspector paid a fee.,Who argued?
+L,GP-A-PE,The girl played a song photographed the tourist.,Who was played a song?
+L,LC-A-AM,The girlfriend distrusted the boyfriend left a voicemail.,Who distrusted?
+L,LC-U-PM,The guard whispered to the prisoner who was procured a weekend pass.,Who was whispered to?
+L,GP-A-PE,The inspector paid a fee argued with the fireman.,Who was paid a fee?
+L,LC-U-PM,The italian defeated the brit who was served the first ace.,Who was defeated?
+L,GP-A-PE,The manager prepared the report praised the employees.,Who was prepared the report?
+L,GP-U-PM,The millionaire who was sculpted a statue bragged to the banker.,Who was bragged to?
+L,LC-A-PM,The neighbours thanked the settlers built a log cabin.,Who was thanked?
+L,LC-U-PM,The other team interfered with the player who was tossed the ball.,Who was interfered with?
+L,GP-A-PE,The player tossed the ball interfered with the other team.,Who was tossed the ball?
+L,GP-U-PM,The principal who was taught the policy emailed the teacher.,Who was emailed?
+L,LC-A-PM,The roommate called the student baked a cake.,Who was called?
+L,GP-U-PM,The secretary who was poured a beer chatted up the lawyer.,Who was chatted up?
+L,GP-A-PE,The spy served a dry martini watched the villain.,Who was served a dry martini?
+L,GP-U-PM,The student who was baked a cake called the roommate.,Who was called?
+L,GP-A-PE,The teenager burned a cd smiled at the cheerleader.,Who was burned a cd?
+L,GP-U-PM,The traveller who was booked the flight spotted a cab driver.,Who was spotted?
+L,LC-A-PM,The villain watched the spy served a dry martini.,Who was watched?
+L,GP-A-PE,The woman painted the portrait waved at the mayor.,Who was painted the portrait?
+L,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+L,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+L,FRC,The waiter that served the guest was tall.,What did the waiter do?
+L,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+L,FS,The cat chased the mouse.,Who was chased?
+L,FS,The hungry animal ate the human food.,What did the animal do?
+L,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+L,FS,The apple fell far from the tree.,What fell?
+L,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+L,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+L,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+L,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+L,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+M,LC-A-PM,A friend embraced the old man awarded the prize.,Who was embraced?
+M,LC-U-PE,A travel agent phoned the colonel who was granted leave.,Who was granted leave?
+M,GP-A-PE,The babysitter purchased a gift card thanked the parents.,Who got a gift card?
+M,LC-U-PE,The bartender winked at the woman who was offered a free drink.,Who was offered a free drink?
+M,GP-A-A1,The boy sent an invitation hugged the tutor.,What did the boy do?
+M,GP-U-PE,The brit who was served the first ace defeated the italian.,Who was served the first ace?
+M,LC-U-PE,The carnival worker ignored the girl who was won a stuffed bear.,Who was won a stuffed bear?
+M,LC-U-PE,The cheerleader smiled at the teenager who was burned a cd.,Who was burned a cd?
+M,GP-A-A1,The child saved a front row seat surprised the clown.,What did the child do?
+M,LC-A-PE,The classmate tattled on the girl passed a note.,Who was passed a note?
+M,LC-A-PM,The dean visited the instructor submitted the plagiarized papers.,Who was visited?
+M,GP-U-PE,The doctor who was delivered the donor organ assisted several surgeons.,Who was delivered the donor organ?
+M,LC-A-PM,The fireman argued with the inspector paid a fee.,Who was argued with?
+M,GP-A-A1,The girl played a song photographed the tourist.,What did the girl do?
+M,LC-A-PM,The girlfriend distrusted the boyfriend left a voicemail.,Who was distrusted?
+M,LC-U-PE,The guard whispered to the prisoner who was procured a weekend pass.,Who was procured a weekend pass?
+M,GP-A-A1,The inspector paid a fee argued with the fireman.,What did the inspector do?
+M,LC-U-PE,The italian defeated the brit who was served the first ace.,Who was served the first ace?
+M,GP-A-A1,The manager prepared the report praised the employees.,What did the manager do?
+M,GP-U-PE,The millionaire who was sculpted a statue bragged to the banker.,Who was sculpted a statue?
+M,LC-A-PE,The neighbours thanked the settlers built a log cabin.,Who was built a log cabin?
+M,LC-U-PE,The other team interfered with the player who was tossed the ball.,Who was tossed the ball?
+M,GP-A-A1,The player tossed the ball interfered with the other team.,What did the player do?
+M,GP-U-PE,The principal who was taught the policy emailed the teacher.,Who was taught the policy?
+M,LC-A-PE,The roommate called the student baked a cake.,Who was baked a cake?
+M,GP-U-PE,The secretary who was poured a beer chatted up the lawyer.,Who was poured a beer?
+M,GP-A-A1,The spy served a dry martini watched the villain.,What did the spy do?
+M,GP-U-PE,The student who was baked a cake called the roommate.,Who was baked a cake?
+M,GP-A-A1,The teenager burned a cd smiled at the cheerleader.,What did the teenager do?
+M,GP-U-PE,The traveller who was booked the flight spotted a cab driver.,Who was booked the flight?
+M,LC-A-PE,The villain watched the spy served a dry martini.,Who was served a dry martini?
+M,GP-A-A1,The woman painted the portrait waved at the mayor.,What did the woman do?
+M,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+M,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+M,FRC,The waiter that served the guest was tall.,What did the waiter do?
+M,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+M,FS,The cat chased the mouse.,Who was chased?
+M,FS,The hungry animal ate the human food.,What did the animal do?
+M,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+M,FS,The apple fell far from the tree.,What fell?
+M,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+M,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+M,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+M,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+M,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+N,LC-A-PE,A friend embraced the old man awarded the prize.,Who was awarded the prize?
+N,LC-U-A2,A travel agent phoned the colonel who was granted leave.,What did the colonel get?
+N,GP-A-A1,The babysitter purchased a gift card thanked the parents.,What did the babysitter do?
+N,LC-U-A2,The bartender winked at the woman who was offered a free drink.,What did the woman get?
+N,GP-A-AM,The boy sent an invitation hugged the tutor.,Who hugged the tutor?
+N,GP-U-A1,The brit who was served the first ace defeated the italian.,What did the brit do?
+N,LC-U-A2,The carnival worker ignored the girl who was won a stuffed bear.,What did the girl get?
+N,LC-U-A2,The cheerleader smiled at the teenager who was burned a cd.,What did the teenager get?
+N,GP-A-AM,The child saved a front row seat surprised the clown.,Who surprised the clown?
+N,LC-A-A1,The classmate tattled on the girl passed a note.,What did the classmate do?
+N,LC-A-PE,The dean visited the instructor submitted the plagiarized papers.,Who was submitted the plagarized papers?
+N,GP-U-A1,The doctor who was delivered the donor organ assisted several surgeons.,What did the doctor do?
+N,LC-A-PE,The fireman argued with the inspector paid a fee.,Who was paid a fee?
+N,GP-A-AM,The girl played a song photographed the tourist.,Who photographed the tourist?
+N,LC-A-PE,The girlfriend distrusted the boyfriend left a voicemail.,Who got a voicemail?
+N,LC-U-A2,The guard whispered to the prisoner who was procured a weekend pass.,What did the prisoner get?
+N,GP-A-AM,The inspector paid a fee argued with the fireman.,Who argued?
+N,LC-U-A1,The italian defeated the brit who was served the first ace.,What did the italian do?
+N,GP-A-AM,The manager prepared the report praised the employees.,Who praised the employees?
+N,GP-U-A1,The millionaire who was sculpted a statue bragged to the banker.,What did the millionaire do?
+N,LC-A-A1,The neighbours thanked the settlers built a log cabin.,What did the neighbours do?
+N,LC-U-A2,The other team interfered with the player who was tossed the ball.,What did the player get?
+N,GP-A-AM,The player tossed the ball interfered with the other team.,Who interfered?
+N,GP-U-A1,The principal who was taught the policy emailed the teacher.,What did the principal do?
+N,LC-A-A1,The roommate called the student baked a cake.,What did the roommate do?
+N,GP-U-A1,The secretary who was poured a beer chatted up the lawyer.,What did the secretary do?
+N,GP-A-AM,The spy served a dry martini watched the villain.,Who watched the villain?
+N,GP-U-A1,The student who was baked a cake called the roommate.,What did the student do?
+N,GP-A-AM,The teenager burned a cd smiled at the cheerleader.,Who smiled?
+N,GP-U-A1,The traveller who was booked the flight spotted a cab driver.,What did the traveller do?
+N,LC-A-A1,The villain watched the spy served a dry martini.,What did the villain do?
+N,GP-A-AM,The woman painted the portrait waved at the mayor.,Who waved?
+N,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+N,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+N,FRC,The waiter that served the guest was tall.,What did the waiter do?
+N,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+N,FS,The cat chased the mouse.,Who was chased?
+N,FS,The hungry animal ate the human food.,What did the animal do?
+N,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+N,FS,The apple fell far from the tree.,What fell?
+N,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+N,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+N,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+N,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+N,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+O,LC-A-A1,A friend embraced the old man awarded the prize.,What did a friend do?
+O,LC-U-A1,A travel agent phoned the colonel who was granted leave.,What did the travel agent do?
+O,GP-A-A2,The babysitter purchased a gift card thanked the parents.,What did the babysitter get?
+O,LC-U-A1,The bartender winked at the woman who was offered a free drink.,What did the bartender do?
+O,GP-A-A2,The boy sent an invitation hugged the tutor.,What did the boy get?
+O,GP-U-A2,The brit who was served the first ace defeated the italian.,What did the brit get?
+O,LC-U-A1,The carnival worker ignored the girl who was won a stuffed bear.,What did the carnival worker do?
+O,LC-U-A1,The cheerleader smiled at the teenager who was burned a cd.,What did the cheerleader do?
+O,GP-A-A2,The child saved a front row seat surprised the clown.,What did the child get?
+O,LC-A-A2,The classmate tattled on the girl passed a note.,What did the girl get?
+O,LC-A-A1,The dean visited the instructor submitted the plagiarized papers.,What did the dean do?
+O,GP-U-A2,The doctor who was delivered the donor organ assisted several surgeons.,What did the doctor get?
+O,LC-A-A1,The fireman argued with the inspector paid a fee.,What did the fireman do?
+O,GP-A-A2,The girl played a song photographed the tourist.,What did the girl get?
+O,LC-A-A1,The girlfriend distrusted the boyfriend left a voicemail.,What did the girlfriend do?
+O,LC-U-A1,The guard whispered to the prisoner who was procured a weekend pass.,What did the guard do?
+O,GP-A-A2,The inspector paid a fee argued with the fireman.,What did the inspector get?
+O,LC-U-A2,The italian defeated the brit who was served the first ace.,What did the brit get?
+O,GP-A-A2,The manager prepared the report praised the employees.,What did the manager get?
+O,GP-U-A2,The millionaire who was sculpted a statue bragged to the banker.,What did the millionaire get?
+O,LC-A-A2,The neighbours thanked the settlers built a log cabin.,What did the settlers get?
+O,LC-U-A1,The other team interfered with the player who was tossed the ball.,What did the other team do?
+O,GP-A-A2,The player tossed the ball interfered with the other team.,What did the player get?
+O,GP-U-A2,The principal who was taught the policy emailed the teacher.,What did the principal get?
+O,LC-A-A2,The roommate called the student baked a cake.,What did the student get?
+O,GP-U-A2,The secretary who was poured a beer chatted up the lawyer.,What did the secretary get?
+O,GP-A-A2,The spy served a dry martini watched the villain.,What did the spy get?
+O,GP-U-A2,The student who was baked a cake called the roommate.,What did the student get?
+O,GP-A-A2,The teenager burned a cd smiled at the cheerleader.,What did the teenager get?
+O,GP-U-A2,The traveller who was booked the flight spotted a cab driver.,What did the traveller get?
+O,LC-A-A2,The villain watched the spy served a dry martini.,What did the spy get?
+O,GP-A-A2,The woman painted the portrait waved at the mayor.,What did the woman get?
+O,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+O,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+O,FRC,The waiter that served the guest was tall.,What did the waiter do?
+O,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+O,FS,The cat chased the mouse.,Who was chased?
+O,FS,The hungry animal ate the human food.,What did the animal do?
+O,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+O,FS,The apple fell far from the tree.,What fell?
+O,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+O,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+O,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+O,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+O,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+P,LC-U-AM,A friend embraced the old man who was awarded the prize.,Who embraced the old man?
+P,LC-A-A2,Several surgeons assisted the doctor delivered the donor organ.,What did the doctor get?
+P,GP-U-AM,The babysitter who was purchased a gift card thanked the parents.,Who said thanks?
+P,LC-U-AM,The beggar  despised the hobo who was cut a slice of cheese.,Who despised the hobo?
+P,GP-U-AM,The boy who was sent an invitation hugged the tutor.,Who hugged the tutor?
+P,LC-A-AM,The bus driver knew the student called a bad name.,Who knew the student?
+P,LC-A-A2,The carnival worker ignored the girl won a stuffed bear.,What did the girl get?
+P,GP-A-PM,The chef presented the new knife greeted the audience.,Who was greeted?
+P,GP-U-AM,The child who was bought an ice cream cone smiled at the cashier.,Who smiled?
+P,LC-A-A2,The clown surprised the child saved a front row seat.,What did the child get?
+P,LC-U-AM,The dean visited the instructor who was submitted the plagiarized papers.,Who visited the instructor?
+P,LC-A-AM,The driver worried about the dispatcher handed a pink slip.,Who worried?
+P,LC-U-AM,The fireman argued with the inspector who was paid a fee.,Who argued?
+P,GP-U-AM,The girl who was passed a note tattled on the classmate.,Who tattled?
+P,LC-U-AM,The girlfriend distrusted the boyfriend who was left a voicemail.,Who distrusted?
+P,GP-A-PM,The hobo cut a slice of cheese despised the beggar.,Who was despised?
+P,GP-U-AM,The inspector who was paid a fee argued with the fireman.,Who argued?
+P,LC-A-A2,The lawyer chatted up the secretary poured a beer.,What did the secretary get?
+P,GP-U-AM,The manager who was prepared the report praised the employees.,Who praised the employees?
+P,LC-A-A2,The nanny hugged the child read a story.,What did the child get?
+P,LC-U-AM,The neighbours thanked the settlers who were built a log cabin.,Who thanked the settlers?
+P,GP-A-PM,The pack leader knitted a scarf thanked the boy scout.,Who was thanked?
+P,GP-U-AM,The player who was tossed the ball interfered with the other team.,Who interfered?
+P,GP-A-PM,The prisoner procured a weekend pass whispered to the guard.,Who was whispered to?
+P,LC-U-AM,The roommate called the student who was baked a cake.,Who called?
+P,GP-A-PM,The settlers built a log cabin thanked the neighbours.,Who was thanked?
+P,GP-U-AM,The spy who was served a dry martini watched the villain.,Who watched the villain?
+P,GP-U-AM,The student who was called a bad name knew the bus driver.,Who knew the bus driver?
+P,GP-U-AM,The teenager who was burned a cd smiled at the cheerleader.,Who smiled?
+P,LC-A-AM,The tribesmen admired the scientist shipped critical supplies.,Who admired the scientist?
+P,LC-U-AM,The villain watched the spy who was served a dry martini.,Who watched the spy?
+P,GP-U-AM,The woman who was offered a free drink winked at the bartender.,Who winked?
+P,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+P,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+P,FRC,The waiter that served the guest was tall.,What did the waiter do?
+P,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+P,FS,The cat chased the mouse.,Who was chased?
+P,FS,The hungry animal ate the human food.,What did the animal do?
+P,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+P,FS,The apple fell far from the tree.,What fell?
+P,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+P,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+P,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+P,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+P,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+Q,LC-U-PM,A friend embraced the old man who was awarded the prize.,Who was embraced?
+Q,LC-A-AM,Several surgeons assisted the doctor delivered the donor organ.,Who assisted the doctor?
+Q,GP-U-PM,The babysitter who was purchased a gift card thanked the parents.,Who was thanked?
+Q,LC-U-PM,The beggar  despised the hobo who was cut a slice of cheese.,Who was despised?
+Q,GP-U-PM,The boy who was sent an invitation hugged the tutor.,Who was hugged?
+Q,LC-A-PM,The bus driver knew the student called a bad name.,Who was known?
+Q,LC-A-AM,The carnival worker ignored the girl won a stuffed bear.,Who ignored the girl?
+Q,GP-A-PE,The chef presented the new knife greeted the audience.,Who got a new knife?
+Q,GP-U-PM,The child who was bought an ice cream cone smiled at the cashier.,Who was smiled at?
+Q,LC-A-AM,The clown surprised the child saved a front row seat.,Who surprised the child?
+Q,LC-U-PM,The dean visited the instructor who was submitted the plagiarized papers.,Who was visited?
+Q,LC-A-PM,The driver worried about the dispatcher handed a pink slip.,Who was worried about?
+Q,LC-U-PM,The fireman argued with the inspector who was paid a fee.,Who was argued with?
+Q,GP-U-PM,The girl who was passed a note tattled on the classmate.,Who was tattled on?
+Q,LC-U-PM,The girlfriend distrusted the boyfriend who was left a voicemail.,Who was distrusted?
+Q,GP-A-PE,The hobo cut a slice of cheese despised the beggar.,Who was cut a slice of cheese?
+Q,GP-U-PM,The inspector who was paid a fee argued with the fireman.,Who was argued with?
+Q,LC-A-AM,The lawyer chatted up the secretary poured a beer.,Who chatted up the secretary?
+Q,GP-U-PM,The manager who was prepared the report praised the employees.,Who was praised?
+Q,LC-A-AM,The nanny hugged the child read a story.,Who gave a hug?
+Q,LC-U-PM,The neighbours thanked the settlers who were built a log cabin.,Who was thanked?
+Q,GP-A-PE,The pack leader knitted a scarf thanked the boy scout.,Who was knitted a scarf?
+Q,GP-U-PM,The player who was tossed the ball interfered with the other team.,Who was interfered with?
+Q,GP-A-PE,The prisoner procured a weekend pass whispered to the guard.,Who was procured a weekend pass?
+Q,LC-U-PM,The roommate called the student who was baked a cake.,Who was called?
+Q,GP-A-PE,The settlers built a log cabin thanked the neighbours.,Who was built a log cabin?
+Q,GP-U-PM,The spy who was served a dry martini watched the villain.,Who was watched?
+Q,GP-U-PM,The student who was called a bad name knew the bus driver.,Who was known?
+Q,GP-U-PM,The teenager who was burned a cd smiled at the cheerleader.,Who was smiled at?
+Q,LC-A-PM,The tribesmen admired the scientist shipped critical supplies.,Who was admired?
+Q,LC-U-PM,The villain watched the spy who was served a dry martini.,Who was watched?
+Q,GP-U-PM,The woman who was offered a free drink winked at the bartender.,Who was winked at?
+Q,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+Q,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+Q,FRC,The waiter that served the guest was tall.,What did the waiter do?
+Q,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+Q,FS,The cat chased the mouse.,Who was chased?
+Q,FS,The hungry animal ate the human food.,What did the animal do?
+Q,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+Q,FS,The apple fell far from the tree.,What fell?
+Q,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+Q,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+Q,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+Q,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+Q,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+R,LC-U-PE,A friend embraced the old man who was awarded the prize.,Who was awarded the prize?
+R,LC-A-PM,Several surgeons assisted the doctor delivered the donor organ.,Who was assisted?
+R,GP-U-PE,The babysitter who was purchased a gift card thanked the parents.,Who got a gift card?
+R,LC-U-PE,The beggar  despised the hobo who was cut a slice of cheese.,Who was cut a slice of cheese?
+R,GP-U-PE,The boy who was sent an invitation hugged the tutor.,Who got an invitation?
+R,LC-A-PE,The bus driver knew the student called a bad name.,Who was called a bad name?
+R,LC-A-PM,The carnival worker ignored the girl won a stuffed bear.,Who was ignored?
+R,GP-A-A1,The chef presented the new knife greeted the audience.,What did the chef do?
+R,GP-U-PE,The child who was bought an ice cream cone smiled at the cashier.,Who got an ice cream cone?
+R,LC-A-PM,The clown surprised the child saved a front row seat.,Who was surprised?
+R,LC-U-PE,The dean visited the instructor who was submitted the plagiarized papers.,Who was submitted the plagarized papers?
+R,LC-A-PE,The driver worried about the dispatcher handed a pink slip.,Who was handed a pink slip?
+R,LC-U-PE,The fireman argued with the inspector who was paid a fee.,Who was paid a fee?
+R,GP-U-PE,The girl who was passed a note tattled on the classmate.,Who was passed a note?
+R,LC-U-PE,The girlfriend distrusted the boyfriend who was left a voicemail.,Who got a voicemail?
+R,GP-A-A1,The hobo cut a slice of cheese despised the beggar.,What did the hobo do?
+R,GP-U-PE,The inspector who was paid a fee argued with the fireman.,Who was paid a fee?
+R,LC-A-PM,The lawyer chatted up the secretary poured a beer.,Who was chatted up?
+R,GP-U-PE,The manager who was prepared the report praised the employees.,Who was prepared the report?
+R,LC-A-PM,The nanny hugged the child read a story.,Who was hugged?
+R,LC-U-PE,The neighbours thanked the settlers who were built a log cabin.,Who was built a log cabin?
+R,GP-A-A1,The pack leader knitted a scarf thanked the boy scout.,What did the pack leader do?
+R,GP-U-PE,The player who was tossed the ball interfered with the other team.,Who was tossed the ball?
+R,GP-A-A1,The prisoner procured a weekend pass whispered to the guard.,What did the prisoner do?
+R,LC-U-PE,The roommate called the student who was baked a cake.,Who was baked a cake?
+R,GP-A-A1,The settlers built a log cabin thanked the neighbours.,What did the settlers do?
+R,GP-U-PE,The spy who was served a dry martini watched the villain.,Who was served a dry martini?
+R,GP-U-PE,The student who was called a bad name knew the bus driver.,Who was called a bad name?
+R,GP-U-PE,The teenager who was burned a cd smiled at the cheerleader.,Who was burned a cd?
+R,LC-A-PE,The tribesmen admired the scientist shipped critical supplies.,Who was shipped critical supplies?
+R,LC-U-PE,The villain watched the spy who was served a dry martini.,Who was served a dry martini?
+R,GP-U-PE,The woman who was offered a free drink winked at the bartender.,Who was offered a free drink?
+R,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+R,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+R,FRC,The waiter that served the guest was tall.,What did the waiter do?
+R,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+R,FS,The cat chased the mouse.,Who was chased?
+R,FS,The hungry animal ate the human food.,What did the animal do?
+R,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+R,FS,The apple fell far from the tree.,What fell?
+R,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+R,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+R,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+R,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+R,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+S,LC-U-A2,A friend embraced the old man who was awarded the prize.,What did the old man get?
+S,LC-A-PE,Several surgeons assisted the doctor delivered the donor organ.,Who was delivered the donor organ?
+S,GP-U-A1,The babysitter who was purchased a gift card thanked the parents.,What did the babysitter do?
+S,LC-U-A2,The beggar  despised the hobo who was cut a slice of cheese.,What did the hobo get?
+S,GP-U-A1,The boy who was sent an invitation hugged the tutor.,What did the boy do?
+S,LC-A-A1,The bus driver knew the student called a bad name.,What did the bus driver do?
+S,LC-A-PE,The carnival worker ignored the girl won a stuffed bear.,Who was won a stuffed bear?
+S,GP-A-AM,The chef presented the new knife greeted the audience.,Who greeted the audience?
+S,GP-U-A1,The child who was bought an ice cream cone smiled at the cashier.,What did the child do?
+S,LC-A-PE,The clown surprised the child saved a front row seat.,Who was saved a front row seat?
+S,LC-U-A2,The dean visited the instructor who was submitted the plagiarized papers.,What did the instructor get?
+S,LC-A-A1,The driver worried about the dispatcher handed a pink slip.,What did the driver do?
+S,LC-U-A2,The fireman argued with the inspector who was paid a fee.,What did the inspector get?
+S,GP-U-A1,The girl who was passed a note tattled on the classmate.,What did the girl do?
+S,LC-U-A2,The girlfriend distrusted the boyfriend who was left a voicemail.,What did the boyfriend get?
+S,GP-A-AM,The hobo cut a slice of cheese despised the beggar.,Who despised the beggar?
+S,GP-U-A1,The inspector who was paid a fee argued with the fireman.,What did the inspector do?
+S,LC-A-PE,The lawyer chatted up the secretary poured a beer.,Who was poured a beer?
+S,GP-U-A1,The manager who was prepared the report praised the employees.,What did the manager do?
+S,LC-A-PE,The nanny hugged the child read a story.,Who was read a story?
+S,LC-U-A2,The neighbours thanked the settlers who were built a log cabin.,What did the settlers get?
+S,GP-A-AM,The pack leader knitted a scarf thanked the boy scout.,Who thanked the boy scout?
+S,GP-U-A1,The player who was tossed the ball interfered with the other team.,What did the player do?
+S,GP-A-AM,The prisoner procured a weekend pass whispered to the guard.,Who whispered?
+S,LC-U-A2,The roommate called the student who was baked a cake.,What did the student get?
+S,GP-A-AM,The settlers built a log cabin thanked the neighbours.,Who thanked the neighbours?
+S,GP-U-A1,The spy who was served a dry martini watched the villain.,What did the spy do?
+S,GP-U-A1,The student who was called a bad name knew the bus driver.,What did the student do?
+S,GP-U-A1,The teenager who was burned a cd smiled at the cheerleader.,What did the teenager do?
+S,LC-A-A1,The tribesmen admired the scientist shipped critical supplies.,What did the tribesmen do?
+S,LC-U-A2,The villain watched the spy who was served a dry martini.,What did the spy get?
+S,GP-U-A1,The woman who was offered a free drink winked at the bartender.,What did the woman do?
+S,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+S,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+S,FRC,The waiter that served the guest was tall.,What did the waiter do?
+S,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+S,FS,The cat chased the mouse.,Who was chased?
+S,FS,The hungry animal ate the human food.,What did the animal do?
+S,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+S,FS,The apple fell far from the tree.,What fell?
+S,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+S,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+S,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+S,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+S,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+T,LC-U-A1,A friend embraced the old man who was awarded the prize.,What did a friend do?
+T,LC-A-A1,Several surgeons assisted the doctor delivered the donor organ.,What did several surgeons so?
+T,GP-U-A2,The babysitter who was purchased a gift card thanked the parents.,What did the babysitter get?
+T,LC-U-A1,The beggar  despised the hobo who was cut a slice of cheese.,What did the beggar do?
+T,GP-U-A2,The boy who was sent an invitation hugged the tutor.,What did the boy get?
+T,LC-A-A2,The bus driver knew the student called a bad name.,What did the student get?
+T,LC-A-A1,The carnival worker ignored the girl won a stuffed bear.,What did the carnival worker do?
+T,GP-A-A2,The chef presented the new knife greeted the audience.,What did the chef get?
+T,GP-U-A2,The child who was bought an ice cream cone smiled at the cashier.,What did the child get?
+T,LC-A-A1,The clown surprised the child saved a front row seat.,What did the clown do?
+T,LC-U-A1,The dean visited the instructor who was submitted the plagiarized papers.,What did the dean do?
+T,LC-A-A2,The driver worried about the dispatcher handed a pink slip.,What did the dispatcher get?
+T,LC-U-A1,The fireman argued with the inspector who was paid a fee.,What did the fireman do?
+T,GP-U-A2,The girl who was passed a note tattled on the classmate.,What did the girl get?
+T,LC-U-A1,The girlfriend distrusted the boyfriend who was left a voicemail.,What did the girlfriend do?
+T,GP-A-A2,The hobo cut a slice of cheese despised the beggar.,What did the hobo get?
+T,GP-U-A2,The inspector who was paid a fee argued with the fireman.,What did the inspector get?
+T,LC-A-A1,The lawyer chatted up the secretary poured a beer.,What did the lawyer do?
+T,GP-U-A2,The manager who was prepared the report praised the employees.,What did the manager get?
+T,LC-A-A1,The nanny hugged the child read a story.,What did the nanny do?
+T,LC-U-A1,The neighbours thanked the settlers who were built a log cabin.,What did the neighbours do?
+T,GP-A-A2,The pack leader knitted a scarf thanked the boy scout.,What did the pack get?
+T,GP-U-A2,The player who was tossed the ball interfered with the other team.,What did the player get?
+T,GP-A-A2,The prisoner procured a weekend pass whispered to the guard.,What did the prisoner get?
+T,LC-U-A1,The roommate called the student who was baked a cake.,What did the roommate do?
+T,GP-A-A2,The settlers built a log cabin thanked the neighbours.,What did the settlers get?
+T,GP-U-A2,The spy who was served a dry martini watched the villain.,What did the spy get?
+T,GP-U-A2,The student who was called a bad name knew the bus driver.,What did the student get?
+T,GP-U-A2,The teenager who was burned a cd smiled at the cheerleader.,What did the teenager get?
+T,LC-A-A2,The tribesmen admired the scientist shipped critical supplies.,What did the scientist get?
+T,LC-U-A1,The villain watched the spy who was served a dry martini.,What did the villain do?
+T,GP-U-A2,The woman who was offered a free drink winked at the bartender.,What did the woman get?
+T,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+T,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+T,FRC,The waiter that served the guest was tall.,What did the waiter do?
+T,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+T,FS,The cat chased the mouse.,Who was chased?
+T,FS,The hungry animal ate the human food.,What did the animal do?
+T,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+T,FS,The apple fell far from the tree.,What fell?
+T,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+T,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+T,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+T,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+T,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+U,LC-A-A2,A professor talked to the student found a scholarship.,What did the student get?
+U,LC-U-AM,Several surgeons assisted the doctor who was delivered the donor organ.,Who assisted the doctor?
+U,LC-A-A2,The banker bragged to the millionaire sculpted a statue.,What did the millionaire get?
+U,LC-A-A2,The beggar despised the hobo cut a slice of cheese.,What did the hobo get?
+U,GP-A-PM,The boyfriend left a voicemail distrusted the girlfriend.,Who was distrusted?
+U,LC-U-AM,The bus driver knew the student who was called a bad name.,Who knew the student?
+U,LC-A-AM,The cashier smiled at the child bought an ice cream cone.,Who smiled?
+U,GP-U-AM,The chef who was presented the new knife greeted the audience.,Who greeted the audience?
+U,GP-U-AM,The child who was read a story hugged the nanny.,Who gave a hug?
+U,LC-U-AM,The clown surprised the child who was saved a front row seat.,Who surprised the child?
+U,GP-A-PM,The dispatcher handed a pink slip worried about the driver.,Who was worried about?
+U,LC-U-AM,The driver worried about the dispatcher who was handed a pink slip.,Who worried?
+U,GP-A-PM,The general awarded the medal annoyed the soldier.,Who was annoyed?
+U,GP-U-AM,The girl who was played a song photographed the tourist.,Who photographed the tourist?
+U,GP-A-PM,The golfer cooked a special meal toasted the host.,Who was toasted?
+U,GP-U-AM,The hobo who was cut a slice of cheese despised the beggar.,Who despised the beggar?
+U,GP-A-PM,The instructor submitted the plagiarized papers visited the dean.,Who was visited?
+U,LC-U-AM,The lawyer chatted up the secretary who was poured a beer.,Who chatted up the secretary?
+U,LC-A-AM,The mayor waved to the woman painted the portrait.,Who waved?
+U,LC-U-AM,The nanny hugged the child who was read a story.,Who gave a hug?
+U,GP-A-PM,The old man awarded the prize embraced a friend.,Who was embraced?
+U,GP-U-AM,The pack leader who was knitted a scarf thanked the boy scout.,Who thanked the boy scout?
+U,GP-A-PM,The priest mailed a request telephoned the cardinal.,Who was telephoned?
+U,GP-U-AM,The prisoner who was procured a weekend pass whispered to the guard.,Who whispered?
+U,GP-A-PM,The scientist shipped critical supplies admired the tribesmen.,Who was admired?
+U,GP-U-AM,The settlers who were built a log cabin thanked the neighbours.,Who thanked the neighbours?
+U,GP-A-PM,The student baked a cake called the roommate.,Who was called?
+U,GP-U-AM,The student who was found a scholarship talked to a professor.,Who talked?
+U,LC-A-A2,The tourist photographed the girl played a song.,What did the girl get?
+U,LC-U-AM,The tribesmen admired the scientist who was shipped critical supplies.,Who admired the scientist?
+U,LC-A-AM,The witness yelled at the reporter told the rumour.,Who yelled?
+U,GP-U-AM,The woman who was painted the portrait waved at the mayor.,Who waved?
+U,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+U,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+U,FRC,The waiter that served the guest was tall.,What did the waiter do?
+U,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+U,FS,The cat chased the mouse.,Who was chased?
+U,FS,The hungry animal ate the human food.,What did the animal do?
+U,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+U,FS,The apple fell far from the tree.,What fell?
+U,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+U,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+U,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+U,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+U,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+V,LC-A-AM,A professor talked to the student found a scholarship.,Who talked?
+V,LC-U-PM,Several surgeons assisted the doctor who was delivered the donor organ.,Who was assisted?
+V,LC-A-AM,The banker bragged to the millionaire sculpted a statue.,Who bragged?
+V,LC-A-AM,The beggar despised the hobo cut a slice of cheese.,Who despised the hobo?
+V,GP-A-PE,The boyfriend left a voicemail distrusted the girlfriend.,Who got a voicemail?
+V,LC-U-PM,The bus driver knew the student who was called a bad name.,Who was known?
+V,LC-A-PM,The cashier smiled at the child bought an ice cream cone.,Who was smiled at?
+V,GP-U-PM,The chef who was presented the new knife greeted the audience.,Who was greeted?
+V,GP-U-PM,The child who was read a story hugged the nanny.,Who was hugged?
+V,LC-U-PM,The clown surprised the child who was saved a front row seat.,Who was surprised?
+V,GP-A-PE,The dispatcher handed a pink slip worried about the driver.,Who was handed a pink slip?
+V,LC-U-PM,The driver worried about the dispatcher who was handed a pink slip.,Who was worried about?
+V,GP-A-PE,The general awarded the medal annoyed the soldier.,Who was awarded the medal?
+V,GP-U-PM,The girl who was played a song photographed the tourist.,Who was photographed?
+V,GP-A-PE,The golfer cooked a special meal toasted the host.,Who was cooked a special meal?
+V,GP-U-PM,The hobo who was cut a slice of cheese despised the beggar.,Who was despised?
+V,GP-A-PE,The instructor submitted the plagiarized papers visited the dean.,Who was submitted the plagarized papers?
+V,LC-U-PM,The lawyer chatted up the secretary who was poured a beer.,Who was chatted up?
+V,LC-A-PM,The mayor waved to the woman painted the portrait.,Who was waved to?
+V,LC-U-PM,The nanny hugged the child who was read a story.,Who was hugged?
+V,GP-A-PE,The old man awarded the prize embraced a friend.,Who was awarded the prize?
+V,GP-U-PM,The pack leader who was knitted a scarf thanked the boy scout.,Who was thanked?
+V,GP-A-PE,The priest mailed a request telephoned the cardinal.,Who was mailed a request?
+V,GP-U-PM,The prisoner who was procured a weekend pass whispered to the guard.,Who was whispered to?
+V,GP-A-PE,The scientist shipped critical supplies admired the tribesmen.,Who was shipped critical supplies?
+V,GP-U-PM,The settlers who were built a log cabin thanked the neighbours.,Who was thanked?
+V,GP-A-PE,The student baked a cake called the roommate.,Who was baked a cake?
+V,GP-U-PM,The student who was found a scholarship talked to a professor.,Who was talked to?
+V,LC-A-AM,The tourist photographed the girl played a song.,Who photographed the girl?
+V,LC-U-PM,The tribesmen admired the scientist who was shipped critical supplies.,Who was admired?
+V,LC-A-PM,The witness yelled at the reporter told the rumour.,Who was yelled at?
+V,GP-U-PM,The woman who was painted the portrait waved at the mayor.,Who was waved to?
+V,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+V,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+V,FRC,The waiter that served the guest was tall.,What did the waiter do?
+V,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+V,FS,The cat chased the mouse.,Who was chased?
+V,FS,The hungry animal ate the human food.,What did the animal do?
+V,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+V,FS,The apple fell far from the tree.,What fell?
+V,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+V,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+V,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+V,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+V,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+W,LC-A-PM,A professor talked to the student found a scholarship.,Who was talked to?
+W,LC-U-PE,Several surgeons assisted the doctor who was delivered the donor organ.,Who was delivered the donor organ?
+W,LC-A-PM,The banker bragged to the millionaire sculpted a statue.,Who was bragged to?
+W,LC-A-PM,The beggar despised the hobo cut a slice of cheese.,Who was despised?
+W,GP-A-A1,The boyfriend left a voicemail distrusted the girlfriend.,What did the boyfriend do?
+W,LC-U-PE,The bus driver knew the student who was called a bad name.,Who was called a bad name?
+W,LC-A-PE,The cashier smiled at the child bought an ice cream cone.,Who got an ice cream cone?
+W,GP-U-PE,The chef who was presented the new knife greeted the audience.,Who got a new knife?
+W,GP-U-PE,The child who was read a story hugged the nanny.,Who was read a story?
+W,LC-U-PE,The clown surprised the child who was saved a front row seat.,Who was saved a front row seat?
+W,GP-A-A1,The dispatcher handed a pink slip worried about the driver.,What did the dispatcher do?
+W,LC-U-PE,The driver worried about the dispatcher who was handed a pink slip.,Who was handed a pink slip?
+W,GP-A-A1,The general awarded the medal annoyed the soldier.,What did the general do?
+W,GP-U-PE,The girl who was played a song photographed the tourist.,Who was played a song?
+W,GP-A-A1,The golfer cooked a special meal toasted the host.,What did the golfer do?
+W,GP-U-PE,The hobo who was cut a slice of cheese despised the beggar.,Who was cut a slice of cheese?
+W,GP-A-A1,The instructor submitted the plagiarized papers visited the dean.,What did the instructor do?
+W,LC-U-PE,The lawyer chatted up the secretary who was poured a beer.,Who was poured a beer?
+W,LC-A-PE,The mayor waved to the woman painted the portrait.,Who was painted the portrait?
+W,LC-U-PE,The nanny hugged the child who was read a story.,Who was read a story?
+W,GP-A-A1,The old man awarded the prize embraced a friend.,What did the old man do?
+W,GP-U-PE,The pack leader who was knitted a scarf thanked the boy scout.,Who was knitted a scarf?
+W,GP-A-A1,The priest mailed a request telephoned the cardinal.,What did the priest do?
+W,GP-U-PE,The prisoner who was procured a weekend pass whispered to the guard.,Who was procured a weekend pass?
+W,GP-A-A1,The scientist shipped critical supplies admired the tribesmen.,What did the scientist do?
+W,GP-U-PE,The settlers who were built a log cabin thanked the neighbours.,Who was built a log cabin?
+W,GP-A-A1,The student baked a cake called the roommate.,What did the student do?
+W,GP-U-PE,The student who was found a scholarship talked to a professor.,Who was found a scholarship?
+W,LC-A-PM,The tourist photographed the girl played a song.,Who was played a song?
+W,LC-U-PE,The tribesmen admired the scientist who was shipped critical supplies.,Who was shipped critical supplies?
+W,LC-A-PE,The witness yelled at the reporter told the rumour.,Who was told the rumour?
+W,GP-U-PE,The woman who was painted the portrait waved at the mayor.,Who was painted the portrait?
+W,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+W,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+W,FRC,The waiter that served the guest was tall.,What did the waiter do?
+W,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+W,FS,The cat chased the mouse.,Who was chased?
+W,FS,The hungry animal ate the human food.,What did the animal do?
+W,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+W,FS,The apple fell far from the tree.,What fell?
+W,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+W,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+W,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+W,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+W,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+X,LC-A-PE,A professor talked to the student found a scholarship.,Who was found a scholarship?
+X,LC-U-A2,Several surgeons assisted the doctor who was delivered the donor organ.,What did the doctor get?
+X,LC-A-PE,The banker bragged to the millionaire sculpted a statue.,Who was sculpted a statue?
+X,LC-A-PE,The beggar despised the hobo cut a slice of cheese.,Who was cut a slice of cheese?
+X,GP-A-AM,The boyfriend left a voicemail distrusted the girlfriend.,Who distrusted?
+X,LC-U-A2,The bus driver knew the student who was called a bad name.,What did the student get?
+X,LC-A-A1,The cashier smiled at the child bought an ice cream cone.,What did the cashier do?
+X,GP-U-A1,The chef who was presented the new knife greeted the audience.,What did the chef do?
+X,GP-U-A1,The child who was read a story hugged the nanny.,What did the child do?
+X,LC-U-A2,The clown surprised the child who was saved a front row seat.,What did the child get?
+X,GP-A-AM,The dispatcher handed a pink slip worried about the driver.,Who worried about the driver?
+X,LC-U-A2,The driver worried about the dispatcher who was handed a pink slip.,What did the dispatcher get?
+X,GP-A-AM,The general awarded the medal annoyed the soldier.,Who annoyed the soldier?
+X,GP-U-A1,The girl who was played a song photographed the tourist.,What did the girl do?
+X,GP-A-AM,The golfer cooked a special meal toasted the host.,Who toasted?
+X,GP-U-A1,The hobo who was cut a slice of cheese despised the beggar.,What did the hobo do?
+X,GP-A-AM,The instructor submitted the plagiarized papers visited the dean.,Who visited the dean?
+X,LC-U-A2,The lawyer chatted up the secretary who was poured a beer.,What did the secretary get?
+X,LC-A-A1,The mayor waved to the woman painted the portrait.,What did the mayor do?
+X,LC-U-A1,The nanny hugged the child who was read a story.,What did the nanny do?
+X,GP-A-AM,The old man awarded the prize embraced a friend.,Who embraced a friend?
+X,GP-U-A1,The pack leader who was knitted a scarf thanked the boy scout.,What did the pack leader do?
+X,GP-A-AM,The priest mailed a request telephoned the cardinal.,Who telephoned?
+X,GP-U-A1,The prisoner who was procured a weekend pass whispered to the guard.,What did the prisoner do?
+X,GP-A-AM,The scientist shipped critical supplies admired the tribesmen.,Who admired the tribesman?
+X,GP-U-A1,The settlers who were built a log cabin thanked the neighbours.,What did the settlers do?
+X,GP-A-AM,The student baked a cake called the roommate.,Who called?
+X,GP-U-A1,The student who was found a scholarship talked to a professor.,What did the student do?
+X,LC-A-PE,The tourist photographed the girl played a song.,Who was photographed?
+X,LC-U-A2,The tribesmen admired the scientist who was shipped critical supplies.,What did the scientist get?
+X,LC-A-A1,The witness yelled at the reporter told the rumour.,What did the witness do?
+X,GP-U-A1,The woman who was painted the portrait waved at the mayor.,What did the woman do?
+X,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+X,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+X,FRC,The waiter that served the guest was tall.,What did the waiter do?
+X,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+X,FS,The cat chased the mouse.,Who was chased?
+X,FS,The hungry animal ate the human food.,What did the animal do?
+X,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+X,FS,The apple fell far from the tree.,What fell?
+X,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+X,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+X,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+X,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+X,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?
+Y,LC-A-A1,A professor talked to the student found a scholarship.,What did a professor do?
+Y,LC-U-A1,Several surgeons assisted the doctor who was delivered the donor organ.,What did several surgeons so?
+Y,LC-A-A1,The banker bragged to the millionaire sculpted a statue.,What did the banker do?
+Y,LC-A-A1,The beggar despised the hobo cut a slice of cheese.,What did the beggar do?
+Y,GP-A-A2,The boyfriend left a voicemail distrusted the girlfriend.,What did the boyfriend get?
+Y,LC-U-A1,The bus driver knew the student who was called a bad name.,What did the bus driver do?
+Y,LC-A-A2,The cashier smiled at the child bought an ice cream cone.,What did the child get?
+Y,GP-U-A2,The chef who was presented the new knife greeted the audience.,What did the chef get?
+Y,GP-U-A2,The child who was read a story hugged the nanny.,What did the child get?
+Y,LC-U-A1,The clown surprised the child who was saved a front row seat.,What did the clown do?
+Y,GP-A-A2,The dispatcher handed a pink slip worried about the driver.,What did the dispatcher get?
+Y,LC-U-A1,The driver worried about the dispatcher who was handed a pink slip.,What did the driver do?
+Y,GP-A-A2,The general awarded the medal annoyed the soldier.,What did the general get?
+Y,GP-U-A2,The girl who was played a song photographed the tourist.,What did the girl get?
+Y,GP-A-A2,The golfer cooked a special meal toasted the host.,What did the golfer get?
+Y,GP-U-A2,The hobo who was cut a slice of cheese despised the beggar.,What did the hobo get?
+Y,GP-A-A2,The instructor submitted the plagiarized papers visited the dean.,What did the instructor get?
+Y,LC-U-A1,The lawyer chatted up the secretary who was poured a beer.,What did the lawyer do?
+Y,LC-A-A2,The mayor waved to the woman painted the portrait.,What did the woman get?
+Y,LC-U-A2,The nanny hugged the child who was read a story.,What did the child get?
+Y,GP-A-A2,The old man awarded the prize embraced a friend.,What did the old get?
+Y,GP-U-A2,The pack leader who was knitted a scarf thanked the boy scout.,What did the pack get?
+Y,GP-A-A2,The priest mailed a request telephoned the cardinal.,What did the priest get?
+Y,GP-U-A2,The prisoner who was procured a weekend pass whispered to the guard.,What did the prisoner get?
+Y,GP-A-A2,The scientist shipped critical supplies admired the tribesmen.,What did the scientist get?
+Y,GP-U-A2,The settlers who were built a log cabin thanked the neighbours.,What did the settlers get?
+Y,GP-A-A2,The student baked a cake called the roommate.,What did the student get?
+Y,GP-U-A2,The student who was found a scholarship talked to a professor.,What did the student get?
+Y,LC-A-A1,The tourist photographed the girl played a song.,What did the tourist do?
+Y,LC-U-A1,The tribesmen admired the scientist who was shipped critical supplies.,What did the tribesmen do?
+Y,LC-A-A2,The witness yelled at the reporter told the rumour.,What did the reporter get?
+Y,GP-U-A2,The woman who was painted the portrait waved at the mayor.,What did the woman get?
+Y,FRC,The tutor that taught the student solved the math problem.,Who was taught?
+Y,FRC,The volunteer that helped the student was very handsome.,Who was helped?
+Y,FRC,The waiter that served the guest was tall.,What did the waiter do?
+Y,FRC,The wrecker that towed the car drove at a high speed.,What was towed?
+Y,FS,The cat chased the mouse.,Who was chased?
+Y,FS,The hungry animal ate the human food.,What did the animal do?
+Y,FS,The orchestra hated playing their most popular symphony.,What did the orchestra hate?
+Y,FS,The apple fell far from the tree.,What fell?
+Y,FS,The telephone company was known for its expensive products.,Who was known for expensive products?
+Y,FS,The picture frame that Fred bought was not red as promised.,What did Fred buy?
+Y,FS,The student forgot to turn in his assignment on differential equations.,What did the student forget?
+Y,FS,The coffee was too hot for the stewardess to hold.,Who held the coffee?
+Y,FS,Rachel forgot to get her boyfriend a present for his birthday.,What did Rachel forget?

@@ -1,0 +1,2447 @@
+Code,Context,Question,Answer,Model_Ans,Score,Correct
+LC-A-AM,the driver worried about the dispatcher handed a pink slip.,Who worried?,"the driver
+driver",the driver,0.020124195143580437,1
+LC-A-PM,the driver worried about the dispatcher handed a pink slip.,Who was worried about?,"the dispatcher handed a pink slip
+the dispatcher
+dispatcher handed a pink slip
+dispatcher",the dispatcher,0.5453419089317322,1
+LC-A-PE,the driver worried about the dispatcher handed a pink slip.,Who was handed a pink slip?,"the dispatcher
+dispatcher",the driver worried about the dispatcher,0.31252315640449524,0
+LC-A-A2,the parents thanked the babysitter purchased a gift card.,What did the babysitter get?,"purchased a gift card
+a gift card
+purchased a gift card
+gift card",gift card,0.36953943967819214,1
+LC-A-A1,the driver worried about the dispatcher handed a pink slip.,What did the driver do?,"worried about the dispatcher
+worried about the dispatcher handed a pink slip
+worried",worried about the dispatcher,0.05298025906085968,1
+LC-U-AM,the driver worried about the dispatcher who was handed a pink slip.,Who worried?,"the driver
+driver",the driver,0.005005316808819771,1
+LC-U-PM,the driver worried about the dispatcher who was handed a pink slip.,Who was worried about?,"the dispatcher who was handed a pink slip
+the dispatcher
+dispatcher who was handed a pink slip
+dispatcher",the dispatcher,0.40480029582977295,1
+LC-U-PE,the driver worried about the dispatcher who was handed a pink slip.,Who was handed a pink slip?,"the dispatcher
+dispatcher",the dispatcher,0.6039834022521973,1
+LC-U-A2,the driver worried about the dispatcher who was handed a pink slip.,What did the dispatcher get?,"handed a pink slip
+a pink slip
+handed a pink slip
+pink slip",pink slip,0.4016396403312683,1
+LC-U-A1,the driver worried about the dispatcher who was handed a pink slip.,What did the driver do?,"worried about the dispatcher
+worried about the dispatcher who was handed a pink slip
+worried",worried about the dispatcher,0.483427494764328,1
+LC-A-AM,the cashier smiled at the child bought an ice cream cone.,Who smiled?,"the cashier
+cashier",the cashier smiled at the child bought an ice cream cone.,0.0982067659497261,0
+LC-A-PM,the cashier smiled at the child bought an ice cream cone.,Who was smiled at?,"the child bought an ice cream cone
+the child
+child bought an ice cream cone
+child",the child bought an ice cream cone.,0.22168971598148346,1
+LC-A-PE,the cashier smiled at the child bought an ice cream cone.,Who got an ice cream cone?,"the child
+child",the cashier smiled at the child,0.28575775027275085,0
+LC-A-A2,the tutor hugged the boy sent an invitation.,What did the boy get?,"an invitation
+sent an invitation
+an invitation",the tutor hugged the boy sent an invitation,0.10888869315385818,0
+LC-A-A1,the cashier smiled at the child bought an ice cream cone.,What did the cashier do?,"smiled at the child
+smiled at the child bought an ice cream cone
+smiled",smiled at the child bought an ice cream cone,0.19704808294773102,1
+LC-U-AM,the cashier smiled at the child who was bought an ice cream cone.,Who smiled?,"the cashier
+cashier",the cashier,0.06366731226444244,1
+LC-U-PM,the cashier smiled at the child who was bought an ice cream cone.,Who was smiled at?,"the child who was bought an ice cream cone
+the child
+child who was bought an ice cream cone
+child",the child who was bought an ice cream cone.,0.16980357468128204,1
+LC-U-PE,the cashier smiled at the child who was bought an ice cream cone.,Who got an ice cream cone?,"the child
+child",the child,0.5263330340385437,1
+LC-U-A2,the cashier smiled at the child who was bought an ice cream cone.,What did the child get?,"bought an ice cream cone
+an ice cream cone",an ice cream cone,0.5895553827285767,1
+LC-U-A1,the cashier smiled at the child who was bought an ice cream cone.,What did the cashier do?,"smiled at the child
+smiled at the child who was bought an ice cream cone
+smiled",smiled at the child who was bought an ice cream cone,0.39952096343040466,1
+LC-A-AM,the witness yelled at the reporter told the rumour.,Who yelled?,"the witness
+witness",the witness,0.1251801699399948,1
+LC-A-PM,the witness yelled at the reporter told the rumour.,Who was yelled at?,"the reporter told the rumour
+the reporter
+reporter told the rumour
+reporter",the witness,0.1562848836183548,0
+LC-A-PE,the witness yelled at the reporter told the rumour.,Who was told the rumour?,"the reporter
+reporter",the witness,0.17244550585746765,0
+LC-A-A2,the girlfriend distrusted the boyfriend left a voicemail.,What did the boyfriend get?,"left a voicemail
+a voicemail
+left a voicemail
+voicemail",left a voicemail,6.664256216026843e-05,1
+LC-A-A1,the witness yelled at the reporter told the rumour.,What did the witness do?,"yelled at the reporter
+yelled at the reporter told the rumour
+yelled",yelled at the reporter told the rumour.,0.44886139035224915,1
+LC-U-AM,the witness yelled at the reporter who was told the rumour.,Who yelled?,"the witness
+witness",the witness,0.09063880145549774,1
+LC-U-PM,the witness yelled at the reporter who was told the rumour.,Who was yelled at?,"the reporter who was told the rumour
+the reporter
+reporter who was told the rumour
+reporter",the reporter,0.13309866189956665,1
+LC-U-PE,the witness yelled at the reporter who was told the rumour.,Who was told the rumour?,"the reporter
+reporter",reporter,0.50362628698349,1
+LC-U-A2,the witness yelled at the reporter who was told the rumour.,What did the reporter get?,"told the rumour
+the rumour
+told the rumour
+rumour",told the rumour,0.00019323689048178494,1
+LC-U-A1,the witness yelled at the reporter who was told the rumour.,What did the witness do?,"yelled at the reporter
+yelled at the reporter who was told the rumour
+yelled",yelled at the reporter who was told the rumour.,0.4529450833797455,1
+LC-A-AM,the cheerleader smiled at the teenager burned a cd.,Who smiled?,"the cheerleader
+cheerleader",the cheerleader,0.30114802718162537,1
+LC-A-PM,the cheerleader smiled at the teenager burned a cd.,Who was smiled at?,"the teenager burned a cd
+the teenager
+teenager burned a cd
+teenager",the teenager burned a cd.,0.04063820838928223,1
+LC-A-PE,the cheerleader smiled at the teenager burned a cd.,Who was burned a cd?,"the teenager
+teenager",the cheerleader smiled at the teenager,0.06840100884437561,0
+LC-A-A2,the italian defeated the brit served the first ace.,What did the brit get?,"served the first ace
+served the first ace
+the first ace
+first ace",the first ace,0.5054677128791809,1
+LC-A-A1,the cheerleader smiled at the teenager burned a cd.,What did the cheerleader do?,"smiled at the teenager
+smiled at the teenager burned a cd
+smiled",smiled at the teenager burned a cd,0.3142002820968628,1
+LC-U-AM,the cheerleader smiled at the teenager who was burned a cd.,Who smiled?,"the cheerleader
+cheerleader",the cheerleader,0.1973208636045456,1
+LC-U-PM,the cheerleader smiled at the teenager who was burned a cd.,Who was smiled at?,"the teenager who was burned a cd
+the teenager
+teenager who was burned a cd
+teenager",the teenager who was burned a cd.,0.03778797388076782,1
+LC-U-PE,the cheerleader smiled at the teenager who was burned a cd.,Who was burned a cd?,"the teenager
+teenager",teenager,0.4427280128002167,1
+LC-U-A2,the cheerleader smiled at the teenager who was burned a cd.,What did the teenager get?,"burned a cd
+a cd
+burned a cd
+cd",burned a cd,0.5837706327438354,1
+LC-U-A1,the cheerleader smiled at the teenager who was burned a cd.,What did the cheerleader do?,"smiled at the teenager
+smiled at the teenager who was burned a cd
+smiled",smiled,0.3730010390281677,1
+LC-A-AM,the bartender winked at the woman offered a free drink.,Who winked?,"the bartender
+bartender",the bartender,0.0011912898626178503,1
+LC-A-PM,the bartender winked at the woman offered a free drink.,Who was winked at?,"the woman offered a free drink
+the woman
+woman offered a free drink
+woman",the woman,0.03444098308682442,1
+LC-A-PE,the bartender winked at the woman offered a free drink.,Who was offered a free drink?,"the woman
+woman",the bartender winked at the woman,0.36111870408058167,0
+LC-A-A2,the audience greeted the chef presented the new knife.,What did the chef get?,"the new knife
+the new knife
+new knife
+new knife
+presented the new knife",new knife,0.21752412617206573,1
+LC-A-A1,the bartender winked at the woman offered a free drink.,What did the bartender do?,"winked at the woman
+winked at the woman offered a free drink
+winked",winked at the woman offered a free drink,0.046518370509147644,1
+LC-U-AM,the bartender winked at the woman who was offered a free drink.,Who winked?,"the bartender
+bartender",the bartender,0.011614476330578327,1
+LC-U-PM,the bartender winked at the woman who was offered a free drink.,Who was winked at?,"the woman who was offered a free drink
+the woman
+woman who was offered a free drink
+woman",the woman,0.11497318744659424,1
+LC-U-PE,the bartender winked at the woman who was offered a free drink.,Who was offered a free drink?,"the woman
+woman",the woman,0.6666860580444336,1
+LC-U-A2,the bartender winked at the woman who was offered a free drink.,What did the woman get?,"offered a free drink
+a free drink
+offered a free drink
+free drink",free drink,0.5128093957901001,1
+LC-U-A1,the bartender winked at the woman who was offered a free drink.,What did the bartender do?,"winked at the woman
+winked at the woman who was offered a free drink
+winked",winked,0.2137932926416397,1
+LC-A-AM,the classmate tattled on the girl passed a note.,Who tattled?,"the classmate
+classmate",the classmate,0.15256500244140625,1
+LC-A-PM,the classmate tattled on the girl passed a note.,Who was tattled on?,"the girl passed a note
+the girl
+girl passed a note
+girl",the girl,0.23249883949756622,1
+LC-A-PE,the classmate tattled on the girl passed a note.,Who was passed a note?,"the girl
+girl",the classmate,0.1673734486103058,0
+LC-A-A2,the cashier smiled at the child bought an ice cream cone.,What did the child get?,"bought an ice cream cone
+an ice cream cone",an ice cream cone,0.5013020038604736,1
+LC-A-A1,the classmate tattled on the girl passed a note.,What did the classmate do?,"tattled on the girl
+tattled on the girl passed a note
+tattled",tattled,0.2162952423095703,1
+LC-U-AM,the classmate  tattled on the girl who was passed a note.,Who tattled?,"the classmate 
+classmate",classmate,0.3719703257083893,1
+LC-U-PM,the classmate  tattled on the girl who was passed a note.,Who was tattled on?,"the girl who was passed a note
+the girl
+girl who was passed a note
+girl",the girl,0.0697072446346283,1
+LC-U-PE,the classmate  tattled on the girl who was passed a note.,Who was passed a note?,"the girl
+girl",the classmate  tattled on the girl,0.4016410708427429,0
+LC-U-A2,the classmate  tattled on the girl who was passed a note.,What did the girl get?,"passed a note
+a note
+passed a note
+note",a note,0.18241071701049805,1
+LC-U-A1,the classmate  tattled on the girl who was passed a note.,What did the classmate do?,"tattled on the girl
+tattled on the girl who was passed a note
+tattled",tattled,0.3013104200363159,1
+GP-A-AM,the babysitter purchased a gift card thanked the parents.,Who said thanks?,"the babysitter purchased a gift card
+the babysitter
+babysitter purchased a gift card
+babysitter",the babysitter purchased a gift card thanked the parents,0.2108580619096756,0
+GP-A-PM,the babysitter purchased a gift card thanked the parents.,Who was thanked?,"the parents
+parents",the parents,0.4733288884162903,1
+GP-A-PE,the babysitter purchased a gift card thanked the parents.,Who got a gift card?,"the babysitter purchased a gift card
+the babysitter
+babysitter purchased a gift card
+babysitter",the babysitter,0.05811065435409546,1
+GP-A-A1,the babysitter purchased a gift card thanked the parents.,What did the babysitter do?,thanked the parents,purchased a gift card thanked the parents,0.1073826402425766,0
+LC-A-AM,the parents thanked the babysitter purchased a gift card.,Who said thanks?,"the parents
+parents",the parents thanked the babysitter,0.22428098320960999,0
+LC-A-PM,the parents thanked the babysitter purchased a gift card.,Who was thanked?,"the babysitter purchased a gift card
+the babysitter
+babysitter purchased a gift card
+babysitter",the babysitter,0.11213842034339905,1
+LC-A-PE,the parents thanked the babysitter purchased a gift card.,Who got a gift card?,"the babysitter
+babysitter",the parents thanked the babysitter,0.17465649545192719,0
+LC-A-A2,the clown surprised the child saved a front row seat.,What did the child get?,"saved a front row seat
+a front row seat
+saved a front row seat
+front row seat",saved a front row seat,0.14151041209697723,1
+LC-A-A1,the parents thanked the babysitter purchased a gift card.,What did the parents do?,"thanked the babysitter
+thanked the babysitter purchased a gift card",the parents thanked the babysitter purchased a gift card,0.14342713356018066,0
+GP-U-AM,the babysitter who was purchased a gift card thanked the parents.,Who said thanks?,"the babysitter who was purchased a gift card
+the babysitter
+babysitter who was purchased a gift card
+babysitter",the babysitter who was purchased a gift card thanked the parents,0.36399045586586,0
+GP-U-PM,the babysitter who was purchased a gift card thanked the parents.,Who was thanked?,"the parents
+parents",the parents,0.4351339340209961,1
+GP-U-PE,the babysitter who was purchased a gift card thanked the parents.,Who got a gift card?,"the babysitter who was purchased a gift card
+the babysitter
+babysitter who was purchased a gift card
+babysitter",the babysitter,0.6204566359519958,1
+GP-U-A1,the babysitter who was purchased a gift card thanked the parents.,What did the babysitter do?,thanked the parents,thanked the parents,0.08231108635663986,1
+LC-A-AM,the parents thanked the babysitter who was purchased a gift card.,Who said thanks?,"the parents
+parents",the parents,0.16620764136314392,1
+LC-A-PM,the parents thanked the babysitter who was purchased a gift card.,Who was thanked?,"the babysitter who was purchased a gift card
+the babysitter
+babysitter who was purchased a gift card
+babysitter",the babysitter,0.48963871598243713,1
+LC-U-PE,the parents thanked the babysitter who was purchased a gift card.,Who got a gift card?,"the babysitter
+babysitter",the parents thanked the babysitter,0.3174179196357727,0
+LC-U-A2,the parents thanked the babysitter who was purchased a gift card.,What did the babysitter get?,"purchased a gift card
+a gift card
+purchased a gift card
+gift card",a gift card,0.651793360710144,1
+LC-U-A1,the parents thanked the babysitter who was purchased a gift card.,What did the parents do?,"thanked the babysitter
+thanked the babysitter who was purchased a gift card",thanked the babysitter who was purchased a gift card,0.2997457981109619,1
+GP-A-PM,the boy sent an invitation hugged the tutor.,Who was hugged?,"the tutor
+tutor",the tutor,0.19183297455310822,1
+GP-A-PE,the boy sent an invitation hugged the tutor.,Who got an invitation?,"the boy sent an invitation
+the boy
+boy sent an invitation
+boy",the boy sent an invitation hugged the tutor,0.040762774646282196,0
+GP-A-A1,the boy sent an invitation hugged the tutor.,What did the boy do?,"hugged the tutor
+hugged",sent an invitation hugged the tutor,0.17003345489501953,0
+LC-A-AM,the tutor hugged the boy sent an invitation.,Who gave a hug?,"the tutor
+tutor",the tutor,0.09183530509471893,1
+LC-A-PM,the tutor hugged the boy sent an invitation.,Who got a hug?,"the boy sent an invitation
+the boy
+boy sent an invitation
+boy",the tutor,0.01700729876756668,0
+LC-A-PE,the tutor hugged the boy sent an invitation.,Who got an invitation?,"the boy
+boy",the tutor hugged the boy,0.25568467378616333,0
+LC-A-A1,the tutor hugged the boy sent an invitation.,What did the tutor do?,"hugged the boy
+hugged the boy sent an invitation
+hugged",hugged the boy sent an invitation,0.26833435893058777,1
+LC-A-A2,the nanny hugged the child read a story.,What did the child get?,"read a story
+read a story
+a story
+story",read a story,0.34789764881134033,1
+GP-A-AM,the boy sent an invitation hugged the tutor.,Who hugged the tutor?,"the boy sent an invitation
+the boy
+boy sent an invitation
+boy",the boy sent an invitation,0.05597836896777153,1
+GP-U-AM,the boy who was sent an invitation hugged the tutor.,Who hugged the tutor?,"the boy who was sent an invitation
+the boy
+boy who was sent an invitation
+boy",the boy,0.07090004533529282,1
+GP-U-PM,the boy who was sent an invitation hugged the tutor.,Who was hugged?,"the tutor
+tutor",the tutor,0.14033691585063934,1
+GP-U-PE,the boy who was sent an invitation hugged the tutor.,Who got an invitation?,"the boy who was sent an invitation
+the boy
+boy who was sent an invitation
+boy",the boy,0.2728554904460907,1
+GP-U-A1,the boy who was sent an invitation hugged the tutor.,What did the boy do?,"hugged the tutor
+hugged",sent an invitation,0.02709520421922207,0
+LC-U-AM,the tutor hugged the boy who was sent an invitation.,Who gave a hug?,"the tutor
+tutor",the tutor,0.09298594295978546,1
+LC-U-PM,the tutor hugged the boy who was sent an invitation.,Who got a hug?,"the boy who was sent an invitation
+the boy
+boy who was sent an invitation
+boy",the tutor,0.013841625303030014,0
+LC-U-PE,the tutor hugged the boy who was sent an invitation.,Who got an invitation?,"the boy
+boy",the boy,0.15229155123233795,1
+LC-U-A1,the tutor hugged the boy who was sent an invitation.,What did the tutor do?,"hugged the boy
+hugged the boy who was sent an invitation
+hugged",hugged,0.3683050572872162,1
+LC-U-A2,the tutor hugged the boy who was sent an invitation.,What did the boy get?,"an invitation
+sent an invitation
+an invitation",an invitation,0.3838178813457489,1
+GP-A-PM,the boyfriend left a voicemail distrusted the girlfriend.,Who was distrusted?,"the girlfriend
+girlfriend",the boyfriend left a voicemail distrusted the girlfriend,0.3585338294506073,0
+GP-A-PE,the boyfriend left a voicemail distrusted the girlfriend.,Who got a voicemail?,"the boyfriend left a voicemail
+the boyfriend
+boyfriend left a voicemail
+boyfriend",the boyfriend,0.12400583177804947,1
+GP-A-A1,the boyfriend left a voicemail distrusted the girlfriend.,What did the boyfriend do?,"distrusted the girlfriend
+distrusted",left a voicemail distrusted the girlfriend,0.1269281655550003,0
+LC-A-AM,the girlfriend distrusted the boyfriend left a voicemail.,Who distrusted?,"the girlfriend
+girlfriend",the girlfriend,0.26483163237571716,1
+LC-A-PM,the girlfriend distrusted the boyfriend left a voicemail.,Who was distrusted?,"the boyfriend left a voicemail
+the boyfriend
+boyfriend left a voicemail
+boyfriend",the girlfriend,0.25970083475112915,0
+LC-A-PE,the girlfriend distrusted the boyfriend left a voicemail.,Who got a voicemail?,"the boyfriend
+boyfriend",the girlfriend distrusted the boyfriend,0.08804234117269516,0
+LC-A-A2,a travel agent phoned the colonel granted leave.,What did the colonel get?,"granted leave
+leave",granted leave,0.0015339561505243182,1
+LC-A-A1,the girlfriend distrusted the boyfriend left a voicemail.,What did the girlfriend do?,"distrusted the boyfriend
+distrusted the boyfriend left a voicemail
+distrusted",left a voicemail,0.044940847903490067,0
+GP-A-AM,the boyfriend left a voicemail distrusted the girlfriend.,Who distrusted?,"the boyfriend left a voicemail
+the boyfriend
+boyfriend left a voicemail
+boyfriend",the boyfriend left a voicemail distrusted the girlfriend,0.26522278785705566,0
+GP-U-AM,the boyfriend who was left a voicemail distrusted the girlfriend.,Who distrusted?,"the boyfriend who was left a voicemail
+the boyfriend
+boyfriend who was left a voicemail
+boyfriend",the boyfriend who was left a voicemail distrusted the girlfriend,0.11199721693992615,0
+GP-U-PM,the boyfriend who was left a voicemail distrusted the girlfriend.,Who was distrusted?,"the girlfriend
+girlfriend",the boyfriend who was left a voicemail distrusted the girlfriend,0.17996540665626526,0
+GP-U-PE,the boyfriend who was left a voicemail distrusted the girlfriend.,Who got a voicemail?,"the boyfriend who was left a voicemail
+the boyfriend
+boyfriend who was left a voicemail
+boyfriend",the boyfriend,0.11964550614356995,1
+GP-U-A1,the boyfriend who was left a voicemail distrusted the girlfriend.,What did the boyfriend do?,"distrusted the girlfriend
+distrusted",distrusted the girlfriend,0.02129552885890007,1
+LC-U-AM,the girlfriend distrusted the boyfriend who was left a voicemail.,Who distrusted?,"the girlfriend
+girlfriend",the girlfriend,0.4213626980781555,1
+LC-U-PM,the girlfriend distrusted the boyfriend who was left a voicemail.,Who was distrusted?,"the boyfriend who was left a voicemail
+the boyfriend
+boyfriend who was left a voicemail
+boyfriend",the girlfriend,0.39292922616004944,0
+LC-U-PE,the girlfriend distrusted the boyfriend who was left a voicemail.,Who got a voicemail?,"the boyfriend
+boyfriend",the girlfriend distrusted the boyfriend,0.12879018485546112,0
+LC-U-A2,the girlfriend distrusted the boyfriend who was left a voicemail.,What did the boyfriend get?,"left a voicemail
+a voicemail
+left a voicemail
+voicemail",left a voicemail,0.00020604286692105234,1
+LC-U-A1,the girlfriend distrusted the boyfriend who was left a voicemail.,What did the girlfriend do?,"distrusted the boyfriend
+distrusted the boyfriend who was left a voicemail
+distrusted",distrusted the boyfriend who was left a voicemail,0.048631999641656876,1
+GP-A-PM,the brit served the first ace defeated the italian.,Who was defeated?,"the italian
+italian",the brit served the first ace defeated the italian,0.0010803663171827793,0
+GP-A-PE,the brit served the first ace defeated the italian.,Who was served the first ace?,"the brit served the first ace
+the brit
+brit served the first ace
+brit",the brit,0.03360024467110634,1
+GP-A-A1,the brit served the first ace defeated the italian.,What did the brit do?,"defeated the italian
+defeated",served the first ace defeated the italian.,0.19807778298854828,0
+LC-A-AM,the italian defeated the brit served the first ace.,Who defeated?,"the italian
+italian",the italian,0.023901261389255524,1
+LC-A-PM,the italian defeated the brit served the first ace.,Who was defeated?,"the brit served the first ace
+the brit
+brit served the first ace
+brit",the brit served the first ace,0.017210910096764565,1
+LC-A-PE,the italian defeated the brit served the first ace.,Who was served the first ace?,"the brit
+brit",the italian defeated the brit,0.4976564645767212,0
+LC-A-A1,the italian defeated the brit served the first ace.,What did the italian do?,"defeated the brit
+defeated the brit served the first ace
+defeated",defeated the brit served the first ace,0.5916743874549866,1
+LC-A-A2,the driver worried about the dispatcher handed a pink slip.,What did the dispatcher get?,"handed a pink slip
+a pink slip
+handed a pink slip
+pink slip",a pink slip,0.19927005469799042,1
+GP-A-AM,the brit served the first ace defeated the italian.,Who defeated?,"the brit served the first ace
+the brit
+brit served the first ace
+brit",the brit served the first ace defeated the italian,0.019641082733869553,0
+GP-U-AM,the brit who was served the first ace defeated the italian.,Who defeated?,"the brit who was served the first ace
+the brit
+brit who was served the first ace
+brit",the brit who was served the first ace defeated the italian,0.17941494286060333,0
+GP-U-PM,the brit who was served the first ace defeated the italian.,Who was defeated?,"the italian
+italian",the italian,0.28339114785194397,1
+GP-U-PE,the brit who was served the first ace defeated the italian.,Who was served the first ace?,"the brit who was served the first ace
+the brit
+brit who was served the first ace
+brit",brit,0.4211638867855072,1
+GP-U-A1,the brit who was served the first ace defeated the italian.,What did the brit do?,"defeated the italian
+defeated",the first ace,0.08415896445512772,0
+LC-U-AM,the italian defeated the brit who was served the first ace.,Who defeated?,"the italian
+italian",the italian,0.05614067614078522,1
+LC-U-PM,the italian defeated the brit who was served the first ace.,Who was defeated?,"the brit who was served the first ace
+the brit
+brit who was served the first ace
+brit",the brit,0.03719506040215492,1
+LC-U-PE,the italian defeated the brit who was served the first ace.,Who was served the first ace?,"the brit
+brit",the italian defeated the brit,0.43622666597366333,0
+LC-U-A1,the italian defeated the brit who was served the first ace.,What did the italian do?,"defeated the brit
+defeated the brit who was served the first ace
+defeated",defeated the brit who was served the first ace,0.7400452494621277,1
+LC-U-A2,the italian defeated the brit who was served the first ace.,What did the brit get?,"served the first ace
+served the first ace
+the first ace
+first ace",the first ace,0.8212783932685852,1
+GP-A-PM,the chef presented the new knife greeted the audience.,Who was greeted?,"the audience
+audience",the chef presented the new knife greeted the audience.,0.029394961893558502,0
+GP-A-PE,the chef presented the new knife greeted the audience.,Who got a new knife?,"the chef presented the new knife
+the chef
+chef presented the new knife
+chef",the chef,0.25114938616752625,1
+GP-A-A1,the chef presented the new knife greeted the audience.,What did the chef do?,"greeted the audience
+greeted",the chef presented the new knife,0.260240763425827,0
+LC-A-AM,the audience greeted the chef presented the new knife.,Who greeted the chef?,"the audience
+audience",the audience,0.2625240981578827,1
+LC-A-PM,the audience greeted the chef presented the new knife.,Who was greeted?,"the chef presented the new knife
+the chef
+chef presented the new knife
+chef",the audience,0.014480971731245518,0
+LC-A-PE,the audience greeted the chef presented the new knife.,Who got a new knife?,"the chef
+chef",the chef,0.3217938542366028,1
+LC-A-A1,the audience greeted the chef presented the new knife.,What did the audience do?,"greeted the chef
+greeted the chef presented the new knife
+greeted",the audience greeted the chef presented the new knife.,0.06061513349413872,0
+LC-A-A2,several surgeons assisted the doctor delivered the donor organ.,What did the doctor get?,"delivered the donor organ
+the donor organ
+delivered the donor organ
+donor organ",donor organ,0.004710700362920761,1
+GP-A-AM,the chef presented the new knife greeted the audience.,Who greeted the audience?,"the chef presented the new knife
+the chef
+chef presented the new knife
+chef",the chef,0.03638361394405365,1
+GP-U-AM,the chef who was presented the new knife greeted the audience.,Who greeted the audience?,"the chef who was presented the new knife
+the chef
+chef who was presented the new knife
+chef",the chef,0.04348986595869064,1
+GP-U-PM,the chef who was presented the new knife greeted the audience.,Who was greeted?,"the audience
+audience",the chef who was presented the new knife greeted the audience.,0.09870760142803192,0
+GP-U-PE,the chef who was presented the new knife greeted the audience.,Who got a new knife?,"the chef who was presented the new knife
+the chef
+chef who was presented the new knife
+chef",the chef,0.4023526608943939,1
+GP-U-A1,the chef who was presented the new knife greeted the audience.,What did the chef do?,"greeted the audience
+greeted",the new knife,0.060668762773275375,0
+LC-U-AM,the audience greeted the chef who was presented the new knife.,Who greeted the chef?,"the audience
+audience",the audience,0.3294595181941986,1
+LC-U-PM,the audience greeted the chef who was presented the new knife.,Who was greeted?,"the chef who was presented the new knife
+the chef
+chef who was presented the new knife
+chef",the chef,0.06354855746030807,1
+LC-U-PE,the audience greeted the chef who was presented the new knife.,Who got a new knife?,"the chef
+chef",the chef,0.7407220005989075,1
+LC-U-A1,the audience greeted the chef who was presented the new knife.,What did the audience do?,"greeted the chef
+greeted the chef who was presented the new knife
+greeted",greeted the chef who was presented the new knife.,0.2571372985839844,1
+LC-U-A2,the audience greeted the chef who was presented the new knife.,What did the chef get?,"the new knife
+the new knife
+new knife
+new knife
+presented the new knife",the new knife,0.5965027213096619,1
+GP-A-PM,the child bought an ice cream cone smiled at the cashier.,Who was smiled at?,"the cashier
+cashier",the cashier,0.2109459638595581,1
+GP-A-PE,the child bought an ice cream cone smiled at the cashier.,Who got an ice cream cone?,"the child bought an ice cream cone
+the child
+child bought an ice cream cone
+child",the child bought an ice cream cone smiled at the cashier,0.09912662953138351,0
+GP-A-A1,the child bought an ice cream cone smiled at the cashier.,What did the child do?,"smiled at the cashier
+smiled",bought an ice cream cone smiled at the cashier.,0.1796543449163437,0
+GP-A-AM,the child bought an ice cream cone smiled at the cashier.,Who smiled?,"the child bought an ice cream cone
+the child
+child bought an ice cream cone
+child",the child bought an ice cream cone smiled at the cashier,0.0686248242855072,0
+GP-A-PM,the child read a story hugged the nanny.,Who was hugged?,"the nanny
+nanny",the nanny,0.6034519672393799,1
+GP-A-PE,the child read a story hugged the nanny.,Who was read a story?,"the child read a story
+the child
+child read a story
+child",the,0.07249508053064346,0
+GP-A-A1,the child read a story hugged the nanny.,What did the child do?,"hugged the nanny
+hugged",read a story hugged the nanny,0.6902592778205872,0
+LC-A-AM,the nanny hugged the child read a story.,Who gave a hug?,"the nanny
+nanny",the nanny,0.3683566451072693,1
+LC-A-PM,the nanny hugged the child read a story.,Who was hugged?,"the child read a story
+the child
+child read a story
+child",the child read a story.,0.015554508194327354,1
+LC-A-PE,the nanny hugged the child read a story.,Who was read a story?,"the child
+child",the nanny,0.12093102931976318,0
+LC-A-A1,the nanny hugged the child read a story.,What did the nanny do?,"hugged the child
+hugged the child read a story
+hugged",hugged the child read a story,0.28693389892578125,1
+LC-A-A2,the soldier annoyed the general awarded the medal.,What did the general get?,"awarded the medal
+the medal
+awarded the medal
+medal",the medal,0.6654280424118042,1
+GP-A-AM,the child read a story hugged the nanny.,Who gave a hug?,"the child read a story
+the child
+child read a story
+child",the child read a story hugged the nanny,0.16102160513401031,0
+GP-A-PM,the child saved a front row seat surprised the clown.,Who was surprised?,"the clown
+clown",the clown,0.16809171438217163,1
+GP-A-PE,the child saved a front row seat surprised the clown.,Who was saved a front row seat?,"the child saved a front row seat
+the child
+child saved a front row seat
+child",the child,0.0011781438952311873,1
+GP-A-A1,the child saved a front row seat surprised the clown.,What did the child do?,"surprised the clown
+surprised",saved a front row seat surprised the clown.,0.24450509250164032,0
+LC-A-AM,the clown surprised the child saved a front row seat.,Who surprised the child?,"the clown
+clown",clown,0.22370527684688568,1
+LC-A-PM,the clown surprised the child saved a front row seat.,Who was surprised?,"the child saved a front row seat
+the child
+child saved a front row seat
+child",the clown surprised the child saved a front row seat.,0.004705732222646475,0
+LC-A-PE,the clown surprised the child saved a front row seat.,Who was saved a front row seat?,"the child
+child",the clown surprised the child,0.0034198740031570196,0
+LC-A-A2,the carnival worker ignored the girl won a stuffed bear.,What did the girl get?,"won a stuffed bear
+a stuffed bear
+won a stuffed bear
+stuffed bear",stuffed bear,0.6402292847633362,1
+LC-A-A1,the clown surprised the child saved a front row seat.,What did the clown do?,"surprised the child
+surprised the child saved a front row seat
+surprised",the clown surprised the child saved a front row seat,0.1693173199892044,0
+GP-A-AM,the child saved a front row seat surprised the clown.,Who surprised the clown?,"the child saved a front row seat
+the child
+child saved a front row seat
+child",the child,0.7002601623535156,1
+GP-U-AM,the child who was bought an ice cream cone smiled at the cashier.,Who smiled?,"the child who was bought an ice cream cone
+the child
+child who was bought an ice cream cone
+child",the child who was bought an ice cream cone smiled at the cashier.,0.057863328605890274,0
+GP-U-PM,the child who was bought an ice cream cone smiled at the cashier.,Who was smiled at?,"the cashier
+cashier",the child who was bought an ice cream cone smiled at the cashier,0.23475779592990875,0
+GP-U-PE,the child who was bought an ice cream cone smiled at the cashier.,Who got an ice cream cone?,"the child who was bought an ice cream cone
+the child
+child who was bought an ice cream cone
+child",the child,0.5164750814437866,1
+GP-U-A1,the child who was bought an ice cream cone smiled at the cashier.,What did the child do?,"smiled at the cashier
+smiled",bought an ice cream cone,0.1710507571697235,0
+GP-U-AM,the child who was read a story hugged the nanny.,Who gave a hug?,"the child who was read a story
+the child
+child who was read a story
+child",the child who was read a story hugged the nanny,0.178811714053154,0
+GP-U-PM,the child who was read a story hugged the nanny.,Who was hugged?,"the nanny
+nanny",the child who was read a story hugged the nanny,0.4526140093803406,0
+GP-U-PE,the child who was read a story hugged the nanny.,Who was read a story?,"the child who was read a story
+the child
+child who was read a story
+child",the child,0.4509948194026947,1
+GP-U-A1,the child who was read a story hugged the nanny.,What did the child do?,"hugged the nanny
+hugged",read a story hugged the nanny,0.32852599024772644,0
+LC-U-AM,the nanny hugged the child who was read a story.,Who gave a hug?,"the nanny
+nanny",the nanny,0.23537898063659668,1
+LC-U-PM,the nanny hugged the child who was read a story.,Who was hugged?,"the child who was read a story
+the child
+child who was read a story
+child",the child who was read a story.,0.008889885619282722,1
+LC-U-PE,the nanny hugged the child who was read a story.,Who was read a story?,"the child
+child",the nanny hugged the child,0.1317128688097,0
+LC-U-A1,the nanny hugged the child who was read a story.,What did the nanny do?,"hugged the child
+hugged the child who was read a story
+hugged",hugged,0.5666912794113159,1
+LC-U-A2,the nanny hugged the child who was read a story.,What did the child get?,"read a story
+read a story
+a story
+story",a story,0.12116601318120956,1
+GP-U-AM,the child who was saved a front row seat surprised the clown.,Who surprised the clown?,"the child who was saved a front row seat
+the child
+child who was saved a front row seat
+child",the child,0.5867959856987,1
+GP-U-PM,the child who was saved a front row seat surprised the clown.,Who was surprised?,"the clown
+clown",the child who was saved a front row seat surprised the clown,0.09374558180570602,0
+GP-U-PE,the child who was saved a front row seat surprised the clown.,Who was saved a front row seat?,"the child who was saved a front row seat
+the child
+child who was saved a front row seat
+child",the child,0.06563188135623932,1
+GP-U-A1,the child who was saved a front row seat surprised the clown.,What did the child do?,"surprised the clown
+surprised",saved a front row seat surprised the clown,0.07537819445133209,0
+LC-U-AM,the clown surprised the child who was saved a front row seat.,Who surprised the child?,"the clown
+clown",the clown,0.10724569112062454,1
+LC-U-PM,the clown surprised the child who was saved a front row seat.,Who was surprised?,"the child who was saved a front row seat
+the child
+child who was saved a front row seat
+child",the child who was saved a front row seat.,0.013241772539913654,1
+LC-U-PE,the clown surprised the child who was saved a front row seat.,Who was saved a front row seat?,"the child
+child",child,0.13815809786319733,1
+LC-U-A2,the clown surprised the child who was saved a front row seat.,What did the child get?,"saved a front row seat
+a front row seat
+saved a front row seat
+front row seat",saved a front row seat,0.3102549612522125,1
+LC-U-A1,the clown surprised the child who was saved a front row seat.,What did the clown do?,"surprised the child
+surprised the child who was saved a front row seat
+surprised",surprised the child who was saved a front row seat,0.5792275667190552,1
+GP-A-PM,the colonel granted leave phoned a travel agent.,Who was phoned?,"a travel agent
+travel agent",a travel agent,0.6228150129318237,1
+GP-A-PE,the colonel granted leave phoned a travel agent.,Who was granted leave?,"the colonel granted leave
+the colonel
+colonel granted leave
+colonel",the colonel granted leave phoned a travel agent,0.02135702781379223,0
+GP-A-A1,the colonel granted leave phoned a travel agent.,What did the colonel do?,"phoned a travel agent
+phoned",phoned a travel agent,0.4517415165901184,1
+LC-A-AM,a travel agent phoned the colonel granted leave.,Who phoned?,"a travel agent
+travel agent",a travel agent,0.010542411357164383,1
+LC-A-PM,a travel agent phoned the colonel granted leave.,Who was phoned?,"the colonel granted leave
+the colonel
+colonel granted leave
+colonel",the colonel,0.0355253703892231,1
+LC-A-PE,a travel agent phoned the colonel granted leave.,Who was granted leave?,"the colonel
+colonel",the colonel,0.3050687313079834,1
+LC-A-A2,the classmate tattled on the girl passed a note.,What did the girl get?,"passed a note
+a note
+passed a note
+note",a note,0.09898312389850616,1
+LC-A-A1,a travel agent phoned the colonel granted leave.,What did the travel agent do?,"phoned the colonel
+phoned the colonel granted leave
+phoned",phoned the colonel granted leave,0.4456178843975067,1
+GP-A-AM,the colonel granted leave phoned a travel agent.,Who phoned?,"the colonel granted leave
+the colonel
+colonel granted leave
+colonel",a travel agent,0.015901070088148117,0
+GP-U-AM,the colonel who was granted leave phoned a travel agent.,Who phoned?,"the colonel who was granted leave
+the colonel
+colonel who was granted leave
+colonel",the colonel who was granted leave phoned a travel agent,0.014524068683385849,0
+GP-U-PM,the colonel who was granted leave phoned a travel agent.,Who was phoned?,"a travel agent
+travel agent",a travel agent,0.3029625415802002,1
+GP-U-PE,the colonel who was granted leave phoned a travel agent.,Who was granted leave?,"the colonel who was granted leave
+the colonel
+colonel who was granted leave
+colonel",the colonel,0.35672882199287415,1
+GP-U-A1,the colonel who was granted leave phoned a travel agent.,What did the colonel do?,"phoned a travel agent
+phoned",phoned a travel agent,0.5731146931648254,1
+LC-U-AM,a travel agent phoned the colonel who was granted leave.,Who phoned?,"a travel agent
+travel agent",a travel agent,0.007675744593143463,1
+LC-U-PM,a travel agent phoned the colonel who was granted leave.,Who was phoned?,"the colonel who was granted leave
+the colonel
+colonel who was granted leave
+colonel",the colonel,0.16094174981117249,1
+LC-U-PE,a travel agent phoned the colonel who was granted leave.,Who was granted leave?,"the colonel
+colonel",colonel,0.49430161714553833,1
+LC-U-A2,a travel agent phoned the colonel who was granted leave.,What did the colonel get?,"granted leave
+leave",granted leave,0.4028263986110687,1
+LC-U-A1,a travel agent phoned the colonel who was granted leave.,What did the travel agent do?,"phoned the colonel
+phoned the colonel who was granted leave
+phoned",phoned the colonel,0.38761574029922485,1
+GP-A-PM,the dispatcher handed a pink slip worried about the driver.,Who was worried about?,"the driver
+driver",the driver,0.8466320633888245,1
+GP-A-PE,the dispatcher handed a pink slip worried about the driver.,Who was handed a pink slip?,"the dispatcher handed a pink slip
+the dispatcher
+dispatcher handed a pink slip
+dispatcher",the dispatcher,0.7447055578231812,1
+GP-A-A1,the dispatcher handed a pink slip worried about the driver.,What did the dispatcher do?,"worried about the driver
+worried",handed a pink slip worried about the driver,0.5819834470748901,0
+GP-A-AM,the dispatcher handed a pink slip worried about the driver.,Who worried about the driver?,"the dispatcher handed a pink slip
+the dispatcher
+dispatcher handed a pink slip
+dispatcher",the dispatcher,0.8120689392089844,1
+GP-U-AM,the dispatcher who was handed a pink slip worried about the driver.,Who worried about the driver?,"the dispatcher who was handed a pink slip
+the dispatcher
+dispatcher who was handed a pink slip
+dispatcher",the dispatcher,0.8365291357040405,1
+GP-U-PM,the dispatcher who was handed a pink slip worried about the driver.,Who was worried about?,"the driver
+driver",the driver,0.6217117309570312,1
+GP-U-PE,the dispatcher who was handed a pink slip worried about the driver.,Who was handed a pink slip?,"the dispatcher who was handed a pink slip
+the dispatcher
+dispatcher who was handed a pink slip
+dispatcher",the dispatcher,0.45711928606033325,1
+GP-U-A1,the dispatcher who was handed a pink slip worried about the driver.,What did the dispatcher do?,"worried about the driver
+worried",worried about the driver,0.5934435129165649,1
+GP-A-PM,the doctor delivered the donor organ assisted several surgeons.,Who was assisted?,"several surgeons
+surgeons",surgeons,0.05347301810979843,1
+GP-A-PE,the doctor delivered the donor organ assisted several surgeons.,Who was delivered the donor organ?,"the doctor delivered the donor organ
+the doctor
+doctor delivered the donor organ
+doctor",the doctor,0.6289703249931335,1
+GP-A-A1,the doctor delivered the donor organ assisted several surgeons.,What did the doctor do?,"assisted several surgeons
+assisted",delivered the donor organ assisted several surgeons,0.26370367407798767,0
+LC-A-AM,several surgeons assisted the doctor delivered the donor organ.,Who assisted the doctor?,"several surgeons
+surgeons",several surgeons,0.15795738995075226,1
+LC-A-PM,several surgeons assisted the doctor delivered the donor organ.,Who was assisted?,"the doctor delivered the donor organ
+the doctor
+doctor delivered the donor organ
+doctor",several surgeons assisted the doctor,0.0034289713948965073,0
+LC-A-PE,several surgeons assisted the doctor delivered the donor organ.,Who was delivered the donor organ?,"the doctor
+doctor",doctor,0.1915859580039978,1
+LC-A-A2,the tourist photographed the girl played a song.,What did the girl get?,"played a song
+a song
+played a song
+song",a song,0.4571179747581482,1
+LC-A-A1,several surgeons assisted the doctor delivered the donor organ.,What did several surgeons so?,"assisted the doctor
+assisted the doctor delivered the donor organ
+assisted",assisted the doctor delivered the donor organ,0.4505137801170349,1
+GP-A-AM,the doctor delivered the donor organ assisted several surgeons.,Who assisted several surgeons?,"the doctor delivered the donor organ
+the doctor
+doctor delivered the donor organ
+doctor",the doctor delivered the donor organ,0.4999983012676239,1
+GP-U-AM,the doctor who was delivered the donor organ assisted several surgeons.,Who assisted several surgeons?,"the doctor who was delivered the donor organ
+the doctor
+doctor who was delivered the donor organ
+doctor",the doctor who was delivered the donor organ,0.343486487865448,1
+GP-U-PM,the doctor who was delivered the donor organ assisted several surgeons.,Who was assisted?,"several surgeons
+surgeons",the doctor who was delivered the donor organ assisted several surgeons,0.029626477509737015,0
+GP-U-PE,the doctor who was delivered the donor organ assisted several surgeons.,Who was delivered the donor organ?,"the doctor who was delivered the donor organ
+the doctor
+doctor who was delivered the donor organ
+doctor",the doctor,0.6650886535644531,1
+GP-U-A1,the doctor who was delivered the donor organ assisted several surgeons.,What did the doctor do?,"assisted several surgeons
+assisted",assisted several surgeons,0.22551333904266357,1
+LC-U-AM,several surgeons assisted the doctor who was delivered the donor organ.,Who assisted the doctor?,"several surgeons
+surgeons",several surgeons,0.5010197758674622,1
+LC-U-PM,several surgeons assisted the doctor who was delivered the donor organ.,Who was assisted?,"the doctor who was delivered the donor organ
+the doctor
+doctor who was delivered the donor organ
+doctor",the doctor,0.032262932509183884,1
+LC-U-PE,several surgeons assisted the doctor who was delivered the donor organ.,Who was delivered the donor organ?,"the doctor
+doctor",the doctor,0.461685448884964,1
+LC-U-A2,several surgeons assisted the doctor who was delivered the donor organ.,What did the doctor get?,"delivered the donor organ
+the donor organ
+delivered the donor organ
+donor organ",donor organ,0.5230429172515869,1
+LC-U-A1,several surgeons assisted the doctor who was delivered the donor organ.,What did several surgeons so?,"assisted the doctor
+assisted the doctor who was delivered the donor organ
+assisted",assisted the doctor who was delivered the donor organ,0.3416438400745392,1
+GP-A-PM,the general awarded the medal annoyed the soldier.,Who was annoyed?,"the soldier
+soldier",the soldier,0.6117196083068848,1
+GP-A-PE,the general awarded the medal annoyed the soldier.,Who was awarded the medal?,"the general awarded the medal
+the general
+general awarded the medal
+general",the soldier,0.23621271550655365,0
+GP-A-A1,the general awarded the medal annoyed the soldier.,What did the general do?,"annoyed the soldier
+annoyed",awarded the medal annoyed the soldier,0.30692169070243835,0
+LC-A-AM,the soldier annoyed the general awarded the medal.,Who annoyed the general?,"the soldier
+soldier",the soldier,0.08209095895290375,1
+LC-A-PM,the soldier annoyed the general awarded the medal.,Who was annoyed?,"the general awarded the medal
+the general
+general awarded the medal
+general",the general,0.009157766588032246,1
+LC-A-PE,the soldier annoyed the general awarded the medal.,Who was awarded the medal?,"the general
+general",the soldier annoyed the general,0.21651017665863037,0
+LC-A-A2,the host toasted the golfer cooked a special meal.,What did the golfer get?,"cooked a special meal
+a special meal
+cooked a special meal
+special meal",meal,0.4148899018764496,0
+LC-A-A1,the soldier annoyed the general awarded the medal.,What did the soldier do?,"annoyed the general
+annoyed the general awarded the medal
+annoyed",the general awarded the medal.,0.1126013919711113,0
+GP-A-AM,the general awarded the medal annoyed the soldier.,Who annoyed the soldier?,"the general awarded the medal
+the general
+general awarded the medal
+general",the general,0.01866474747657776,1
+GP-U-AM,the general who was awarded the medal annoyed the soldier.,Who annoyed the soldier?,"the general who was awarded the medal
+the general
+general who was awarded the medal
+general",the general,0.05882372334599495,1
+GP-U-PM,the general who was awarded the medal annoyed the soldier.,Who was annoyed?,"the soldier
+soldier",the soldier,0.6104223728179932,1
+GP-U-PE,the general who was awarded the medal annoyed the soldier.,Who was awarded the medal?,"the general who was awarded the medal
+the general
+general who was awarded the medal
+general",the general,0.21125613152980804,1
+GP-U-A1,the general who was awarded the medal annoyed the soldier.,What did the general do?,"annoyed the soldier
+annoyed",annoyed the soldier.,0.21943800151348114,1
+LC-U-AM,the soldier annoyed the general who was awarded the medal.,Who annoyed the general?,"the soldier
+soldier",the soldier,0.0779871791601181,1
+LC-U-PM,the soldier annoyed the general who was awarded the medal.,Who was annoyed?,"the general who was awarded the medal
+the general
+general who was awarded the medal
+general",the general,0.04846329241991043,1
+LC-U-PE,the soldier annoyed the general who was awarded the medal.,Who was awarded the medal?,"the general
+general",the general,0.4126613438129425,1
+LC-U-A2,the soldier annoyed the general who was awarded the medal.,What did the general get?,"awarded the medal
+the medal
+awarded the medal
+medal",the medal,0.6995757222175598,1
+LC-U-A1,the soldier annoyed the general who was awarded the medal.,What did the soldier do?,"annoyed the general
+annoyed the general who was awarded the medal
+annoyed",annoyed the general who was awarded the medal.,0.40432092547416687,1
+GP-A-PM,the girl passed a note tattled on the classmate.,Who was tattled on?,"the classmate
+classmate",classmate,0.6551494002342224,1
+GP-A-PE,the girl passed a note tattled on the classmate.,Who was passed a note?,"the girl passed a note
+the girl
+girl passed a note
+girl",the girl passed a note tattled on the classmate,0.0331270731985569,0
+GP-A-A1,the girl passed a note tattled on the classmate.,What did the girl do?,"tattled
+tattled on the classmate",passed a note tattled on the classmate,0.7721596360206604,0
+GP-A-AM,the girl passed a note tattled on the classmate.,Who tattled?,"the girl passed a note
+the girl
+girl passed a note
+girl",the girl passed a note tattled on the classmate,0.0357089601457119,0
+GP-A-PM,the girl played a song photographed the tourist.,Who was photographed?,"the tourist
+tourist",the tourist,0.32408130168914795,1
+GP-A-PE,the girl played a song photographed the tourist.,Who was played a song?,"the girl played a song
+the girl
+girl played a song
+girl",the girl played a song photographed the tourist,0.010934099555015564,0
+GP-A-A1,the girl played a song photographed the tourist.,What did the girl do?,"photographed the tourist
+photographed",played a song photographed the tourist,0.4860169291496277,0
+LC-A-AM,the tourist photographed the girl played a song.,Who photographed the girl?,"the tourist
+tourist",the tourist,0.7768337726593018,1
+LC-A-PM,the tourist photographed the girl played a song.,Who was played a song?,"the girl played a song
+the girl
+girl played a song
+girl",the tourist photographed the girl,0.02599269710481167,0
+LC-A-PE,the tourist photographed the girl played a song.,Who was photographed?,"the girl
+girl",the girl,0.03159274905920029,1
+LC-A-A2,the beggar despised the hobo cut a slice of cheese.,What did the hobo get?,"cut a slice of cheese
+a slice of cheese
+cut a slice of cheese
+slice of cheese",cut a slice of cheese,0.27719101309776306,1
+LC-A-A1,the tourist photographed the girl played a song.,What did the tourist do?,"photographed the girl
+photographed the girl played a song
+photographed",photographed the girl played a song.,0.4670708179473877,1
+GP-A-AM,the girl played a song photographed the tourist.,Who photographed the tourist?,"the girl played a song
+the girl
+girl played a song
+girl",the girl,0.2960985600948334,1
+GP-U-AM,the girl who was passed a note tattled on the classmate.,Who tattled?,"the girl who was passed a note
+the girl
+girl who was passed a note
+girl",the girl who was passed a note tattled on the classmate,0.02991262450814247,0
+GP-U-PM,the girl who was passed a note tattled on the classmate.,Who was tattled on?,"the classmate
+classmate",classmate,0.41859734058380127,1
+GP-U-PE,the girl who was passed a note tattled on the classmate.,Who was passed a note?,"the girl who was passed a note
+the girl
+girl who was passed a note
+girl",the girl,0.3079872131347656,1
+GP-U-A1,the girl who was passed a note tattled on the classmate.,What did the girl do?,"tattled
+tattled on the classmate",tattled on the classmate,0.31619760394096375,1
+GP-U-AM,the girl who was played a song photographed the tourist.,Who photographed the tourist?,"the girl who was played a song
+the girl
+girl who was played a song
+girl",the girl who was played a song,0.6883552670478821,1
+GP-U-PM,the girl who was played a song photographed the tourist.,Who was photographed?,"the tourist
+tourist",the tourist,0.18805618584156036,1
+GP-U-PE,the girl who was played a song photographed the tourist.,Who was played a song?,"the girl who was played a song
+the girl
+girl who was played a song
+girl",the girl,0.20154984295368195,1
+GP-U-A1,the girl who was played a song photographed the tourist.,What did the girl do?,"photographed the tourist
+photographed",photographed the tourist,0.38663211464881897,1
+LC-U-AM,the tourist photographed the girl who was played a song.,Who photographed the girl?,"the tourist
+tourist",the tourist,0.8024316430091858,1
+LC-U-PM,the tourist photographed the girl who was played a song.,Who was played a song?,"the girl who was played a song
+the girl
+girl who was played a song
+girl",the girl,0.5462990403175354,1
+LC-U-PE,the tourist photographed the girl who was played a song.,Who was photographed?,"the girl
+girl",the girl,0.24860922992229462,1
+LC-U-A2,the tourist photographed the girl who was played a song.,What did the girl get?,"played a song
+a song
+played a song
+song",a song,0.6904900670051575,1
+LC-U-A1,the tourist photographed the girl who was played a song.,What did the tourist do?,"photographed the girl
+photographed the girl who was played a song
+photographed",photographed the girl who was played a song.,0.3779680132865906,1
+GP-U-AM,the girl who was won a stuffed bear ignored the carnival worker.,Who ignored the carnival worker?,"the girl who was won a stuffed bear
+the girl
+girl who was won a stuffed bear
+girl",the girl who was won a stuffed bear,0.22766253352165222,1
+GP-U-PM,the girl who was won a stuffed bear ignored the carnival worker.,Who was ignored?,"the carnival worker
+carnival worker",the carnival worker,0.5458037853240967,1
+GP-U-PE,the girl who was won a stuffed bear ignored the carnival worker.,Who was won a stuffed bear?,"the girl who was won a stuffed bear
+the girl
+girl who was won a stuffed bear
+girl",the girl,0.6292315125465393,1
+GP-U-A1,the girl who was won a stuffed bear ignored the carnival worker.,What did the girl do?,"ignored the carnival worker
+ignored the carnival worker
+ignored",ignored the carnival worker,0.25296473503112793,1
+LC-U-AM,the carnival worker ignored the girl who was won a stuffed bear.,Who ignored the girl?,"the carnival worker
+carnival worker",the carnival worker,0.7804654240608215,1
+LC-U-PM,the carnival worker ignored the girl who was won a stuffed bear.,Who was ignored?,"the girl who was won a stuffed bear
+the girl
+girl who was won a stuffed bear
+girl",the girl who was won a stuffed bear.,0.2675059735774994,1
+LC-U-PE,the carnival worker ignored the girl who was won a stuffed bear.,Who was won a stuffed bear?,"the girl
+girl",girl,0.5336674451828003,1
+LC-U-A2,the carnival worker ignored the girl who was won a stuffed bear.,What did the girl get?,"won a stuffed bear
+a stuffed bear
+won a stuffed bear
+stuffed bear",stuffed bear,0.5736768245697021,1
+LC-U-A1,the carnival worker ignored the girl who was won a stuffed bear.,What did the carnival worker do?,"ignored the girl
+ignored the girl who was won a stuffed bear
+ignored",ignored the girl who was won a stuffed bear.,0.33395418524742126,1
+GP-A-PM,the girl won a stuffed bear ignored the carnival worker.,Who was ignored?,"the carnival worker
+carnival worker",the carnival worker,0.8088486790657043,1
+GP-A-PE,the girl won a stuffed bear ignored the carnival worker.,Who was won a stuffed bear?,"the girl won a stuffed bear
+the girl
+girl won a stuffed bear
+girl",the girl,0.6550899147987366,1
+GP-A-A1,the girl won a stuffed bear ignored the carnival worker.,What did the girl do?,"ignored the carnival worker
+ignored the carnival worker
+ignored",won a stuffed bear,0.3293609023094177,0
+LC-A-AM,the carnival worker ignored the girl won a stuffed bear.,Who ignored the girl?,"the carnival worker
+carnival worker",the carnival worker,0.8701388835906982,1
+LC-A-PM,the carnival worker ignored the girl won a stuffed bear.,Who was ignored?,"the girl won a stuffed bear
+the girl
+girl won a stuffed bear
+girl",the girl won a stuffed bear.,0.29103124141693115,1
+LC-A-PE,the carnival worker ignored the girl won a stuffed bear.,Who was won a stuffed bear?,"the girl
+girl",the carnival worker ignored the girl,0.1757006198167801,0
+LC-A-A2,the fireman argued with the inspector paid a fee.,What did the inspector get?,"paid a fee
+a fee
+paid a fee
+fee",a fee,0.18216009438037872,1
+LC-A-A1,the carnival worker ignored the girl won a stuffed bear.,What did the carnival worker do?,"ignored the girl
+ignored the girl won a stuffed bear
+ignored",ignored the girl won a stuffed bear.,0.4384380877017975,1
+GP-A-AM,the girl won a stuffed bear ignored the carnival worker.,Who ignored the carnival worker?,"the girl won a stuffed bear
+the girl
+girl won a stuffed bear
+girl",the girl won a stuffed bear,0.7536277770996094,1
+GP-A-PM,the golfer cooked a special meal toasted the host.,Who was toasted?,"the host
+host",the golfer cooked a special meal toasted the host,0.018103817477822304,0
+GP-A-PE,the golfer cooked a special meal toasted the host.,Who was cooked a special meal?,"the golfer cooked a special meal
+the golfer
+golfer cooked a special meal
+golfer",the golfer,0.2960602939128876,1
+GP-A-A1,the golfer cooked a special meal toasted the host.,What did the golfer do?,"toasted the host
+toasted",cooked a special meal toasted the host,0.6486233472824097,0
+LC-A-AM,the host toasted the golfer cooked a special meal.,Who toasted?,"the host
+host",the host,0.1336977183818817,1
+LC-A-PM,the host toasted the golfer cooked a special meal.,Who was toasted?,"the golfer cooked a special meal
+the golfer
+golfer cooked a special meal
+golfer",the golfer,0.004418061580508947,1
+LC-A-PE,the host toasted the golfer cooked a special meal.,Who was cooked a special meal?,"the golfer
+golfer",the golfer,0.1982152909040451,1
+LC-A-A2,the dean visited the instructor submitted the plagiarized papers.,What did the instructor get?,"submitted the plagiarized papers
+the plagiarized papers
+submitted the plagiarized papers
+plagiarized papers",submitted the plagiarized papers,0.12415085732936859,1
+LC-A-A1,the host toasted the golfer cooked a special meal.,What did the host do?,"toasted the golfer
+toasted the golfer cooked a special meal
+toasted",toasted,0.44988662004470825,1
+GP-A-AM,the golfer cooked a special meal toasted the host.,Who toasted?,"the golfer cooked a special meal
+the golfer
+golfer cooked a special meal
+golfer",the golfer,0.019025836139917374,1
+GP-U-AM,the golfer who was cooked a special meal toasted the host.,Who toasted?,"the golfer who was cooked a special meal
+the golfer
+golfer who was cooked a special meal
+golfer",the golfer who was cooked a special meal toasted the host,0.03090592473745346,0
+GP-U-PM,the golfer who was cooked a special meal toasted the host.,Who was toasted?,"the host
+host",the golfer who was cooked a special meal toasted the host,0.08003871887922287,0
+GP-U-PE,the golfer who was cooked a special meal toasted the host.,Who was cooked a special meal?,"the golfer who was cooked a special meal
+the golfer
+golfer who was cooked a special meal
+golfer",the golfer,0.3709930181503296,1
+GP-U-A1,the golfer who was cooked a special meal toasted the host.,What did the golfer do?,"toasted the host
+taosted",cooked a special meal toasted the host,0.3931620419025421,0
+LC-U-AM,the host toasted the golfer who was cooked a special meal.,Who toasted?,"the host
+host",the host,0.280927449464798,1
+LC-U-PM,the host toasted the golfer who was cooked a special meal.,Who was toasted?,"the golfer who was cooked a special meal
+the golfer
+golfer who was cooked a special meal
+golfer",the golfer,0.18930110335350037,1
+LC-U-PE,the host toasted the golfer who was cooked a special meal.,Who was cooked a special meal?,"the golfer
+golfer",the golfer,0.7149307727813721,1
+LC-U-A2,the host toasted the golfer who was cooked a special meal.,What did the golfer get?,"cooked a special meal
+a special meal
+cooked a special meal
+special meal",a special meal,0.6182779669761658,1
+LC-U-A1,the host toasted the golfer who was cooked a special meal.,What did the host do?,"toasted the golfer
+toasted the golfer who was cooked a special meal
+toasted",toasted,0.4541251063346863,1
+GP-A-PM,the hobo cut a slice of cheese despised the beggar.,Who was despised?,"the beggar
+beggar",the beggar,0.6844103336334229,1
+GP-A-PE,the hobo cut a slice of cheese despised the beggar.,Who was cut a slice of cheese?,"the hobo cut a slice of cheese
+the hobo
+hobo cut a slice of cheese
+hobo",the hobo,0.01474208664149046,1
+GP-A-A1,the hobo cut a slice of cheese despised the beggar.,What did the hobo do?,"despised the beggar
+despised",cut a slice of cheese despised the beggar.,0.40433570742607117,0
+LC-A-AM,the beggar despised the hobo cut a slice of cheese.,Who despised the hobo?,"the beggar
+beggar",the beggar,0.5927262306213379,1
+LC-A-PM,the beggar despised the hobo cut a slice of cheese.,Who was despised?,"the hobo cut a slice of cheese
+the hobo
+hobo cut a slice of cheese
+hobo",the beggar,0.09593816846609116,0
+LC-A-PE,the beggar despised the hobo cut a slice of cheese.,Who was cut a slice of cheese?,"the hobo
+hobo",the hobo,0.011791111901402473,1
+LC-A-A2,the employees praised the manager prepared the report.,What did the manager get?,"prepared the report
+the report
+prepared the report
+report",the employees praised the manager prepared the report,8.497412636643276e-05,0
+LC-A-A1,the beggar despised the hobo cut a slice of cheese.,What did the beggar do?,"despised the hobo
+despised the hobo cut a slice of cheese
+despised",cut a slice of cheese,0.35317978262901306,0
+GP-A-AM,the hobo cut a slice of cheese despised the beggar.,Who despised the beggar?,"the hobo cut a slice of cheese
+the hobo
+hobo cut a slice of cheese
+hobo",the hobo,0.33337098360061646,1
+GP-U-AM,the hobo who was cut a slice of cheese despised the beggar.,Who despised the beggar?,"the hobo who was cut a slice of cheese
+the hobo
+hobo who was cut a slice of cheese
+hobo",the hobo,0.6154010891914368,1
+GP-U-PM,the hobo who was cut a slice of cheese despised the beggar.,Who was despised?,"the beggar
+beggar",the beggar,0.5894332528114319,1
+GP-U-PE,the hobo who was cut a slice of cheese despised the beggar.,Who was cut a slice of cheese?,"the hobo who was cut a slice of cheese
+the hobo
+hobo who was cut a slice of cheese
+hobo",the hobo,0.16550381481647491,1
+GP-U-A1,the hobo who was cut a slice of cheese despised the beggar.,What did the hobo do?,"despised the beggar
+despised",cut a slice of cheese,0.5251510739326477,0
+LC-U-AM,the beggar  despised the hobo who was cut a slice of cheese.,Who despised the hobo?,"the beggar 
+beggar",the beggar,0.5869542956352234,0
+LC-U-PM,the beggar  despised the hobo who was cut a slice of cheese.,Who was despised?,"the hobo who was cut a slice of cheese
+the hobo
+hobo who was cut a slice of cheese
+hobo",the beggar,0.06283184885978699,0
+LC-U-PE,the beggar  despised the hobo who was cut a slice of cheese.,Who was cut a slice of cheese?,"the hobo
+hobo",the hobo,0.6444364190101624,1
+LC-U-A2,the beggar  despised the hobo who was cut a slice of cheese.,What did the hobo get?,"cut a slice of cheese
+a slice of cheese
+cut a slice of cheese
+slice of cheese",cut a slice of cheese,0.4165898859500885,1
+LC-U-A1,the beggar  despised the hobo who was cut a slice of cheese.,What did the beggar do?,"despised the hobo
+despised the hobo who was cut a slice of cheese
+despised",the hobo who was cut a slice of cheese,0.22116751968860626,0
+GP-A-PM,the inspector paid a fee argued with the fireman.,Who was argued with?,"the fireman
+fireman",the fireman,0.4887307286262512,1
+GP-A-PE,the inspector paid a fee argued with the fireman.,Who was paid a fee?,"the inspector paid a fee
+the inspector
+inspector paid a fee
+inspector",the inspector,0.00045532159856520593,1
+GP-A-A1,the inspector paid a fee argued with the fireman.,What did the inspector do?,"argued with the fireman
+argued",paid a fee,0.41439202427864075,0
+GP-A-AM,the inspector paid a fee argued with the fireman.,Who argued?,"the inspector paid a fee
+the inspector
+inspector paid a fee
+inspector",the inspector paid a fee argued with the fireman,0.5450864434242249,0
+GP-U-AM,the inspector who was paid a fee argued with the fireman.,Who argued?,"the inspector who was paid a fee
+the inspector
+inspector who was paid a fee
+inspector",the inspector who was paid a fee argued with the fireman,0.4006917476654053,0
+GP-U-PM,the inspector who was paid a fee argued with the fireman.,Who was argued with?,"the fireman
+fireman",the fireman,0.5865064263343811,1
+GP-U-PE,the inspector who was paid a fee argued with the fireman.,Who was paid a fee?,"the inspector who was paid a fee
+the inspector
+inspector who was paid a fee
+inspector",the inspector,0.041920751333236694,1
+GP-U-A1,the inspector who was paid a fee argued with the fireman.,What did the inspector do?,"argued with the fireman
+argued",paid a fee,0.19403313100337982,0
+GP-A-PM,the instructor submitted the plagiarized papers visited the dean.,Who was visited?,"the dean
+dean",the dean,0.5027757287025452,1
+GP-A-PE,the instructor submitted the plagiarized papers visited the dean.,Who was submitted the plagarized papers?,"the instructor submitted the plagiarized papers
+the instructor
+instructor submitted the plagiarized papers
+instructor",the instructor,0.022580023854970932,1
+GP-A-A1,the instructor submitted the plagiarized papers visited the dean.,What did the instructor do?,"visited the dean
+visited",submitted the plagiarized papers,0.22838933765888214,0
+LC-A-AM,the dean visited the instructor submitted the plagiarized papers.,Who visited the instructor?,"the dean
+dean",the dean,0.41937434673309326,1
+LC-A-PM,the dean visited the instructor submitted the plagiarized papers.,Who was visited?,"the instructor submitted the plagiarized papers
+the instructor
+instructor submitted the plagiarized papers
+instructor",the instructor,0.10945281386375427,1
+LC-A-PE,the dean visited the instructor submitted the plagiarized papers.,Who was submitted the plagarized papers?,"the instructor
+instructor",the dean visited the instructor,0.17332109808921814,0
+LC-A-A2,the banker bragged to the millionaire sculpted a statue.,What did the millionaire get?,"sculpted a statue
+a statue
+sculpted a statue
+statue",sculpted a statue,0.07345941662788391,1
+LC-A-A1,the dean visited the instructor submitted the plagiarized papers.,What did the dean do?,"visited the instructor
+visited the instructor submitted the plagiarized papers
+visited",instructor submitted the plagiarized papers,0.15413525700569153,0
+GP-A-AM,the instructor submitted the plagiarized papers visited the dean.,Who visited the dean?,"the instructor submitted the plagiarized papers
+the instructor
+instructor submitted the plagiarized papers
+instructor",the instructor,0.3348905146121979,1
+GP-U-AM,the instructor who was submitted the plagiarized papers visited the dean.,Who visited the dean?,"the instructor who was submitted the plagiarized papers
+the instructor
+instructor who was submitted the plagiarized papers
+instructor",the instructor,0.3667543828487396,1
+GP-U-PM,the instructor who was submitted the plagiarized papers visited the dean.,Who was visited?,"the dean
+dean",dean,0.21509774029254913,1
+GP-U-PE,the instructor who was submitted the plagiarized papers visited the dean.,Who was submitted the plagarized papers?,"the instructor who was submitted the plagiarized papers
+the instructor
+instructor who was submitted the plagiarized papers
+instructor",the instructor,0.23623037338256836,1
+GP-U-A1,the instructor who was submitted the plagiarized papers visited the dean.,What did the instructor do?,"visited the dean
+visited",instructor who was submitted the plagiarized papers,0.046926096081733704,0
+LC-U-AM,the dean visited the instructor who was submitted the plagiarized papers.,Who visited the instructor?,"the dean
+dean",the dean,0.10195723176002502,1
+LC-U-PM,the dean visited the instructor who was submitted the plagiarized papers.,Who was visited?,"the instructor who was submitted the plagiarized papers
+the instructor
+instructor who was submitted the plagiarized papers
+instructor",the instructor,0.0023670513182878494,1
+LC-U-PE,the dean visited the instructor who was submitted the plagiarized papers.,Who was submitted the plagarized papers?,"the instructor
+instructor",the instructor,0.48247939348220825,1
+LC-U-A2,the dean visited the instructor who was submitted the plagiarized papers.,What did the instructor get?,"submitted the plagiarized papers
+the plagiarized papers
+submitted the plagiarized papers
+plagiarized papers",the plagiarized papers,0.3412580192089081,1
+LC-U-A1,the dean visited the instructor who was submitted the plagiarized papers.,What did the dean do?,"visited the instructor
+visited the instructor who was submitted the plagiarized papers
+visited",visited the instructor,0.35435813665390015,1
+GP-A-PM,the manager prepared the report praised the employees.,Who was praised?,"the employees
+employees",the employees,0.15863946080207825,1
+GP-A-PE,the manager prepared the report praised the employees.,Who was prepared the report?,"the manager prepared the report
+the manager
+manager prepared the report
+manager",the manager,0.054438963532447815,1
+GP-A-A1,the manager prepared the report praised the employees.,What did the manager do?,"praised the employees
+praised",prepared the report praised the employees,0.36385178565979004,0
+LC-A-AM,the employees praised the manager prepared the report.,Who praised the manager?,"the employees
+employees",the employees,0.01440899632871151,1
+LC-A-PM,the employees praised the manager prepared the report.,Who was praised?,"the manager prepared the report
+the manager
+manager prepared the report
+manager",the manager prepared the report,0.0011747176758944988,1
+LC-A-PE,the employees praised the manager prepared the report.,Who was prepared the report?,"the manager
+manager",the employees praised the manager,0.07955832779407501,0
+LC-A-A2,the mailman envied the neighbour crocheted a blanket.,What did the neighbor get?,"crocheted a blanket
+a blanket
+crocheted a blanket
+blanket",a blanket,0.3057613968849182,1
+LC-A-A1,the employees praised the manager prepared the report.,What did the employees do?,"praised the manager
+praised the manager prepared the report
+praised",praised the manager prepared the report,0.07131198793649673,1
+GP-A-AM,the manager prepared the report praised the employees.,Who praised the employees?,"the manager prepared the report
+the manager
+manager prepared the report
+manager",the manager,0.22467145323753357,1
+GP-U-AM,the manager who was prepared the report praised the employees.,Who praised the employees?,"the manager who was prepared the report
+the manager
+manager who was prepared the report
+manager",the manager,0.12209270894527435,1
+GP-U-PM,the manager who was prepared the report praised the employees.,Who was praised?,"the employees
+employees",the employees,0.12674303352832794,1
+GP-U-PE,the manager who was prepared the report praised the employees.,Who was prepared the report?,"the manager who was prepared the report
+the manager
+manager who was prepared the report
+manager",the manager,0.4304214417934418,1
+GP-U-A1,the manager who was prepared the report praised the employees.,What did the manager do?,"praised the employees
+praised",praised the employees,0.16322697699069977,1
+LC-U-AM,the employees praised the manager who was prepared the report.,Who praised the manager?,"the employees
+employees",the employees,0.03227224573493004,1
+LC-U-PM,the employees praised the manager who was prepared the report.,Who was praised?,"the manager who was prepared the report
+the manager
+manager who was prepared the report
+manager",the manager who was prepared the report,0.001193268341012299,1
+LC-U-PE,the employees praised the manager who was prepared the report.,Who was prepared the report?,"the manager
+manager",the manager,0.6375282406806946,1
+LC-U-A2,the employees praised the manager who was prepared the report.,What did the manager get?,"prepared the report
+the report
+prepared the report
+report",the employees praised the manager who was prepared the report,0.01954093761742115,0
+LC-U-A1,the employees praised the manager who was prepared the report.,What did the employees do?,"praised the manager
+praised the manager who was prepared the report
+praised",praised the manager who was prepared the report,0.3741578757762909,1
+GP-A-PM,the millionaire sculpted a statue bragged to the banker.,Who was bragged to?,"the banker
+banker",the banker,0.7329291701316833,1
+GP-A-PE,the millionaire sculpted a statue bragged to the banker.,Who was sculpted a statue?,"the millionaire sculpted a statue
+the millionaire
+millionaire sculpted a statue
+millionaire",the millionaire sculpted a statue bragged to the banker,0.006500210613012314,0
+GP-A-A1,the millionaire sculpted a statue bragged to the banker.,What did the millionaire do?,"bragged to the banker
+bragged",sculpted a statue bragged to the banker.,0.3218451142311096,0
+GP-A-AM,the millionaire sculpted a statue bragged to the banker.,Who bragged?,"the millionaire sculpted a statue
+the millionaire
+millionaire sculpted a statue
+millionaire",the banker,0.10800023376941681,0
+GP-U-AM,the millionaire who was sculpted a statue bragged to the banker.,Who bragged?,"the millionaire who was sculpted a statue
+the millionaire
+millionaire who was sculpted a statue
+millionaire",the millionaire who was sculpted a statue bragged to the banker,0.16368556022644043,0
+GP-U-PM,the millionaire who was sculpted a statue bragged to the banker.,Who was bragged to?,"the banker
+banker",the banker,0.6513135433197021,1
+GP-U-PE,the millionaire who was sculpted a statue bragged to the banker.,Who was sculpted a statue?,"the millionaire who was sculpted a statue
+the millionaire
+millionaire who was sculpted a statue
+millionaire",the millionaire,0.07591725885868073,1
+GP-U-A1,the millionaire who was sculpted a statue bragged to the banker.,What did the millionaire do?,"bragged to the banker
+bragged",bragged,0.5309309959411621,1
+GP-A-PM,the neighbour crocheted a blanket envied the mailman.,Who was envied?,"the mailman
+mailman",the mailman,0.44299188256263733,1
+GP-A-PE,the neighbour crocheted a blanket envied the mailman.,Who was crocheted a blanket?,"the neighbour crocheted a blanket
+the neighbour
+neighbour crocheted a blanket
+neighbour",neighbour,0.11351554095745087,1
+GP-A-A1,the neighbour crocheted a blanket envied the mailman.,What did the neighbor do?,"envied the mailman
+envied",crocheted a blanket,0.6071125268936157,0
+LC-A-AM,the mailman envied the neighbour crocheted a blanket.,Who envied the neighbour?,"the mailman
+mailman",the mailman,0.016431253403425217,1
+LC-A-PM,the mailman envied the neighbour crocheted a blanket.,Who was envied?,"the neighbour crocheted a blanket
+the neighbour
+neighbour crocheted a blanket
+neighbour",the mailman,0.010225935839116573,0
+LC-A-PE,the mailman envied the neighbour crocheted a blanket.,Who was crocheted a blanket?,"the neighbour
+neighbour",neighbour,0.4226219952106476,1
+LC-A-A2,a friend embraced the old man awarded the prize.,What did the old man get?,"awarded the prize
+the prize
+awarded the prize
+prize",prize,0.1923598051071167,1
+LC-A-A1,the mailman envied the neighbour crocheted a blanket.,What did the mailman do?,"envied the neighbour
+envied the neighbour crocheted a blanket
+envied",crocheted a blanket,0.5968326330184937,0
+GP-A-AM,the neighbour crocheted a blanket envied the mailman.,Who envied the mailman?,"the neighbour crocheted a blanket
+the neighbour
+neighbour crocheted a blanket
+neighbour",the neighbour,0.12602804601192474,1
+GP-U-AM,the neighbour who was crocheted a blanket envied the mailman.,Who envied the mailman?,"the neighbour who was crocheted a blanket
+the neighbour
+neighbour who was crocheted a blanket
+neighbour",the neighbour,0.5675973296165466,1
+GP-U-PM,the neighbour who was crocheted a blanket envied the mailman.,Who was envied?,"the mailman
+mailman",the mailman,0.3137187063694,1
+GP-U-PE,the neighbour who was crocheted a blanket envied the mailman.,Who was crocheted a blanket?,"the neighbour who was crocheted a blanket
+the neighbour
+neighbour who was crocheted a blanket
+neighbour",neighbour,0.5063526630401611,1
+GP-U-A1,the neighbour who was crocheted a blanket envied the mailman.,What did the neighbor do?,"envied the mailman
+envied",crocheted a blanket,0.7099233865737915,0
+LC-U-AM,the mailman envied the neighbour who was crocheted a blanket.,Who envied the neighbour?,"the mailman
+mailman",the mailman,0.002827973570674658,1
+LC-U-PM,the mailman envied the neighbour who was crocheted a blanket.,Who was envied?,"the neighbour who was crocheted a blanket
+the neighbour
+neighbour who was crocheted a blanket
+neighbour",the neighbour,0.03311678022146225,1
+LC-U-PE,the mailman envied the neighbour who was crocheted a blanket.,Who was crocheted a blanket?,"the neighbour
+neighbour",the neighbour,0.6148350834846497,1
+LC-U-A2,the mailman envied the neighbour who was crocheted a blanket.,What did the neighbor get?,"crocheted a blanket
+a blanket
+crocheted a blanket
+blanket",a blanket,0.4928518235683441,1
+LC-U-A1,the mailman envied the neighbour who was crocheted a blanket.,What did the mailman do?,"envied the neighbour
+envied the neighbour who was crocheted a blanket
+envied",crocheted a blanket,0.2324773520231247,0
+GP-A-PM,the old man awarded the prize embraced a friend.,Who was embraced?,"a friend
+friend",a friend,0.6061111688613892,1
+GP-A-PE,the old man awarded the prize embraced a friend.,Who was awarded the prize?,"the old man awarded the prize
+the old man
+old man awarded the prize
+old man",the old man,0.26056167483329773,1
+GP-A-A1,the old man awarded the prize embraced a friend.,What did the old man do?,"embraced a friend
+embraced",awarded the prize embraced a friend,0.018538812175393105,0
+LC-A-AM,a friend embraced the old man awarded the prize.,Who embraced the old man?,"a friend
+friend",a friend,0.21554920077323914,1
+LC-A-PM,a friend embraced the old man awarded the prize.,Who was embraced?,"the old man awarded the prize
+the old man
+old man awarded the prize
+old man",the old man,0.09424812346696854,1
+LC-A-PE,a friend embraced the old man awarded the prize.,Who was awarded the prize?,"the old man
+old man",a,0.08526255190372467,0
+LC-A-A2,the boy scout thanked the pack leader knitted a scarf.,What did the pack leader get?,"knitted a scarf
+a scarf
+knitted a scarf
+scarf",a scarf,0.2830533981323242,1
+LC-A-A1,a friend embraced the old man awarded the prize.,What did a friend do?,"embraced the old man
+embraced the old man awarded the prize
+embraced",embraced the old man awarded the prize,0.07894696295261383,1
+GP-A-AM,the old man awarded the prize embraced a friend.,Who embraced a friend?,"the old man awarded the prize
+the old man
+old man awarded the prize
+old man",the old man,0.546465277671814,1
+GP-U-AM,the old man who was awarded the prize embraced a friend.,Who embraced a friend?,"the old man who was awarded the prize
+the old man
+old man who was awarded the prize
+old man",the old man,0.33097681403160095,1
+GP-U-PM,the old man who was awarded the prize embraced a friend.,Who was embraced?,"a friend
+friend",a friend,0.4643303453922272,1
+GP-U-PE,the old man who was awarded the prize embraced a friend.,Who was awarded the prize?,"the old man who was awarded the prize
+the old man
+old man who was awarded the prize
+old man",the old man,0.575427770614624,1
+GP-U-A1,the old man who was awarded the prize embraced a friend.,What did the old man do?,"embraced a friend
+embraced",embraced a friend,0.02547520026564598,1
+LC-U-AM,a friend embraced the old man who was awarded the prize.,Who embraced the old man?,"a friend
+friend",a friend,0.18042029440402985,1
+LC-U-PM,a friend embraced the old man who was awarded the prize.,Who was embraced?,"the old man who was awarded the prize
+the old man
+old man who was awarded the prize
+old man",a friend embraced the old man,0.01630202680826187,0
+LC-U-PE,a friend embraced the old man who was awarded the prize.,Who was awarded the prize?,"the old man
+old man",a friend embraced the old man,0.2868720293045044,0
+LC-U-A2,a friend embraced the old man who was awarded the prize.,What did the old man get?,"awarded the prize
+the prize
+awarded the prize
+prize",awarded the prize,0.5344486236572266,1
+LC-U-A1,a friend embraced the old man who was awarded the prize.,What did a friend do?,"embraced the old man
+embraced the old man who was awarded the prize
+embraced",embraced the old man who was awarded the prize.,0.16923747956752777,1
+GP-A-PM,the pack leader knitted a scarf thanked the boy scout.,Who was thanked?,"the boy scout
+boy scout",the boy scout,0.5729413032531738,1
+GP-A-PE,the pack leader knitted a scarf thanked the boy scout.,Who was knitted a scarf?,"the pack leader knitted a scarf
+the pack leader
+pack leader knitted a scarf
+pack leader",the pack leader knitted a scarf thanked the boy scout,0.06776341050863266,0
+GP-A-A1,the pack leader knitted a scarf thanked the boy scout.,What did the pack leader do?,thanked the boy scout,knitted a scarf thanked the boy scout,0.20544326305389404,0
+LC-A-AM,the boy scout thanked the pack leader knitted a scarf.,Who thanked the pack leader?,"the boy scout
+boy scout",the boy scout,0.6145431399345398,1
+LC-A-PM,the boy scout thanked the pack leader knitted a scarf.,Who was thanked?,"the pack leader knitted a scarf
+the pack leader
+pack leader knitted a scarf
+pack leader",the pack leader,0.17009931802749634,1
+LC-A-PE,the boy scout thanked the pack leader knitted a scarf.,Who was knitted a scarf?,"the pack leader
+pack leader",the boy scout,0.4237150251865387,0
+LC-A-A2,the other team interfered with the player tossed the ball.,What did the player get?,"tossed the ball
+the ball
+tossed the ball
+ball",interfered,0.0006249731522984803,0
+LC-A-A1,the boy scout thanked the pack leader knitted a scarf.,What did the boy scout do?,"thanked the pack leader
+thanked the pack leader knitted a scarf",knitted a scarf,0.7574583888053894,0
+GP-A-AM,the pack leader knitted a scarf thanked the boy scout.,Who thanked the boy scout?,"the pack leader knitted a scarf
+the pack leader
+pack leader knitted a scarf
+pack leader",the pack leader,0.5303554534912109,1
+GP-U-AM,the pack leader who was knitted a scarf thanked the boy scout.,Who thanked the boy scout?,"the pack leader who was knitted a scarf
+the pack leader
+pack leader who was knitted a scarf
+pack leader",the pack leader,0.7531418204307556,1
+GP-U-PM,the pack leader who was knitted a scarf thanked the boy scout.,Who was thanked?,"the boy scout
+boy scout",the boy scout,0.5357667803764343,1
+GP-U-PE,the pack leader who was knitted a scarf thanked the boy scout.,Who was knitted a scarf?,"the pack leader who was knitted a scarf
+the pack leader
+pack leader who was knitted a scarf
+pack leader",the pack leader,0.4591599106788635,1
+GP-U-A1,the pack leader who was knitted a scarf thanked the boy scout.,What did the pack leader do?,thanked the boy scout,knitted a scarf,0.2721920609474182,0
+LC-U-AM,the boy scout thanked the pack leader who was knitted a scarf.,Who thanked the pack leader?,"the boy scout
+boy scout",the boy scout,0.46804624795913696,1
+LC-U-PM,the boy scout thanked the pack leader who was knitted a scarf.,Who was thanked?,"the pack leader who was knitted a scarf
+the pack leader
+pack leader who was knitted a scarf
+pack leader",the pack leader,0.33611002564430237,1
+LC-U-PE,the boy scout thanked the pack leader who was knitted a scarf.,Who was knitted a scarf?,"the pack leader
+pack leader",the pack leader,0.753389298915863,1
+LC-U-A2,the boy scout thanked the pack leader who was knitted a scarf.,What did the pack leader get?,"knitted a scarf
+a scarf
+knitted a scarf
+scarf",a scarf,0.8355181217193604,1
+LC-U-A1,the boy scout thanked the pack leader who was knitted a scarf.,What did the boy scout do?,"thanked the pack leader
+thanked the pack leader who was knitted a scarf",thanked the pack leader who was knitted a scarf,0.44440561532974243,1
+GP-A-PM,the player tossed the ball interfered with the other team.,Who was interfered with?,"the other team
+other team",the other team,0.6447827816009521,1
+GP-A-PE,the player tossed the ball interfered with the other team.,Who was tossed the ball?,"the player tossed the ball
+the player
+player tossed the ball
+player",the player tossed the ball interfered with the other team,0.08186835050582886,0
+GP-A-A1,the player tossed the ball interfered with the other team.,What did the player do?,"interfered with the other team
+interfered",tossed the ball interfered with the other team.,0.34537360072135925,0
+GP-A-AM,the player tossed the ball interfered with the other team.,Who interfered?,"the player tossed the ball
+the player
+player tossed the ball
+player",the player tossed the ball interfered with the other team,0.03238296136260033,0
+GP-U-AM,the player who was tossed the ball interfered with the other team.,Who interfered?,"the player who was tossed the ball
+the player
+player who was tossed the ball
+player",the player who was tossed the ball interfered with the other team,0.06717566400766373,0
+GP-U-PM,the player who was tossed the ball interfered with the other team.,Who was interfered with?,"the other team
+other team",the other team,0.6141359806060791,1
+GP-U-PE,the player who was tossed the ball interfered with the other team.,Who was tossed the ball?,"the player who was tossed the ball
+the player
+player who was tossed the ball
+player",the player who was tossed the ball interfered with the other team,0.10503840446472168,0
+GP-U-A1,the player who was tossed the ball interfered with the other team.,What did the player do?,"interfered with the other team
+interfered",interfered with the other team,0.47587868571281433,1
+GP-A-PM,the priest mailed a request telephoned the cardinal.,Who was telephoned?,"the cardinal
+cardinal",the cardinal,0.5626375675201416,1
+GP-A-PE,the priest mailed a request telephoned the cardinal.,Who was mailed a request?,"the priest mailed a request
+the priest
+priest mailed a request
+priest",the priest,0.01855846308171749,1
+GP-A-A1,the priest mailed a request telephoned the cardinal.,What did the priest do?,"telephoned the cardinal
+telephoned",mailed a request telephoned the cardinal,0.08046865463256836,0
+LC-A-AM,the cardinal telephoned the priest mailed a request.,Who telephoned?,"the cardinal
+cardinal",the cardinal,0.14196668565273285,1
+LC-A-PM,the cardinal telephoned the priest mailed a request.,Who was telephoned?,"the priest mailed a request
+the priest
+priest mailed a request
+priest",the priest,0.10617126524448395,1
+LC-A-PE,the cardinal telephoned the priest mailed a request.,Who was mailed a request?,"the priest
+priest",the priest,0.3148205876350403,1
+LC-A-A2,the cardinal telephoned the priest mailed a request.,What did the priest get?,"mailed a request
+a request
+mailed a request
+request",mailed a request,0.03455430641770363,1
+LC-A-A1,the cardinal telephoned the priest mailed a request.,What did the cardinal do?,"telephoned the priest
+telephoned the priest mailed a request
+telephoned",telephoned the priest mailed a request,0.3243267834186554,1
+GP-A-AM,the priest mailed a request telephoned the cardinal.,Who telephoned?,"the priest mailed a request
+the priest
+priest mailed a request
+priest",the cardinal,0.03590821847319603,0
+GP-U-AM,the priest who was mailed a request telephoned the cardinal.,Who telephoned?,"the priest who was mailed a request
+the priest
+priest who was mailed a request
+priest",the cardinal,0.0592431016266346,0
+GP-U-PM,the priest who was mailed a request telephoned the cardinal.,Who was telephoned?,"the cardinal
+cardinal",the cardinal,0.5066677927970886,1
+GP-U-PE,the priest who was mailed a request telephoned the cardinal.,Who was mailed a request?,"the priest who was mailed a request
+the priest
+priest who was mailed a request
+priest",the priest,0.06177106127142906,1
+GP-U-A1,the priest who was mailed a request telephoned the cardinal.,What did the priest do?,"telephoned the cardinal
+telephoned",mailed a request,0.18430858850479126,0
+LC-U-AM,the cardinal telephoned the priest who was mailed a request.,Who telephoned?,"the cardinal
+cardinal",the cardinal,0.008026291616261005,1
+LC-U-PM,the cardinal telephoned the priest who was mailed a request.,Who was telephoned?,"the priest who was mailed a request
+the priest
+priest who was mailed a request
+priest",the priest,0.27630364894866943,1
+LC-U-PE,the cardinal telephoned the priest who was mailed a request.,Who was mailed a request?,"the priest
+priest",the priest,0.6363760232925415,1
+LC-U-A2,the cardinal telephoned the priest who was mailed a request.,What did the priest get?,"mailed a request
+a request
+mailed a request
+request",mailed a request,0.05652917921543121,1
+LC-U-A1,the cardinal telephoned the priest who was mailed a request.,What did the cardinal do?,"telephoned the priest
+telephoned the priest who was mailed a request
+telephoned",telephoned the priest,0.5678456425666809,1
+GP-A-PM,the principal taught the policy emailed the teacher.,Who was emailed?,"the teacher
+teacher",teacher,0.4695567190647125,1
+GP-A-PE,the principal taught the policy emailed the teacher.,Who was taught the policy?,"the principal taught the policy
+the principal
+principal taught the policy
+principal",the principal,0.26154837012290955,1
+GP-A-A1,the principal taught the policy emailed the teacher.,What did the principal do?,"emailed the teacher
+emailed",taught the policy emailed the teacher,0.4447633624076843,0
+LC-A-AM,the teacher emailed the principal taught the policy.,Who emailed?,"the teacher
+teacher",the teacher,0.04163817688822746,1
+LC-A-PM,the teacher emailed the principal taught the policy.,Who was emailed?,"the principal taught the policy
+the principal
+principal taught the policy
+principal",the principal taught the policy,0.12895293533802032,1
+LC-A-PE,the teacher emailed the principal taught the policy.,Who was taught the policy?,"the principal
+principal",the principal,0.2216649204492569,1
+LC-A-A2,the teacher emailed the principal taught the policy.,What did the principal get?,"taught the policy
+the policy
+taught the policy
+policy",policy,0.0008799684001132846,1
+LC-A-A1,the teacher emailed the principal taught the policy.,What did the teacher do?,"emailed the principal
+emailed the principal taught the policy
+emailed",the teacher emailed the principal taught the policy,0.10332486778497696,0
+GP-A-AM,the principal taught the policy emailed the teacher.,Who emailed?,"the principal taught the policy
+the principal
+principal taught the policy
+principal",the teacher,0.32116076350212097,0
+GP-U-AM,the principal who was taught the policy emailed the teacher.,Who emailed?,"the principal who was taught the policy
+the principal
+principal who was taught the policy
+principal",the teacher,0.15955033898353577,0
+GP-U-PM,the principal who was taught the policy emailed the teacher.,Who was emailed?,"the teacher
+teacher",the teacher,0.4342656433582306,1
+GP-U-PE,the principal who was taught the policy emailed the teacher.,Who was taught the policy?,"the principal who was taught the policy
+the principal
+principal who was taught the policy
+principal",the principal,0.4095040261745453,1
+GP-U-A1,the principal who was taught the policy emailed the teacher.,What did the principal do?,"emailed the teacher
+emailed",emailed the teacher,0.3712361752986908,1
+LC-U-AM,the teacher emailed the principal who was taught the policy.,Who emailed?,"the teacher
+teacher",the principal,0.10694475471973419,0
+LC-U-PM,the teacher emailed the principal who was taught the policy.,Who was emailed?,"the principal who was taught the policy
+the principal
+principal who was taught the policy
+principal",the principal,0.5497115850448608,1
+LC-U-PE,the teacher emailed the principal who was taught the policy.,Who was taught the policy?,"the principal
+principal",the principal,0.8308996558189392,1
+LC-U-A2,the teacher emailed the principal who was taught the policy.,What did the principal get?,"taught the policy
+the policy
+taught the policy
+policy",policy,0.0034258319064974785,1
+LC-U-A1,the teacher emailed the principal who was taught the policy.,What did the teacher do?,"emailed the principal
+emailed the principal who was taught the policy
+emailed",emailed,0.24574212729930878,1
+GP-A-PM,the prisoner procured a weekend pass whispered to the guard.,Who was whispered to?,"the guard
+guard",the guard,0.5894845724105835,1
+GP-A-PE,the prisoner procured a weekend pass whispered to the guard.,Who was procured a weekend pass?,"the prisoner procured a weekend pass
+the prisoner
+prisoner procured a weekend pass
+prisoner",the prisoner procured a weekend pass whispered to the guard,0.0019654894713312387,0
+GP-A-A1,the prisoner procured a weekend pass whispered to the guard.,What did the prisoner do?,"whispered to the guard
+whispered",procured a weekend pass whispered to the guard.,0.28051137924194336,0
+GP-A-AM,the prisoner procured a weekend pass whispered to the guard.,Who whispered?,"the prisoner procured a weekend pass
+the prisoner
+prisoner procured a weekend pass
+prisoner",the prisoner procured a weekend pass whispered to the guard,0.07285396009683609,0
+GP-U-AM,the prisoner who was procured a weekend pass whispered to the guard.,Who whispered?,"the prisoner who was procured a weekend pass
+the prisoner
+prisoner who was procured a weekend pass
+prisoner",the prisoner who was procured a weekend pass whispered to the guard,0.09500225633382797,0
+GP-U-PM,the prisoner who was procured a weekend pass whispered to the guard.,Who was whispered to?,"the guard
+guard",the guard,0.4939362704753876,1
+GP-U-PE,the prisoner who was procured a weekend pass whispered to the guard.,Who was procured a weekend pass?,"the prisoner who was procured a weekend pass
+the prisoner
+prisoner who was procured a weekend pass
+prisoner",the prisoner,0.3645753860473633,1
+GP-U-A1,the prisoner who was procured a weekend pass whispered to the guard.,What did the prisoner do?,"whispered to the guard
+whispered",procured a weekend pass,0.236345112323761,0
+GP-A-PM,the reporter told the rumour yelled at the witness.,Who was yelled at?,"the witness
+witness",the witness,0.5054031014442444,1
+GP-A-PE,the reporter told the rumour yelled at the witness.,Who was told the rumour?,"the reporter told the rumour
+the reporter
+reporter told the rumour
+reporter",the reporter told the rumour yelled at the witness,0.08628436923027039,0
+GP-A-A1,the reporter told the rumour yelled at the witness.,What did the reporter do?,"yelled at the witness
+yelled",witness,0.3685078024864197,0
+GP-A-AM,the reporter told the rumour yelled at the witness.,Who yelled?,"the reporter told the rumour
+the reporter
+reporter told the rumour
+reporter",the witness,0.01924070157110691,0
+GP-U-AM,the reporter who was told the rumour yelled at the witness.,Who yelled?,"the reporter who was told the rumour
+the reporter
+reporter who was told the rumour
+reporter",the reporter who was told the rumour yelled at the witness,0.02863454446196556,0
+GP-U-PM,the reporter who was told the rumour yelled at the witness.,Who was yelled at?,"the witness
+witness",the witness,0.3095753490924835,1
+GP-U-PE,the reporter who was told the rumour yelled at the witness.,Who was told the rumour?,"the reporter who was told the rumour
+the reporter
+reporter who was told the rumour
+reporter",the reporter,0.3871406316757202,1
+GP-U-A1,the reporter who was told the rumour yelled at the witness.,What did the reporter do?,"yelled at the witness
+yelled",yelled at the witness.,0.47707873582839966,1
+GP-A-PM,the scientist shipped critical supplies admired the tribesmen.,Who was admired?,"the tribesmen
+tribesmen",the tribesmen,0.7430862188339233,1
+GP-A-PE,the scientist shipped critical supplies admired the tribesmen.,Who was shipped critical supplies?,"the scientist shipped critical supplies
+the scientist
+scientist shipped critical supplies
+scientist",the scientist,0.009804094210267067,1
+GP-A-A1,the scientist shipped critical supplies admired the tribesmen.,What did the scientist do?,"admired the tribesmen
+admired",shipped critical supplies,0.24060063064098358,0
+LC-A-AM,the tribesmen admired the scientist shipped critical supplies.,Who admired the scientist?,"the tribesmen
+tribesmen",the tribesmen,0.5257318019866943,1
+LC-A-PM,the tribesmen admired the scientist shipped critical supplies.,Who was admired?,"the scientist shipped critical supplies
+the scientist
+scientist shipped critical supplies
+scientist",the scientist shipped critical supplies,0.4281744062900543,1
+LC-A-PE,the tribesmen admired the scientist shipped critical supplies.,Who was shipped critical supplies?,"the scientist
+scientist",the scientist,0.004151137545704842,1
+LC-A-A2,the guard whispered to the prisoner procured a weekend pass.,What did the prisoner get?,"procured a weekend pass
+a weekend pass
+procured a weekend pass
+weekend pass",a weekend pass,0.8093996644020081,1
+LC-A-A1,the tribesmen admired the scientist shipped critical supplies.,What did the tribesmen do?,"admired the scientist
+admired the scientist shipped critical supplies
+admired",admired the scientist shipped critical supplies,0.0021263216622173786,1
+GP-A-AM,the scientist shipped critical supplies admired the tribesmen.,Who admired the tribesman?,"the scientist shipped critical supplies
+the scientist
+scientist shipped critical supplies
+scientist",the scientist shipped critical supplies,0.39219462871551514,1
+GP-U-AM,the scientist who was shipped critical supplies admired the tribesmen.,Who admired the tribesman?,"the scientist who was shipped critical supplies
+the scientist
+scientist who was shipped critical supplies
+scientist",the scientist who was shipped critical supplies,0.05961364507675171,1
+GP-U-PM,the scientist who was shipped critical supplies admired the tribesmen.,Who was admired?,"the tribesmen
+tribesmen",the tribesmen,0.2625997066497803,1
+GP-U-PE,the scientist who was shipped critical supplies admired the tribesmen.,Who was shipped critical supplies?,"the scientist who was shipped critical supplies
+the scientist
+scientist who was shipped critical supplies
+scientist",the scientist,0.024223798885941505,1
+GP-U-A1,the scientist who was shipped critical supplies admired the tribesmen.,What did the scientist do?,"admired the tribesmen
+admired",shipped critical supplies,0.2610469460487366,0
+LC-U-AM,the tribesmen admired the scientist who was shipped critical supplies.,Who admired the scientist?,"the tribesmen
+tribesmen",the tribesmen,0.1539541333913803,1
+LC-U-PM,the tribesmen admired the scientist who was shipped critical supplies.,Who was admired?,"the scientist who was shipped critical supplies
+the scientist
+scientist who was shipped critical supplies
+scientist",the scientist who was shipped critical supplies.,0.04946443811058998,1
+LC-U-PE,the tribesmen admired the scientist who was shipped critical supplies.,Who was shipped critical supplies?,"the scientist
+scientist",scientist,0.5167876482009888,1
+LC-U-A2,the tribesmen admired the scientist who was shipped critical supplies.,What did the scientist get?,"shipped critical supplies
+critical supplies",shipped critical supplies,0.47690001130104065,1
+LC-U-A1,the tribesmen admired the scientist who was shipped critical supplies.,What did the tribesmen do?,"admired the scientist
+admired the scientist who was shipped critical supplies
+admired",admired the scientist,0.017788000404834747,1
+GP-A-PM,the secretary poured a beer chatted up the lawyer.,Who was chatted up?,"the lawyer
+lawyer",the lawyer,0.6010528206825256,1
+GP-A-PE,the secretary poured a beer chatted up the lawyer.,Who was poured a beer?,"the secretary poured a beer
+the secretary
+secretary poured a beer
+secretary",the secretary,0.02786007523536682,1
+GP-A-A1,the secretary poured a beer chatted up the lawyer.,What did the secretary do?,"chatted up the lawyer
+chatted
+chatted up",poured a beer chatted up the lawyer,0.2032564878463745,0
+GP-A-AM,the secretary poured a beer chatted up the lawyer.,Who chatted up the lawyer?,"the secretary poured a beer
+the secretary
+secretary poured a beer
+secretary",the secretary,0.2700159549713135,1
+GP-U-AM,the secretary who was poured a beer chatted up the lawyer.,Who chatted up the lawyer?,"the secretary who was poured a beer
+the secretary
+secretary who was poured a beer
+secretary",the secretary,0.10681171715259552,1
+GP-U-PM,the secretary who was poured a beer chatted up the lawyer.,Who was chatted up?,"the lawyer
+lawyer",the lawyer,0.01789216138422489,1
+GP-U-PE,the secretary who was poured a beer chatted up the lawyer.,Who was poured a beer?,"the secretary who was poured a beer
+the secretary
+secretary who was poured a beer
+secretary",the secretary,0.24719662964344025,1
+GP-U-A1,the secretary who was poured a beer chatted up the lawyer.,What did the secretary do?,"chatted up the lawyer
+chatted
+chatted up",chatted up the lawyer,0.10174448788166046,1
+GP-A-PM,the settlers built a log cabin thanked the neighbours.,Who was thanked?,"the neighbours
+neighbours",neighbours,0.4907388985157013,1
+GP-A-PE,the settlers built a log cabin thanked the neighbours.,Who was built a log cabin?,"the settlers built a log cabin
+the settlers
+settlers built a log cabin
+settlers",the settlers,0.24497158825397491,1
+GP-A-A1,the settlers built a log cabin thanked the neighbours.,What did the settlers do?,thanked the neighbours,built a log cabin thanked the neighbours,0.6458243727684021,0
+LC-A-AM,the neighbours thanked the settlers built a log cabin.,Who thanked the settlers?,"the neighbours
+neighbours",the neighbours,0.2980938255786896,1
+LC-A-PM,the neighbours thanked the settlers built a log cabin.,Who was thanked?,"the settlers built a log cabin
+the settlers
+settlers built a log cabin
+settlers",the neighbours thanked the settlers built a log cabin.,0.25938743352890015,0
+LC-A-PE,the neighbours thanked the settlers built a log cabin.,Who was built a log cabin?,"the settlers
+settlers",the neighbours thanked the settlers,0.183807834982872,0
+LC-A-A2,the witness yelled at the reporter told the rumour.,What did the reporter get?,"told the rumour
+the rumour
+told the rumour
+rumour",rumour.,5.580511060543358e-05,1
+LC-A-A1,the neighbours thanked the settlers built a log cabin.,What did the neighbours do?,"thanked the settlers
+thanked the settlers built a log cabin",the neighbours thanked the settlers built a log cabin,0.1263306438922882,0
+GP-A-AM,the settlers built a log cabin thanked the neighbours.,Who thanked the neighbours?,"the settlers built a log cabin
+the settlers
+settlers built a log cabin
+settlers",the settlers built a log cabin thanked the neighbours.,0.07680388540029526,0
+GP-U-AM,the settlers who were built a log cabin thanked the neighbours.,Who thanked the neighbours?,"the settlers who were built a log cabin
+the settlers
+settlers who were built a log cabin
+settlers",the settlers who were built a log cabin,0.45629051327705383,1
+GP-U-PM,the settlers who were built a log cabin thanked the neighbours.,Who was thanked?,"the neighbours
+neighbours",the neighbours,0.5140948295593262,1
+GP-U-PE,the settlers who were built a log cabin thanked the neighbours.,Who was built a log cabin?,"the settlers who were built a log cabin
+the settlers
+settlers who were built a log cabin
+settlers",the settlers,0.5283786654472351,1
+GP-U-A1,the settlers who were built a log cabin thanked the neighbours.,What did the settlers do?,thanked the neighbours,thanked the neighbours,0.556511640548706,1
+LC-U-AM,the neighbours thanked the settlers who were built a log cabin.,Who thanked the settlers?,"the neighbours
+neighbours",the neighbours,0.3278875946998596,1
+LC-U-PM,the neighbours thanked the settlers who were built a log cabin.,Who was thanked?,"the settlers who were built a log cabin
+the settlers
+settlers who were built a log cabin
+settlers",the neighbours,0.14443625509738922,0
+LC-U-PE,the neighbours thanked the settlers who were built a log cabin.,Who was built a log cabin?,"the settlers
+settlers",the neighbours thanked the settlers,0.4378594160079956,0
+LC-U-A2,the neighbours thanked the settlers who were built a log cabin.,What did the settlers get?,"built a log cabin
+a log cabin
+built a log cabin
+log cabin",thanked the settlers who were built a log cabin,0.1602390706539154,0
+LC-U-A1,the neighbours thanked the settlers who were built a log cabin.,What did the neighbours do?,"thanked the settlers
+thanked the settlers who were built a log cabin",thanked,0.3680696487426758,0
+GP-A-PM,the spy served a dry martini watched the villain.,Who was watched?,"the villain
+villain",the villain,0.3357274830341339,1
+GP-A-PE,the spy served a dry martini watched the villain.,Who was served a dry martini?,"the spy served a dry martini
+the spy
+spy served a dry martini
+spy",the spy,0.17563247680664062,1
+GP-A-A1,the spy served a dry martini watched the villain.,What did the spy do?,"watched the villain
+watched",served a dry martini watched the villain.,0.1548851877450943,0
+LC-A-AM,the villain watched the spy served a dry martini.,Who watched the spy?,"the villain
+villain",the villain,0.3811948895454407,1
+LC-A-PM,the villain watched the spy served a dry martini.,Who was watched?,"the spy served a dry martini
+the spy
+spy served a dry martini
+spy",the villain,0.0027692837174981833,0
+LC-A-PE,the villain watched the spy served a dry martini.,Who was served a dry martini?,"the spy
+spy",the spy,0.41746485233306885,1
+LC-A-A2,the tribesmen admired the scientist shipped critical supplies.,What did the scientist get?,"shipped critical supplies
+critical supplies",shipped critical supplies,0.29590556025505066,1
+LC-A-A1,the villain watched the spy served a dry martini.,What did the villain do?,"watched the spy
+watched the spy served a dry martini
+watched",watched the spy served a dry martini,0.31941574811935425,1
+GP-A-AM,the spy served a dry martini watched the villain.,Who watched the villain?,"the spy served a dry martini
+the spy
+spy served a dry martini
+spy",the spy,0.06548050045967102,1
+GP-U-AM,the spy who was served a dry martini watched the villain.,Who watched the villain?,"the spy who was served a dry martini
+the spy
+spy who was served a dry martini
+spy",the spy,0.272358775138855,1
+GP-U-PM,the spy who was served a dry martini watched the villain.,Who was watched?,"the villain
+villain",the villain,0.08209210634231567,1
+GP-U-PE,the spy who was served a dry martini watched the villain.,Who was served a dry martini?,"the spy who was served a dry martini
+the spy
+spy who was served a dry martini
+spy",the spy,0.6589634418487549,1
+GP-U-A1,the spy who was served a dry martini watched the villain.,What did the spy do?,"watched the villain
+watched",watched the villain.,0.12848328053951263,1
+LC-U-AM,the villain watched the spy who was served a dry martini.,Who watched the spy?,"the villain
+villain",the villain,0.19412577152252197,1
+LC-U-PM,the villain watched the spy who was served a dry martini.,Who was watched?,"the spy who was served a dry martini
+the spy
+spy who was served a dry martini
+spy",the spy,0.03612586483359337,1
+LC-U-PE,the villain watched the spy who was served a dry martini.,Who was served a dry martini?,"the spy
+spy",the spy,0.8098008632659912,1
+LC-U-A2,the villain watched the spy who was served a dry martini.,What did the spy get?,"served a dry martini
+a dry martini
+served a dry martini
+dry martini",a dry martini,0.7423782348632812,1
+LC-U-A1,the villain watched the spy who was served a dry martini.,What did the villain do?,"watched the spy
+watched the spy who was served a dry martini
+watched",watched the spy who was served a dry martini,0.39539384841918945,1
+GP-A-PM,the student baked a cake called the roommate.,Who was called?,"the roommate
+roommate",the roommate,0.5067936778068542,1
+GP-A-PE,the student baked a cake called the roommate.,Who was baked a cake?,"the student baked a cake
+the student
+student baked a cake
+student",the roommate,0.07668119668960571,0
+GP-A-A1,the student baked a cake called the roommate.,What did the student do?,"called the roommate
+called",baked a cake called the roommate,0.6720567941665649,0
+LC-A-AM,the roommate called the student baked a cake.,Who called?,"the roommate
+roommate",the roommate,0.1374548226594925,1
+LC-A-PM,the roommate called the student baked a cake.,Who was called?,"the student baked a cake
+the student
+student baked a cake
+student",the roommate,0.029021937400102615,0
+LC-A-PE,the roommate called the student baked a cake.,Who was baked a cake?,"the student
+student",the roommate,0.053811416029930115,0
+LC-A-A2,the lawyer chatted up the secretary poured a beer.,What did the secretary get?,"poured a beer
+a beer
+poured a beer
+beer",beer,0.01114125456660986,1
+LC-A-A1,the roommate called the student baked a cake.,What did the roommate do?,"called the student
+called the student baked a cake
+called",baked a cake,0.3003987967967987,0
+GP-A-AM,the student baked a cake called the roommate.,Who called?,"the student baked a cake
+the student
+student baked a cake
+student",the roommate,0.10084481537342072,0
+GP-A-PM,the student called a bad name knew the bus driver.,Who was known?,"the bus driver
+bus driver",the bus driver,0.21097595989704132,1
+GP-A-PE,the student called a bad name knew the bus driver.,Who was called a bad name?,"the student called a bad name
+the student
+student called a bad name
+student",the bus driver,0.0537048764526844,0
+GP-A-A1,the student called a bad name knew the bus driver.,What did the student do?,knew the bus driver,called a bad name,0.4875989556312561,0
+LC-A-AM,the bus driver knew the student called a bad name.,Who knew the student?,"the bus driver
+bus driver",bus driver,0.14812377095222473,1
+LC-A-PM,the bus driver knew the student called a bad name.,Who was known?,"the student called a bad name
+the student
+student called a bad name
+student",the bus driver knew the student called a bad name,0.09409556537866592,0
+LC-A-PE,the bus driver knew the student called a bad name.,Who was called a bad name?,"the student
+student",the student,0.04490754008293152,1
+LC-A-A2,the neighbours thanked the settlers built a log cabin.,What did the settlers get?,"built a log cabin
+a log cabin
+built a log cabin
+log cabin",built a log cabin,0.05934395268559456,1
+LC-A-A1,the bus driver knew the student called a bad name.,What did the bus driver do?,"knew the student
+knew the student called a bad name",knew the student called a bad name,0.18773537874221802,1
+GP-A-AM,the student called a bad name knew the bus driver.,Who knew the bus driver?,"the student called a bad name
+the student
+student called a bad name
+student",the student called a bad name,0.19467228651046753,1
+GP-A-PM,the student found a scholarship talked to a professor.,Who was talked to?,"a professor
+professor",a professor,0.12270323187112808,1
+GP-A-PE,the student found a scholarship talked to a professor.,Who was found a scholarship?,"the student found a scholarship
+the student
+student found a scholarship
+student",the student,0.00183252920396626,1
+GP-A-A1,the student found a scholarship talked to a professor.,What did the student do?,"talked to a professor
+talked",the student found a scholarship talked to a professor,0.1893625557422638,0
+GP-A-AM,the student found a scholarship talked to a professor.,Who talked?,"the student found a scholarship
+the student
+student found a scholarship
+student",a professor,0.2675265967845917,0
+GP-U-AM,the student who was baked a cake called the roommate.,Who called?,"the student who was baked a cake
+the student
+student who was baked a cake
+student",the student who was baked a cake called the roommate,0.18825428187847137,0
+GP-U-PM,the student who was baked a cake called the roommate.,Who was called?,"the roommate
+roommate",roommate,0.36684638261795044,1
+GP-U-PE,the student who was baked a cake called the roommate.,Who was baked a cake?,"the student who was baked a cake
+the student
+student who was baked a cake
+student",the roommate,0.3808191120624542,0
+GP-U-A1,the student who was baked a cake called the roommate.,What did the student do?,"called the roommate
+called",baked a cake,0.42222753167152405,0
+LC-U-AM,the roommate called the student who was baked a cake.,Who called?,"the roommate
+roommate",the roommate,0.11672279238700867,1
+LC-U-PM,the roommate called the student who was baked a cake.,Who was called?,"the student who was baked a cake
+the student
+student who was baked a cake
+student",the roommate,0.044468481093645096,0
+LC-U-PE,the roommate called the student who was baked a cake.,Who was baked a cake?,"the student
+student",the roommate called the student,0.2630594074726105,0
+LC-U-A2,the roommate called the student who was baked a cake.,What did the student get?,"baked a cake
+a cake
+baked a cake
+cake",a cake,0.43577295541763306,1
+LC-U-A1,the roommate called the student who was baked a cake.,What did the roommate do?,"called the student
+called the student who was baked a cake
+called",called the student who was baked a cake,0.7329398989677429,1
+GP-U-AM,the student who was called a bad name knew the bus driver.,Who knew the bus driver?,"the student who was called a bad name
+the student
+student who was called a bad name
+student",the student who was called a bad name,0.14173725247383118,1
+GP-U-PM,the student who was called a bad name knew the bus driver.,Who was known?,"the bus driver
+bus driver",the student who was called a bad name knew the bus driver,0.24195720255374908,0
+GP-U-PE,the student who was called a bad name knew the bus driver.,Who was called a bad name?,"the student who was called a bad name
+the student
+student who was called a bad name
+student",the student who was called a bad name knew the bus driver,0.02423255704343319,0
+GP-U-A1,the student who was called a bad name knew the bus driver.,What did the student do?,knew the bus driver,knew the bus driver,0.4899916350841522,1
+LC-U-AM,the bus driver knew the student who was called a bad name.,Who knew the student?,"the bus driver
+bus driver",bus driver,0.4087510108947754,1
+LC-U-PM,the bus driver knew the student who was called a bad name.,Who was known?,"the student who was called a bad name
+the student
+student who was called a bad name
+student",the student who was called a bad name,0.04878365620970726,1
+LC-U-PE,the bus driver knew the student who was called a bad name.,Who was called a bad name?,"the student
+student",the student,0.3562214970588684,1
+LC-U-A2,the bus driver knew the student who was called a bad name.,What did the student get?,"called a bad name
+a bad name
+called a bad name
+bad name",a bad name,0.026095278561115265,1
+LC-U-A1,the bus driver knew the student who was called a bad name.,What did the bus driver do?,"knew the student
+knew the student who was called a bad name",knew the student who was called a bad name.,0.06600143760442734,1
+GP-U-AM,the student who was found a scholarship talked to a professor.,Who talked?,"the student who was found a scholarship
+the student
+student who was found a scholarship
+student",a professor,0.2080550640821457,0
+GP-U-PM,the student who was found a scholarship talked to a professor.,Who was talked to?,"a professor
+professor",a professor,0.2688952684402466,1
+GP-U-PE,the student who was found a scholarship talked to a professor.,Who was found a scholarship?,"the student who was found a scholarship
+the student
+student who was found a scholarship
+student",the student,0.25794717669487,1
+GP-U-A1,the student who was found a scholarship talked to a professor.,What did the student do?,"talked to a professor
+talked",talked to a professor,0.570066511631012,1
+GP-A-PM,the teenager burned a cd smiled at the cheerleader.,Who was smiled at?,"the cheerleader
+cheerleader",the cheerleader,0.44037240743637085,1
+GP-A-PE,the teenager burned a cd smiled at the cheerleader.,Who was burned a cd?,"the teenager burned a cd
+the teenager
+teenager burned a cd
+teenager",cheerleader,0.058356232941150665,0
+GP-A-A1,the teenager burned a cd smiled at the cheerleader.,What did the teenager do?,"smiled at the cheerleader
+smiled",burned a cd smiled at the cheerleader.,0.3619607090950012,0
+GP-A-AM,the teenager burned a cd smiled at the cheerleader.,Who smiled?,"the teenager burned a cd
+the teenager
+teenager burned a cd
+teenager",the cheerleader,0.3123941421508789,0
+GP-U-AM,the teenager who was burned a cd smiled at the cheerleader.,Who smiled?,"the teenager who was burned a cd
+the teenager
+teenager who was burned a cd
+teenager",the teenager who was burned a cd smiled at the cheerleader,0.31547829508781433,0
+GP-U-PM,the teenager who was burned a cd smiled at the cheerleader.,Who was smiled at?,"the cheerleader
+cheerleader",the cheerleader,0.4124189019203186,1
+GP-U-PE,the teenager who was burned a cd smiled at the cheerleader.,Who was burned a cd?,"the teenager who was burned a cd
+the teenager
+teenager who was burned a cd
+teenager",the teenager,0.40776365995407104,1
+GP-U-A1,the teenager who was burned a cd smiled at the cheerleader.,What did the teenager do?,"smiled at the cheerleader
+smiled",burned,0.2323533296585083,0
+GP-A-PM,the traveller booked the flight spotted a cab driver.,Who was spotted?,"a cab driver
+cab driver",a cab driver,0.8013862371444702,1
+GP-A-PE,the traveller booked the flight spotted a cab driver.,Who was booked the flight?,"the traveller booked the flight
+the traveller
+traveller booked the flight
+traveller",a cab driver,0.8205603957176208,0
+GP-A-A1,the traveller booked the flight spotted a cab driver.,What did the traveller do?,"spotted a cab driver
+spotted",booked the flight spotted a cab driver,0.5798674821853638,0
+LC-A-AM,a cab driver spotted the traveller booked the flight.,Who spotted the traveller?,"a cab driver
+cab driver",a cab driver,0.6844618916511536,1
+LC-A-PM,a cab driver spotted the traveller booked the flight.,Who was spotted?,"the traveller booked the flight
+the traveller
+traveller booked the flight
+traveller",a cab driver,0.08978290110826492,0
+LC-A-PE,a cab driver spotted the traveller booked the flight.,Who was booked the flight?,"the traveller
+traveller",a cab driver,0.32212263345718384,0
+LC-A-A2,the villain watched the spy served a dry martini.,What did the spy get?,"served a dry martini
+a dry martini
+served a dry martini
+dry martini",a dry martini,0.6360979676246643,1
+LC-A-A1,a cab driver spotted the traveller booked the flight.,What did the cab driver do?,"spotted the traveller
+spotted the traveller booked the flight
+spotted",spotted the traveller booked the flight.,0.040580686181783676,1
+GP-A-AM,the traveller booked the flight spotted a cab driver.,Who spotted a cab driver?,"the traveller booked the flight
+the traveller
+traveller booked the flight
+traveller",the traveller,0.111576147377491,1
+GP-U-AM,the traveller who was booked the flight spotted a cab driver.,Who spotted a cab driver?,"the traveller who was booked the flight
+the traveller
+traveller who was booked the flight
+traveller",the traveller,0.6969815492630005,1
+GP-U-PM,the traveller who was booked the flight spotted a cab driver.,Who was spotted?,"a cab driver
+cab driver",a cab driver,0.5534501671791077,1
+GP-U-PE,the traveller who was booked the flight spotted a cab driver.,Who was booked the flight?,"the traveller who was booked the flight
+the traveller
+traveller who was booked the flight
+traveller",a cab driver,0.11473963409662247,0
+GP-U-A1,the traveller who was booked the flight spotted a cab driver.,What did the traveller do?,"spotted a cab driver
+spotted",spotted a cab driver,0.39277276396751404,1
+LC-U-AM,a cab driver spotted the traveller who was booked the flight.,Who spotted the traveller?,"a cab driver
+cab driver",a cab driver,0.7102174758911133,1
+LC-U-PM,a cab driver spotted the traveller who was booked the flight.,Who was spotted?,"the traveller who was booked the flight
+the traveller
+traveller who was booked the flight
+traveller",the traveller,0.06390164792537689,1
+LC-U-PE,a cab driver spotted the traveller who was booked the flight.,Who was booked the flight?,"the traveller
+traveller",the traveller,0.48535993695259094,1
+LC-U-A2,a cab driver spotted the traveller who was booked the flight.,What did the traveller get?,"booked the flight
+the flight
+booked the flight
+flight",booked the flight,0.007107547018676996,1
+LC-U-A1,a cab driver spotted the traveller who was booked the flight.,What did the cab driver do?,"spotted the traveller
+spotted the traveller who was booked the flight
+spotted",spotted the traveller,0.06508489698171616,1
+GP-A-PM,the woman offered a free drink winked at the bartender.,Who was winked at?,"the bartender
+bartender",the bartender,0.056953154504299164,1
+GP-A-PE,the woman offered a free drink winked at the bartender.,Who was offered a free drink?,"the woman offered a free drink
+the woman
+woman offered a free drink
+woman",the woman,0.5697817802429199,1
+GP-A-A1,the woman offered a free drink winked at the bartender.,What did the woman do?,"winked at the bartender
+winked",offered a free drink winked at the bartender,0.10875210911035538,0
+GP-A-AM,the woman offered a free drink winked at the bartender.,Who winked?,"the woman offered a free drink
+the woman
+woman offered a free drink
+woman",the woman offered a free drink winked at the bartender,0.006337076425552368,0
+GP-A-PM,the woman painted the portrait waved at the mayor.,Who was waved to?,"the mayor
+mayor",the mayor,0.47482576966285706,1
+GP-A-PE,the woman painted the portrait waved at the mayor.,Who was painted the portrait?,"the woman painted the portrait
+the woman
+woman painted the portrait
+woman",the woman,0.0017280243337154388,1
+GP-A-A1,the woman painted the portrait waved at the mayor.,What did the woman do?,"waved at the mayor
+waved",painted the portrait,0.4739817678928375,0
+GP-A-AM,the woman painted the portrait waved at the mayor.,Who waved?,"the woman painted the portrait
+the woman
+woman painted the portrait
+woman",the woman painted the portrait waved at the mayor,0.06444966048002243,0
+GP-U-AM,the woman who was offered a free drink winked at the bartender.,Who winked?,"the woman who was offered a free drink
+the woman
+woman who was offered a free drink
+woman",the woman who was offered a free drink winked at the bartender,0.03811740502715111,0
+GP-U-PM,the woman who was offered a free drink winked at the bartender.,Who was winked at?,"the bartender
+bartender",the woman who was offered a free drink winked at the bartender,0.16735458374023438,0
+GP-U-PE,the woman who was offered a free drink winked at the bartender.,Who was offered a free drink?,"the woman who was offered a free drink
+the woman
+woman who was offered a free drink
+woman",the woman,0.6157368421554565,1
+GP-U-A1,the woman who was offered a free drink winked at the bartender.,What did the woman do?,"winked at the bartender
+winked",winked,0.09005138278007507,1
+GP-U-AM,the woman who was painted the portrait waved at the mayor.,Who waved?,"the woman who was painted the portrait
+the woman
+woman who was painted the portrait
+woman",the woman who was painted the portrait waved at the mayor.,0.12557630240917206,0
+GP-U-PM,the woman who was painted the portrait waved at the mayor.,Who was waved to?,"the mayor
+mayor",the mayor,0.18821214139461517,1
+GP-U-PE,the woman who was painted the portrait waved at the mayor.,Who was painted the portrait?,"the woman who was painted the portrait
+the woman
+woman who was painted the portrait
+woman",the woman,0.010652052238583565,1
+GP-U-A1,the woman who was painted the portrait waved at the mayor.,What did the woman do?,"waved at the mayor
+waved",waved at the mayor,0.46124404668807983,1
+LC-A-AM,the banker bragged to the millionaire sculpted a statue.,Who bragged?,"the banker
+banker",the banker,0.04413534328341484,1
+LC-A-PM,the banker bragged to the millionaire sculpted a statue.,Who was bragged to?,"the millionaire sculpted a statue
+the millionaire
+millionaire sculpted a statue
+millionaire",the millionaire sculpted a statue.,0.002078668912872672,1
+LC-A-PE,the banker bragged to the millionaire sculpted a statue.,Who was sculpted a statue?,"the millionaire
+millionaire",the banker bragged to the millionaire,0.008092861622571945,0
+LC-A-A2,a professor talked to the student found a scholarship.,What did the student get?,"found a scholarship
+a scholarship
+found a scholarship
+scholarship",a scholarship,0.6185497045516968,1
+LC-A-A1,the banker bragged to the millionaire sculpted a statue.,What did the banker do?,"bragged to the millionaire
+bragged to the millionaire sculpted a statue
+bragged",bragged to the millionaire sculpted a statue,0.47774580121040344,1
+LC-U-AM,the banker bragged to the millionaire who was sculpted a statue.,Who bragged?,"the banker
+banker",the banker,0.017934657633304596,1
+LC-U-PM,the banker bragged to the millionaire who was sculpted a statue.,Who was bragged to?,"the millionaire who was sculpted a statue
+the millionaire
+millionaire who was sculpted a statue
+millionaire",banker,0.00027380953542888165,0
+LC-U-PE,the banker bragged to the millionaire who was sculpted a statue.,Who was sculpted a statue?,"the millionaire
+millionaire",the millionaire,0.45084765553474426,1
+LC-U-A2,the banker bragged to the millionaire who was sculpted a statue.,What did the millionaire get?,"sculpted a statue
+a statue
+sculpted a statue
+statue",a statue,0.18747997283935547,1
+LC-U-A1,the banker bragged to the millionaire who was sculpted a statue.,What did the banker do?,"bragged to the millionaire
+bragged to the millionaire who was sculpted a statue
+bragged",bragged to the millionaire who was sculpted a statue.,0.30558323860168457,1
+LC-A-AM,the guard whispered to the prisoner procured a weekend pass.,Who whispered?,"the guard
+guard",the guard,0.03657350689172745,1
+LC-A-PM,the guard whispered to the prisoner procured a weekend pass.,Who was whispered to?,"the prisoner procured a weekend pass
+the prisoner
+prisoner procured a weekend pass
+prisoner",the guard,0.004956246819347143,0
+LC-A-PE,the guard whispered to the prisoner procured a weekend pass.,Who was procured a weekend pass?,"the prisoner
+prisoner",the guard,0.22421741485595703,0
+LC-A-A2,the bus driver knew the student called a bad name.,What did the student get?,"called a bad name
+a bad name
+called a bad name
+bad name",bad name,0.01630207523703575,1
+LC-A-A1,the guard whispered to the prisoner procured a weekend pass.,What did the guard do?,"whispered to the prisoner
+whispered to the prisoner procured a weekend pass
+whispered",procured a weekend pass,0.35742518305778503,0
+LC-U-AM,the guard whispered to the prisoner who was procured a weekend pass.,Who whispered?,"the guard
+guard",the guard,0.012157241813838482,1
+LC-U-PM,the guard whispered to the prisoner who was procured a weekend pass.,Who was whispered to?,"the prisoner who was procured a weekend pass
+the prisoner
+prisoner who was procured a weekend pass
+prisoner",the guard,0.001567654311656952,0
+LC-U-PE,the guard whispered to the prisoner who was procured a weekend pass.,Who was procured a weekend pass?,"the prisoner
+prisoner",the prisoner,0.47181907296180725,1
+LC-U-A2,the guard whispered to the prisoner who was procured a weekend pass.,What did the prisoner get?,"procured a weekend pass
+a weekend pass
+procured a weekend pass
+weekend pass",a weekend pass,0.9269075393676758,1
+LC-U-A1,the guard whispered to the prisoner who was procured a weekend pass.,What did the guard do?,"whispered to the prisoner
+whispered to the prisoner who was procured a weekend pass
+whispered",whispered,0.20755934715270996,1
+LC-A-AM,a professor talked to the student found a scholarship.,Who talked?,"a professor
+professor",a professor,0.005075594410300255,1
+LC-A-PM,a professor talked to the student found a scholarship.,Who was talked to?,"the student found a scholarship
+the student
+student found a scholarship
+student",a professor talked to the student found a scholarship.,0.00048818663344718516,0
+LC-A-PE,a professor talked to the student found a scholarship.,Who was found a scholarship?,"the student
+student",a professor,0.005971837788820267,0
+LC-A-A2,the roommate called the student baked a cake.,What did the student get?,"baked a cake
+a cake
+baked a cake
+cake",cake,0.5689576268196106,1
+LC-A-A1,a professor talked to the student found a scholarship.,What did a professor do?,"talked to the student
+talked to the student found a scholarship
+talked",talked to the student found a scholarship.,0.3634357750415802,1
+LC-U-AM,a professor talked to the student who was found a scholarship.,Who talked?,"a professor
+professor",a professor,0.011065739206969738,1
+LC-U-PM,a professor talked to the student who was found a scholarship.,Who was talked to?,"the student who was found a scholarship
+the student
+student who was found a scholarship
+student",the student who was found a scholarship.,0.0003540816542226821,1
+LC-U-PE,a professor talked to the student who was found a scholarship.,Who was found a scholarship?,"the student
+student",a professor talked to the student,0.05700822174549103,0
+LC-U-A2,a professor talked to the student who was found a scholarship.,What did the student get?,"found a scholarship
+a scholarship
+found a scholarship
+scholarship",a scholarship,0.8091680407524109,1
+LC-U-A1,a professor talked to the student who was found a scholarship.,What did a professor do?,"talked to the student
+talked to the student who was found a scholarship
+talked",talked to the student who was found a scholarship.,0.5569417476654053,1
+LC-A-AM,the mayor waved to the woman painted the portrait.,Who waved?,"the mayor
+mayor",the mayor,0.0918537974357605,1
+LC-A-PM,the mayor waved to the woman painted the portrait.,Who was waved to?,"the woman painted the portrait
+the woman
+woman painted the portrait
+woman",the woman painted the portrait,0.06889306753873825,1
+LC-A-PE,the mayor waved to the woman painted the portrait.,Who was painted the portrait?,"the woman
+woman",the mayor waved to the woman,0.2603156566619873,0
+LC-A-A2,the cheerleader smiled at the teenager burned a cd.,What did the teenager get?,"burned a cd
+a cd
+burned a cd
+cd",burned a cd,0.6881735324859619,1
+LC-A-A1,the mayor waved to the woman painted the portrait.,What did the mayor do?,"waved to the woman
+waved to the woman painted the portrait
+waved",waved to the woman painted the portrait,0.4711833596229553,1
+LC-U-AM,the mayor waved to the woman who was painted the portrait.,Who waved?,"the mayor
+mayor",the mayor,0.12610380351543427,1
+LC-U-PM,the mayor waved to the woman who was painted the portrait.,Who was waved to?,"the woman who was painted the portrait
+the woman
+woman who was painted the portrait
+woman",the woman,0.1293356865644455,1
+LC-U-PE,the mayor waved to the woman who was painted the portrait.,Who was painted the portrait?,"the woman
+woman",the woman,0.378737211227417,1
+LC-U-A2,the mayor waved to the woman who was painted the portrait.,What did the woman get?,"painted the portrait
+the portrait
+painted the portrait
+portrait",painted the portrait,0.23220668733119965,1
+LC-U-A1,the mayor waved to the woman who was painted the portrait.,What did the mayor do?,"waved to the woman
+waved to the woman who was painted the portrait
+waved",waved to the woman who was painted the portrait,0.2906797230243683,1
+LC-A-AM,the lawyer chatted up the secretary poured a beer.,Who chatted up the secretary?,"the lawyer
+lawyer",lawyer,0.13068218529224396,1
+LC-A-PM,the lawyer chatted up the secretary poured a beer.,Who was chatted up?,"the secretary poured a beer
+the secretary
+secretary poured a beer
+secretary",the secretary,0.024979615584015846,1
+LC-A-PE,the lawyer chatted up the secretary poured a beer.,Who was poured a beer?,"the secretary
+secretary",the secretary,0.5562180280685425,1
+LC-A-A2,a cab driver spotted the traveller booked the flight.,What did the traveller get?,"booked the flight
+the flight
+booked the flight
+flight",booked,0.017595652490854263,0
+LC-A-A1,the lawyer chatted up the secretary poured a beer.,What did the lawyer do?,"chatted up the secretary
+chatted up the secretary poured a beer
+chatted
+chatted up",chatted up,0.44658342003822327,1
+LC-U-AM,the lawyer chatted up the secretary who was poured a beer.,Who chatted up the secretary?,"the lawyer
+lawyer",lawyer,0.2309630662202835,1
+LC-U-PM,the lawyer chatted up the secretary who was poured a beer.,Who was chatted up?,"the secretary who was poured a beer
+the secretary
+secretary who was poured a beer
+secretary",the secretary,0.027750451117753983,1
+LC-U-PE,the lawyer chatted up the secretary who was poured a beer.,Who was poured a beer?,"the secretary
+secretary",the secretary,0.8498783707618713,1
+LC-U-A2,the lawyer chatted up the secretary who was poured a beer.,What did the secretary get?,"poured a beer
+a beer
+poured a beer
+beer",a beer,0.26346325874328613,1
+LC-U-A1,the lawyer chatted up the secretary who was poured a beer.,What did the lawyer do?,"chatted up the secretary
+chatted up the secretary who was poured a beer
+chatted up
+chatted",chatted up the secretary,0.27397945523262024,1
+LC-A-AM,the fireman argued with the inspector paid a fee.,Who argued?,"the fireman
+fireman",the fireman argued with the inspector paid a fee.,0.09890051931142807,0
+LC-A-PM,the fireman argued with the inspector paid a fee.,Who was argued with?,"the inspector paid a fee
+the inspector
+inspector paid a fee
+inspector",the inspector paid a fee,0.14004598557949066,1
+LC-A-PE,the fireman argued with the inspector paid a fee.,Who was paid a fee?,"the inspector
+inspector",the fireman argued with the inspector,0.005676704458892345,0
+LC-A-A2,the bartender winked at the woman offered a free drink.,What did the woman get?,"offered a free drink
+a free drink
+offered a free drink
+free drink",free drink,0.42171213030815125,1
+LC-A-A1,the fireman argued with the inspector paid a fee.,What did the fireman do?,"argued with the inspector
+argued with the inspector paid a fee
+argued",argued with the inspector paid a fee,0.6443527340888977,1
+LC-U-AM,the fireman argued with the inspector who was paid a fee.,Who argued?,"the fireman
+fireman",the fireman,0.06501998007297516,1
+LC-U-PM,the fireman argued with the inspector who was paid a fee.,Who was argued with?,"the inspector who was paid a fee
+the inspector
+inspector who was paid a fee
+inspector",the inspector,0.010028842836618423,1
+LC-U-PE,the fireman argued with the inspector who was paid a fee.,Who was paid a fee?,"the inspector
+inspector",inspector,0.18376149237155914,1
+LC-U-A2,the fireman argued with the inspector who was paid a fee.,What did the inspector get?,"paid a fee
+a fee
+paid a fee
+fee",a fee,0.48323366045951843,1
+LC-U-A1,the fireman argued with the inspector who was paid a fee.,What did the fireman do?,"argued with the inspector
+argued with the inspector who was paid a fee
+argued",argued with the inspector who was paid a fee,0.7325878739356995,1
+LC-A-AM,the other team interfered with the player tossed the ball.,Who interfered?,"the other team
+other team",the other team,0.30143922567367554,1
+LC-A-PM,the other team interfered with the player tossed the ball.,Who was interfered with?,"the player tossed the ball
+the player
+player tossed the ball
+player",the player tossed the ball,0.2985222637653351,1
+LC-A-PE,the other team interfered with the player tossed the ball.,Who was tossed the ball?,"the player
+player",the other team,0.03832906484603882,0
+LC-A-A2,the mayor waved to the woman painted the portrait.,What did the woman get?,"painted the portrait
+the portrait
+painted the portrait
+portrait",painted the portrait,0.4782976508140564,1
+LC-A-A1,the other team interfered with the player tossed the ball.,What did the other team do?,"interfered with the player
+interfered with the player tossed the ball
+interfered",interfered,0.1663765013217926,1
+LC-U-AM,the other team interfered with the player who was tossed the ball.,Who interfered?,"the other team
+other team",the other team,0.2221825271844864,1
+LC-U-PM,the other team interfered with the player who was tossed the ball.,Who was interfered with?,"the player who was tossed the ball
+the player
+player who was tossed the ball
+player",the player who was tossed the ball,0.21392498910427094,1
+LC-U-PE,the other team interfered with the player who was tossed the ball.,Who was tossed the ball?,"the player
+player",the other team interfered with the player,0.01925954408943653,0
+LC-U-A2,the other team interfered with the player who was tossed the ball.,What did the player get?,"tossed the ball
+the ball
+tossed the ball
+ball",tossed the ball.,0.0013314797542989254,1
+LC-U-A1,the other team interfered with the player who was tossed the ball.,What did the other team do?,"interfered with the player
+interfered with the player who was tossed the ball
+interfered",interfered,0.27722737193107605,1
+GP-A-A2,the babysitter purchased a gift card thanked the parents.,What did the babysitter get?,"purchased a gift card
+a gift card
+purchased a gift card
+gift card",a gift card,0.2966921627521515,1
+GP-A-A2,the boy sent an invitation hugged the tutor.,What did the boy get?,"an invitation
+sent an invitation
+an invitation",an invitation,0.012418963946402073,1
+GP-A-A2,the boyfriend left a voicemail distrusted the girlfriend.,What did the boyfriend get?,"left a voicemail
+a voicemail
+left a voicemail
+voicemail",girlfriend,0.0002769844140857458,0
+GP-A-A2,the brit served the first ace defeated the italian.,What did the brit get?,"served the first ace
+served the first ace
+the first ace
+first ace",the first ace defeated the italian,0.4657992124557495,0
+GP-A-A2,the chef presented the new knife greeted the audience.,What did the chef get?,"the new knife
+the new knife
+new knife
+new knife
+presented the new knife",new knife,0.0797133594751358,1
+GP-A-A2,the child bought an ice cream cone smiled at the cashier.,What did the child get?,"bought an ice cream cone
+an ice cream cone",ice cream cone,0.4232581853866577,0
+GP-A-A2,the child read a story hugged the nanny.,What did the child get?,"read a story
+read a story
+a story
+story",read a story hugged the nanny,0.0035994872450828552,0
+GP-A-A2,the child saved a front row seat surprised the clown.,What did the child get?,"saved a front row seat
+a front row seat
+saved a front row seat
+front row seat",saved a front row seat surprised the clown,0.026061492040753365,0
+GP-A-A2,the colonel granted leave phoned a travel agent.,What did the colonel get?,"granted leave
+leave",travel agent,0.002208651974797249,0
+GP-A-A2,the dispatcher handed a pink slip worried about the driver.,What did the dispatcher get?,"handed a pink slip
+a pink slip
+handed a pink slip
+pink slip",pink slip,0.47612571716308594,1
+GP-A-A2,the doctor delivered the donor organ assisted several surgeons.,What did the doctor get?,"delivered the donor organ
+the donor organ
+delivered the donor organ
+donor organ",donor organ,0.00298120453953743,1
+GP-A-A2,the general awarded the medal annoyed the soldier.,What did the general get?,"awarded the medal
+the medal
+awarded the medal
+medal",the medal,0.3286880850791931,1
+GP-A-A2,the girl passed a note tattled on the classmate.,What did the girl get?,"passed a note
+a note
+passed a note
+note",a note,0.08902561664581299,1
+GP-A-A2,the girl played a song photographed the tourist.,What did the girl get?,"played a song
+a song
+played a song
+song",a song photographed the tourist,0.06981594115495682,0
+GP-A-A2,the girl won a stuffed bear ignored the carnival worker.,What did the girl get?,"won a stuffed bear
+a stuffed bear
+won a stuffed bear
+stuffed bear",stuffed bear,0.44347041845321655,1
+GP-A-A2,the golfer cooked a special meal toasted the host.,What did the golfer get?,"cooked a special meal
+a special meal
+cooked a special meal
+special meal",a special meal,0.1434883028268814,1
+GP-A-A2,the hobo cut a slice of cheese despised the beggar.,What did the hobo get?,"cut a slice of cheese
+a slice of cheese
+cut a slice of cheese
+slice of cheese",cut a slice of cheese,0.27129653096199036,1
+GP-A-A2,the inspector paid a fee argued with the fireman.,What did the inspector get?,"paid a fee
+a fee
+paid a fee
+fee",a fee,0.08550048619508743,1
+GP-A-A2,the instructor submitted the plagiarized papers visited the dean.,What did the instructor get?,"submitted the plagiarized papers
+the plagiarized papers
+submitted the plagiarized papers
+plagiarized papers",plagiarized papers,0.0060214754194021225,1
+GP-A-A2,the manager prepared the report praised the employees.,What did the manager get?,"prepared the report
+the report
+prepared the report
+report",praised the employees,0.00015427099424414337,0
+GP-A-A2,the millionaire sculpted a statue bragged to the banker.,What did the millionaire get?,"sculpted a statue
+a statue
+sculpted a statue
+statue",a statue bragged to the banker.,0.004210540559142828,0
+GP-A-A2,the neighbour crocheted a blanket envied the mailman.,What did the neighbour get?,"crocheted a blanket
+a blanket
+crocheted a blanket
+blanket",a blanket,0.7590734362602234,1
+GP-A-A2,the old man awarded the prize embraced a friend.,What did the old get?,"awarded the prize
+the prize
+awarded the prize
+prize",awarded the prize,0.005680660251528025,1
+GP-A-A2,the pack leader knitted a scarf thanked the boy scout.,What did the pack get?,"knitted a scarf
+a scarf
+knitted a scarf
+scarf",a scarf,0.0009329736931249499,1
+GP-A-A2,the player tossed the ball interfered with the other team.,What did the player get?,"tossed the ball
+the ball
+tossed the ball
+ball",tossed the ball interfered with the other team.,0.0034746502060443163,0
+GP-A-A2,the priest mailed a request telephoned the cardinal.,What did the priest get?,"mailed a request
+a request
+mailed a request
+request",a request,0.007176067214459181,1
+GP-A-A2,the principal taught the policy emailed the teacher.,What did the principal get?,"taught the policy
+the policy
+taught the policy
+policy",policy emailed the teacher,0.0009281739476136863,0
+GP-A-A2,the prisoner procured a weekend pass whispered to the guard.,What did the prisoner get?,"procured a weekend pass
+a weekend pass
+procured a weekend pass
+weekend pass",a weekend pass whispered to the guard.,0.17440596222877502,0
+GP-A-A2,the reporter told the rumour yelled at the witness.,What did the reporter get?,"told the rumour
+the rumour
+told the rumour
+rumour",witness,0.01607329398393631,0
+GP-A-A2,the scientist shipped critical supplies admired the tribesmen.,What did the scientist get?,"shipped critical supplies
+critical supplies",shipped critical supplies admired the tribesmen,0.010957522317767143,0
+GP-A-A2,the secretary poured a beer chatted up the lawyer.,What did the secretary get?,"poured a beer
+a beer
+poured a beer
+beer",beer,0.21512088179588318,1
+GP-A-A2,the settlers built a log cabin thanked the neighbours.,What did the settlers get?,"built a log cabin
+a log cabin
+built a log cabin
+log cabin",a log cabin thanked the neighbours,0.0028137778863310814,0
+GP-A-A2,the spy served a dry martini watched the villain.,What did the spy get?,"served a dry martini
+a dry martini
+served a dry martini
+dry martini",a dry martini watched the villain.,0.1827262043952942,0
+GP-A-A2,the student baked a cake called the roommate.,What did the student get?,"baked a cake
+a cake
+baked a cake
+cake",cake,0.3763981759548187,1
+GP-A-A2,the student called a bad name knew the bus driver.,What did the student get?,"called a bad name
+a bad name
+called a bad name
+bad name",called a bad name,0.005688641220331192,1
+GP-A-A2,the student found a scholarship talked to a professor.,What did the student get?,"found a scholarship
+a scholarship
+found a scholarship
+scholarship",a scholarship,0.869207501411438,1
+GP-A-A2,the teenager burned a cd smiled at the cheerleader.,What did the teenager get?,"burned a cd
+a cd
+burned a cd
+cd",burned a cd smiled at the cheerleader,0.4286624789237976,0
+GP-A-A2,the traveller booked the flight spotted a cab driver.,What did the traveller get?,"booked the flight
+the flight
+booked the flight
+flight",a cab driver,0.4115135669708252,0
+GP-A-A2,the woman offered a free drink winked at the bartender.,What did the woman get?,"offered a free drink
+a free drink
+offered a free drink
+free drink",free,0.22760961949825287,0
+GP-A-A2,the woman painted the portrait waved at the mayor.,What did the woman get?,"painted the portrait
+the portrait
+painted the portrait
+portrait",waved at the mayor,0.05112336203455925,0
+GP-U-A2,the babysitter who was purchased a gift card thanked the parents.,What did the babysitter get?,"purchased a gift card
+a gift card
+purchased a gift card
+gift card",a gift card,0.6825839281082153,1
+GP-U-A2,the boy who was sent an invitation hugged the tutor.,What did the boy get?,"an invitation
+sent an invitation
+an invitation",an invitation,0.05803530290722847,1
+GP-U-A2,the boyfriend who was left a voicemail distrusted the girlfriend.,What did the boyfriend get?,"left a voicemail
+a voicemail
+left a voicemail
+voicemail",left a voicemail,2.9191814974183217e-05,1
+GP-U-A2,the brit who was served the first ace defeated the italian.,What did the brit get?,"served the first ace
+served the first ace
+the first ace
+first ace",the first ace,0.625741720199585,1
+GP-U-A2,the chef who was presented the new knife greeted the audience.,What did the chef get?,"the new knife
+the new knife
+new knife
+new knife
+presented the new knife",the new knife,0.6738031506538391,1
+GP-U-A2,the child who was bought an ice cream cone smiled at the cashier.,What did the child get?,"bought an ice cream cone
+an ice cream cone",an ice cream cone,0.7758015394210815,1
+GP-U-A2,the child who was read a story hugged the nanny.,What did the child get?,"read a story
+read a story
+a story
+story",the child who was read a story hugged the nanny,0.05806080996990204,0
+GP-U-A2,the child who was saved a front row seat surprised the clown.,What did the child get?,"saved a front row seat
+a front row seat
+saved a front row seat
+front row seat",saved a front row seat,0.1943325400352478,1
+GP-U-A2,the colonel who was granted leave phoned a travel agent.,What did the colonel get?,"granted leave
+leave",granted leave,0.017951060086488724,1
+GP-U-A2,the dispatcher who was handed a pink slip worried about the driver.,What did the dispatcher get?,"handed a pink slip
+a pink slip
+handed a pink slip
+pink slip",a pink slip,0.6304169297218323,1
+GP-U-A2,the doctor who was delivered the donor organ assisted several surgeons.,What did the doctor get?,"delivered the donor organ
+the donor organ
+delivered the donor organ
+donor organ",donor organ,0.011259767226874828,1
+GP-U-A2,the general who was awarded the medal annoyed the soldier.,What did the general get?,"awarded the medal
+the medal
+awarded the medal
+medal",the medal,0.7440282702445984,1
+GP-U-A2,the girl who was passed a note tattled on the classmate.,What did the girl get?,"passed a note
+a note
+passed a note
+note",a note,0.40183696150779724,1
+GP-U-A2,the girl who was played a song photographed the tourist.,What did the girl get?,"played a song
+a song
+played a song
+song",a song photographed the tourist,0.12966793775558472,0
+GP-U-A2,the girl who was won a stuffed bear ignored the carnival worker.,What did the girl get?,"won a stuffed bear
+a stuffed bear
+won a stuffed bear
+stuffed bear",a stuffed bear,0.7330641150474548,1
+GP-U-A2,the golfer who was cooked a special meal toasted the host.,What did the golfer get?,"cooked a special meal
+a special meal
+cooked a special meal
+special meal",a special meal,0.5846351981163025,1
+GP-U-A2,the hobo who was cut a slice of cheese despised the beggar.,What did the hobo get?,"cut a slice of cheese
+a slice of cheese
+cut a slice of cheese
+slice of cheese",cut a slice of cheese,0.47099506855010986,1
+GP-U-A2,the inspector who was paid a fee argued with the fireman.,What did the inspector get?,"paid a fee
+a fee
+paid a fee
+fee",paid a fee,0.6624103784561157,1
+GP-U-A2,the instructor who was submitted the plagiarized papers visited the dean.,What did the instructor get?,"submitted the plagiarized papers
+the plagiarized papers
+submitted the plagiarized papers
+plagiarized papers",the plagiarized papers,0.031182054430246353,1
+GP-U-A2,the manager who was prepared the report praised the employees.,What did the manager get?,"prepared the report
+the report
+prepared the report
+report",praised the employees,0.008528051897883415,0
+GP-U-A2,the millionaire who was sculpted a statue bragged to the banker.,What did the millionaire get?,"sculpted a statue
+a statue
+sculpted a statue
+statue",sculpted a statue,0.025828877463936806,1
+GP-U-A2,the neighbour who was crocheted a blanket envied the mailman.,What did the neighbour get?,"crocheted a blanket
+a blanket
+crocheted a blanket
+blanket",a blanket,0.4350106716156006,1
+GP-U-A2,the old man who was awarded the prize embraced a friend.,What did the old get?,"awarded the prize
+the prize
+awarded the prize
+prize",awarded the prize,0.0006029540672898293,1
+GP-U-A2,the pack leader who was knitted a scarf thanked the boy scout.,What did the pack get?,"knitted a scarf
+a scarf
+knitted a scarf
+scarf",a scarf,0.006709065288305283,1
+GP-U-A2,the player who was tossed the ball interfered with the other team.,What did the player get?,"tossed the ball
+the ball
+tossed the ball
+ball",interfered with the other team.,0.00100541184656322,0
+GP-U-A2,the priest who was mailed a request telephoned the cardinal.,What did the priest get?,"mailed a request
+a request
+mailed a request
+request",a request,0.21435625851154327,1
+GP-U-A2,the principal who was taught the policy emailed the teacher.,What did the principal get?,"taught the policy
+the policy
+taught the policy
+policy",emailed the teacher,0.0002932072093244642,0
+GP-U-A2,the prisoner who was procured a weekend pass whispered to the guard.,What did the prisoner get?,"procured a weekend pass
+a weekend pass
+procured a weekend pass
+weekend pass",a weekend pass,0.8304396271705627,1
+GP-U-A2,the reporter who was told the rumour yelled at the witness.,What did the reporter get?,"told the rumour
+the rumour
+told the rumour
+rumour",yelled at the witness.,0.0002023690758505836,0
+GP-U-A2,the scientist who was shipped critical supplies admired the tribesmen.,What did the scientist get?,"shipped critical supplies
+critical supplies",shipped critical supplies,0.04880833998322487,1
+GP-U-A2,the secretary who was poured a beer chatted up the lawyer.,What did the secretary get?,"poured a beer
+a beer
+poured a beer
+beer",beer,0.4698020815849304,1
+GP-U-A2,the settlers who were built a log cabin thanked the neighbours.,What did the settlers get?,"built a log cabin
+a log cabin
+built a log cabin
+log cabin",a log cabin,0.05120113492012024,1
+GP-U-A2,the spy who was served a dry martini watched the villain.,What did the spy get?,"served a dry martini
+a dry martini
+served a dry martini
+dry martini",a dry martini,0.44580215215682983,1
+GP-U-A2,the student who was baked a cake called the roommate.,What did the student get?,"baked a cake
+a cake
+baked a cake
+cake",a cake,0.25413593649864197,1
+GP-U-A2,the student who was called a bad name knew the bus driver.,What did the student get?,"called a bad name
+a bad name
+called a bad name
+bad name",a bad name,0.005957139655947685,1
+GP-U-A2,the student who was found a scholarship talked to a professor.,What did the student get?,"found a scholarship
+a scholarship
+found a scholarship
+scholarship",a scholarship,0.8727459907531738,1
+GP-U-A2,the teenager who was burned a cd smiled at the cheerleader.,What did the teenager get?,"burned a cd
+a cd
+burned a cd
+cd",burned,0.1215595006942749,0
+GP-U-A2,the traveller who was booked the flight spotted a cab driver.,What did the traveller get?,"booked the flight
+the flight
+booked the flight
+flight",a cab driver,0.5229953527450562,0
+GP-U-A2,the woman who was offered a free drink winked at the bartender.,What did the woman get?,"offered a free drink
+a free drink
+offered a free drink
+free drink",a free drink,0.6045968532562256,1
+GP-U-A2,the woman who was painted the portrait waved at the mayor.,What did the woman get?,"painted the portrait
+the portrait
+painted the portrait
+portrait",waved at the mayor,0.14476953446865082,0

@@ -1,0 +1,97 @@
+code	context	p1	p2	v1	v2	V1_Frame	V1_P1_Tag	V1_P2_Tag	V2_Frame	V2_P1_Tag	V2_P2_Role	V1_Alt
+GP-A-AM	the general awarded the medal annoyed the soldier.	general	soldier	award	annoy	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the inspector paid a fee argued with the fireman.	inspector	fireman	pay	argue	1	GOL	NA	1	PAG	COM	
+GP-A-AM	the doctor delivered the donor organ assisted several surgeons.	doctor	surgeons	deliver	assist	1	GOL	NA	1	PAG	GOL	
+GP-A-AM	the student baked a cake called the roommate.	student	roommate	bake	call	1	GOL	NA	7	PAG	GOL	
+GP-A-AM	the secretary poured a beer chatted up the lawyer.	secretary	lawyer	pour	chat	1	GOL	NA	1	PAG	COM	
+GP-A-AM	the brit served the first ace defeated the italian.	brit	italian	serve	defeat	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the principal taught the policy emailed the teacher.	principal	teacher	teach	email	1	GOL	NA	1	PAG	GOL	
+GP-A-AM	the old man awarded the prize embraced a friend.	man	friend	award	embrace	1	GOL	NA	2	PAG	COM	
+GP-A-AM	the chef presented the new knife greeted the audience.	chef	audience	present	greet	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the boy sent an invitation hugged the tutor.	boy	tutor	send	hug	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the girl won a stuffed bear ignored the carnival worker.	girl	worker	win	ignore	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the colonel granted leave phoned a travel agent.	colonel	agent	grant	phone	1	GOL	NA	1	PAG	GOL	
+GP-A-AM	the manager prepared the report praised the employees.	manager	employees	prepare	praise	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the babysitter purchased a gift card thanked the parents.	babysitter	parents	purchase	thank	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the child bought an ice cream cone smiled at the cashier.	child	cashier	buy	smile	1	GOL	NA	1	PAG	CAU	
+GP-A-AM	the child saved a front row seat surprised the clown.	child	clown	save	surprise	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the student found a scholarship talked to a professor.	student	professor	find	talk	1	GOL	NA	1	PAG	GOL	
+GP-A-AM	the priest mailed a request telephoned the cardinal.	priest	cardinal	mail	telephone	1	GOL	NA	1	PAG	GOL	
+GP-A-AM	the instructor submitted the plagiarized papers visited the dean.	instructor	dean	submit	visit	1	GOL	NA	1	PAG	COM	
+GP-A-AM	the spy served a dry martini watched the villain.	spy	villain	serve	watch	1	GOL	NA	1	PAG	PPT	
+GP-A-AM	the woman painted the portrait waved at the mayor.	woman	mayor	paint	wave	2	GOL	NA	1	PAG	GOL	
+GP-A-AM	the woman offered a free drink winked at the bartender.	woman	bartender	offer	wink	1	GOL	NA	1	PAG	GOL	
+GP-A-AM	the reporter told the rumour yelled at the witness.	reporter	witness	tell	yell	1	GOL	NA	1	PAG	GOL	
+GP-U-AM	the general who was awarded the medal annoyed the soldier.	general	soldier	award	annoy	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the inspector who was paid a fee argued with the fireman.	inspector	fireman	pay	argue	1	GOL	NA	1	PAG	COM	
+GP-U-AM	the doctor who was delivered the donor organ assisted several surgeons.	doctor	surgeons	deliver	assist	1	GOL	NA	1	PAG	GOL	
+GP-U-AM	the student who was baked a cake called the roommate.	student	roommate	bake	call	1	GOL	NA	7	PAG	GOL	
+GP-U-AM	the secretary who was poured a beer chatted up the lawyer.	secretary	lawyer	pour	chat	1	GOL	NA	1	PAG	COM	
+GP-U-AM	the brit who was served the first ace defeated the italian.	brit	italian	serve	defeat	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the principal who was taught the policy emailed the teacher.	principal	teacher	teach	email	1	GOL	NA	1	PAG	GOL	
+GP-U-AM	the old man who was awarded the prize embraced a friend.	man	friend	award	embrace	1	GOL	NA	2	PAG	COM	
+GP-U-AM	the chef who was presented the new knife greeted the audience.	chef	audience	present	greet	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the boy who was sent an invitation hugged the tutor.	boy	tutor	send	hug	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the girl who was won a stuffed bear ignored the carnival worker.	girl	worker	win	ignore	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the colonel who was granted leave phoned a travel agent.	colonel	agent	grant	phone	1	GOL	NA	1	PAG	GOL	
+GP-U-AM	the manager who was prepared the report praised the employees.	manager	employees	prepare	praise	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the babysitter who was purchased a gift card thanked the parents.	babysitter	parents	purchase	thank	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the child who was bought an ice cream cone smiled at the cashier.	child	cashier	buy	smile	1	GOL	NA	1	PAG	CAU	
+GP-U-AM	the child who was saved a front row seat surprised the clown.	child	clown	save	surprise	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the student who was found a scholarship talked to a professor.	student	professor	find	talk	1	GOL	NA	1	PAG	GOL	
+GP-U-AM	the priest who was mailed a request telephoned the cardinal.	priest	cardinal	mail	telephone	1	GOL	NA	1	PAG	GOL	
+GP-U-AM	the instructor who was submitted the plagiarized papers visited the dean.	instructor	dean	submit	visit	1	GOL	NA	1	PAG	COM	
+GP-U-AM	the spy who was served a dry martini watched the villain.	spy	villain	serve	watch	1	GOL	NA	1	PAG	PPT	
+GP-U-AM	the woman who was painted the portrait waved at the mayor.	woman	mayor	paint	wave	2	GOL	NA	1	PAG	GOL	
+GP-U-AM	the woman who was offered a free drink winked at the bartender.	woman	bartender	offer	wink	1	GOL	NA	1	PAG	GOL	
+GP-U-AM	the reporter who was told the rumour yelled at the witness.	reporter	witness	tell	yell	1	GOL	NA	1	PAG	GOL	
+LC-A-AM	the soldier annoyed the general awarded the medal.	soldier	medal	annoy	award	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the fireman argued with the inspector paid a fee.	fireman	fee	argue	pay	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	several surgeons assisted the doctor delivered the donor organ.	surgeons	doctor	assist	deliver	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the roommate called the student baked a cake.	roommate	student	call	bake	7	PAG	GOL	1	NA	GOL	
+LC-A-AM	the lawyer chatted up the secretary poured a beer.	lawyer	secretary	chat	pour	1	PAG	COM	1	NA	GOL	
+LC-A-AM	the italian defeated the brit served the first ace.	italian	brit	defeat	serve	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the teacher emailed the principal taught the policy.	teacher	principal	email	teach	1	PAG	GOL	1	NA	GOL	
+LC-A-AM	a friend embraced the old man awarded the prize.	friend	man	embrace	award	1	PAG	COM	1	NA	GOL	
+LC-A-AM	the tutor hugged the boy sent an invitation.	tutor	invitation	hug	send	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the audience greeted the chef presented the new knife.	audience	chef	greet	present	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the carnival worker ignored the girl won a stuffed bear.	worker	girl	ignore	win	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the bus driver knew the student called a bad name.	driver	student	know	call	2	PAG	PPT	7	NA	GOL	
+LC-A-AM	a travel agent phoned the colonel granted leave.	agent	colonel	phone	grant	1	PAG	GOL	1	NA	GOL	
+LC-A-AM	the employees praised the manager prepared the report.	employees	manager	praise	prepare	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the parents thanked the babysitter purchased a gift card.	parents	babysitter	thank	purchase	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the parents thanked the babysitter who was purchased a gift card.	parents	babysitter	thank	purchase	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the cashier smiled at the child bought an ice cream cone.	cashier	child	smile	buy	1	PAG	CAU	1	NA	GOL	
+LC-A-AM	the clown surprised the child saved a front row seat.	clown	child	surprise	save	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	a professor talked to the student found a scholarship.	professor	student	talk	find	1	PAG	GOL	1	NA	GOL	
+LC-A-AM	the cardinal telephoned the priest mailed a request.	cardinal	priest	telephone	mail	1	PAG	GOL	1	NA	GOL	
+LC-A-AM	the dean visited the instructor submitted the plagiarized papers.	dean	instructor	visit	submit	1	PAG	COM	1	NA	GOL	
+LC-A-AM	the villain watched the spy served a dry martini.	villain	spy	watch	serve	1	PAG	PPT	1	NA	GOL	
+LC-A-AM	the mayor waved to the woman painted the portrait.	mayor	woman	wave	paint	1	PAG	GOL	2	NA	GOL	
+LC-A-AM	the bartender winked at the woman offered a free drink.	bartender	woman	wink	offer	1	PAG	GOL	1	NA	GOL	
+LC-A-AM	the driver worried about the dispatcher handed a pink slip.	driver	dispatcher	worry	hand	2	PAG	PPT	1	NA	GOL	
+LC-A-AM	the witness yelled at the reporter told the rumour.	witness	reporter	yell	tell	1	PAG	GOL	1	NA	GOL	
+LC-U-AM	the soldier annoyed the general who was awarded the medal.	soldier	general	annoy	award	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the fireman argued with the inspector who was paid a fee.	fireman	inspector	argue	pay	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	several surgeons assisted the doctor who was delivered the donor organ.	surgeons	doctor	assist	deliver	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the roommate called the student who was baked a cake.	roommate	student	call	bake	7	PAG	GOL	1	NA	GOL	
+LC-U-AM	the lawyer chatted up the secretary who was poured a beer.	lawyer	secretary	chat	pour	1	PAG	COM	1	NA	GOL	
+LC-U-AM	the italian defeated the brit who was served the first ace.	italian	brit	defeat	serve	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the teacher emailed the principal who was taught the policy.	teacher	principal	email	teach	1	PAG	GOL	1	NA	GOL	
+LC-U-AM	a friend embraced the old man who was awarded the prize.	friend	man	embrace	award	1	PAG	COM	1	NA	GOL	
+LC-U-AM	the tutor hugged the boy who was sent an invitation.	tutor	boy	hug	send	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the audience greeted the chef who was presented the new knife.	audience	chef	greet	present	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the carnival worker ignored the girl who was won a stuffed bear.	worker	girl	ignore	win	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the bus driver knew the student who was called a bad name.	driver	student	know	call	2	PAG	PPT	7	NA	GOL	
+LC-U-AM	a travel agent phoned the colonel who was granted leave.	agent	colonel	phone	grant	1	PAG	GOL	1	NA	GOL	
+LC-U-AM	the employees praised the manager who was prepared the report.	employees	manager	praise	prepare	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the cashier smiled at the child who was bought an ice cream cone.	cashier	child	smile	buy	1	PAG	CAU	1	NA	GOL	
+LC-U-AM	the clown surprised the child who was saved a front row seat.	clown	child	surprise	save	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	a professor talked to the student who was found a scholarship.	professor	student	talk	find	1	PAG	GOL	1	NA	GOL	
+LC-U-AM	the cardinal telephoned the priest who was mailed a request.	cardinal	priest	telephone	mail	1	PAG	GOL	1	NA	GOL	
+LC-U-AM	the dean visited the instructor who was submitted the plagiarized papers.	dean	instructor	visit	submit	1	PAG	COM	1	NA	GOL	
+LC-U-AM	the villain watched the spy who was served a dry martini.	villain	spy	watch	serve	1	PAG	PPT	1	NA	GOL	
+LC-U-AM	the mayor waved to the woman who was painted the portrait.	mayor	woman	wave	paint	1	PAG	GOL	2	NA	GOL	
+LC-U-AM	the bartender winked at the woman who was offered a free drink.	bartender	woman	wink	offer	1	PAG	GOL	1	NA	GOL	
+LC-U-AM	the driver worried about the dispatcher who was handed a pink slip.	driver	dispatcher	worry	hand	2	PAG	PPT	1	NA	GOL	
+LC-U-AM	the witness yelled at the reporter who was told the rumour.	witness	reporter	yell	tell	1	PAG	GOL	1	NA	GOL	

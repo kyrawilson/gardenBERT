@@ -7,6 +7,7 @@ from nltk.corpus import treebank as tb
 import pickle
 from progress.bar import Bar
 import random
+import sqlite3
 
 
 # Find sublist function (https://stackoverflow.com/questions/17870544/find-starting-and-ending-indices-of-sublist-in-list)
@@ -25,12 +26,7 @@ model.eval()
 
 
 # Load propbank using nltk
-pb_instances = pb.instances()
-
-# Which layers to save
-layer = 8
-layer_index = torch.LongTensor(range(layer, layer+1))
-    
+pb_instances = pb.instances()[:10000]
 
 # List containing propbank info:
 #   inst level:
@@ -61,6 +57,12 @@ with Bar("Reading in propbank instances", max=len(pb_instances)) as bar:
 
 training_set = []
 control_dict = {}
+
+# Which layers to save
+layers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+layer = 8
+layer_index = torch.LongTensor(range(layer, layer+1))
+
 
 with Bar("Getting BERT activation", max=len(pb_sents.keys())) as bar:
 
@@ -182,12 +184,14 @@ with Bar("Getting BERT activation", max=len(pb_sents.keys())) as bar:
             # presevere dim 0 and 3, layer and hidden states respectively
             word_states = hidden_states.index_select(2, word_loc)
             word_states = torch.squeeze(word_states)
-            word_states = word_states.index_select(0, layer_index).detach().numpy()
+            word_states = word_states.detach().numpy()
+
+            # word_states = word_states.index_select(0, layer_index).detach().numpy()
 
             training_set.append([word_states, arg0_tags[idx], arg1_tags[idx], control_tag])
         bar.next()
 
 print(f'number of -GOL training instances is {goalcount}')
 print(f'number of -GOL training instances is {agentcount}')
-pickle.dump(training_set, open("training_set_multi.p", "wb"))
+pickle.dump(training_set, open("output/training_set_multi.p", "wb"))
 

@@ -25,8 +25,7 @@ model.eval()
 
 
 # Load propbank using nltk
-#pb_instances = pb.instances()
-pb_instances = pb.instances()[4000:50000]
+pb_instances = pb.instances()
 
 # Which layers to save
 layer = 8
@@ -67,7 +66,8 @@ with Bar("Getting BERT activation", max=len(pb_sents.keys())) as bar:
 
     # Loop through each unique sentence
     for key in pb_sents.keys():
-        # Variables about instance
+
+        # Propbank instance info
         file = pb_sents[key][0].fileid
         sent_num = pb_sents[key][0].sentnum
         raw_sent = tb.sents(file)[sent_num]

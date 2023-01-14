@@ -1,13 +1,15 @@
 
 # Imports
 import torch
-from transformers import BertTokenizer, BertModel
+from transformers import BertTokenizer, BertModel, BertConfig
 from nltk.corpus import propbank as pb
 from nltk.corpus import treebank as tb
 import pickle
 from progress.bar import Bar
 import random
 import sqlite3
+from sqlite3 import Error
+
 
 
 # Find sublist function (https://stackoverflow.com/questions/17870544/find-starting-and-ending-indices-of-sublist-in-list)
@@ -18,15 +20,42 @@ def find_sub_list(sl,l):
             return ind,ind+sll-1
 
 # Load BERT Model and Tokenizer
+model_name = 'bert-base-uncased'
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertModel.from_pretrained('bert-base-uncased',
+model = BertModel.from_pretrained(model_name,
                                   output_hidden_states = True, # Whether the model returns all hidden-states.
                                   )
 model.eval()
 
+# Get model info
+layer_count = BertConfig.from_pretrained(model_name).num_hidden_layers
+
+layer_info = {}
+
+for x in range(layer_count):
+    layer_name = f"layer{x}"
+    layer_index = torch.LongTensor(range(x, x+1))
+    layer_info[x] = {'layer_name': layer_name, 'layer_index': layer_index}
+
+# Initialize sql table based on number of layers
+
+# Initialize DB for saving token embeddings
+conn = sqlite3.connect('training.sqlite')
+cur = conn.cursor()
+
+#
+create_query = """CREATE TABLE embeddings (
+	inst_id INTEGER PRIMARY KEY,
+	arg0_tag INTEGER NOT NULL,
+	arg1_tag INTEGER NOT NULL,
+	control_tag INTEGER NOT NULL,
+    """ + ',\n'.join([f'layer{x} BLOB NOT NULL' for x in layer_info.keys()]) + ');'
+
+print(create_query)
+cur.execute(create_query)
 
 # Load propbank using nltk
-pb_instances = pb.instances()[:10000]
+pb_instances = pb.instances()[:50000]
 
 # List containing propbank info:
 #   inst level:
@@ -58,11 +87,7 @@ with Bar("Reading in propbank instances", max=len(pb_instances)) as bar:
 training_set = []
 control_dict = {}
 
-# Which layers to save
-layers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-layer = 8
-layer_index = torch.LongTensor(range(layer, layer+1))
-
+keycount = 0
 
 with Bar("Getting BERT activation", max=len(pb_sents.keys())) as bar:
 
@@ -184,14 +209,29 @@ with Bar("Getting BERT activation", max=len(pb_sents.keys())) as bar:
             # presevere dim 0 and 3, layer and hidden states respectively
             word_states = hidden_states.index_select(2, word_loc)
             word_states = torch.squeeze(word_states)
-            word_states = word_states.detach().numpy()
+            #word_states = word_states.detach().numpy()
 
+            # Add them to a list
+            layers = []
+
+            for layer in layer_info.keys():
+                layer_vec = word_states.index_select(0, layer_info[layer]['layer_index']).detach().numpy()
+                layers.append(sqlite3.Binary(pickle.dumps(layer_vec, pickle.HIGHEST_PROTOCOL)))
             # word_states = word_states.index_select(0, layer_index).detach().numpy()
 
-            training_set.append([word_states, arg0_tags[idx], arg1_tags[idx], control_tag])
+            query = f"""INSERT INTO embeddings
+                    (inst_id, arg0_tag, arg1_tag, control_tag, {', '.join([layer_info[x]['layer_name'] for x in layer_info.keys()])})
+                    VALUES
+                    ({keycount}, {arg0_tags[idx]}, {arg1_tags[idx]}, {control_tag}, {', '.join(['?' for x in range(layer_count)])})"""
+            
+            cur.execute(query, tuple(layers))
+            #training_set.append([word_states, arg0_tags[idx], arg1_tags[idx], control_tag])
+        
+            keycount += 1
         bar.next()
 
 print(f'number of -GOL training instances is {goalcount}')
-print(f'number of -GOL training instances is {agentcount}')
-pickle.dump(training_set, open("output/training_set_multi.p", "wb"))
-
+print(f'number of -AGT training instances is {agentcount}')
+#pickle.dump(training_set, open("output/training_set_multi.p", "wb"))
+conn.commit()
+conn.close()

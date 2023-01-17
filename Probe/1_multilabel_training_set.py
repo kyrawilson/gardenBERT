@@ -20,8 +20,8 @@ def find_sub_list(sl,l):
             return ind,ind+sll-1
 
 # Load BERT Model and Tokenizer
-model_name = 'bert-base-uncased'
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+model_name = 'bert-large-uncased'
+tokenizer = BertTokenizer.from_pretrained('bert-large-uncased')
 model = BertModel.from_pretrained(model_name,
                                   output_hidden_states = True, # Whether the model returns all hidden-states.
                                   )
@@ -97,7 +97,14 @@ with Bar("Getting BERT activation", max=len(pb_sents.keys())) as bar:
         # Propbank instance info
         file = pb_sents[key][0].fileid
         sent_num = pb_sents[key][0].sentnum
-        raw_sent = tb.sents(file)[sent_num]
+
+        try:
+            raw_sent = tb.sents(file)[sent_num]
+        
+        except OSError:
+            print(f'file not found: {file}')
+            continue
+
         tree = tb.sents(file)[sent_num]
         sent_tok = tokenizer.tokenize("[CLS] " + " ".join(tree) + " [SEP]")
         sent_idxed = tokenizer.convert_tokens_to_ids(sent_tok)

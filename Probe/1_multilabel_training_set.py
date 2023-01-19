@@ -40,7 +40,7 @@ else:
     # Load propbank using nltk
     pb_instances = pb.instances()[:1000]
 
-    pb_tokens = pd.DataFrame(columns=['token_index', 'source_sent', 'arg0_tag', 'arg1_tag', 'control_tag'])
+    pb_tokens = pd.DataFrame(columns=['token_index', 'source_sent', 'arg0_tag', 'arg1_tag'])
 
     # List containing propbank info:
     #   inst level:
@@ -211,8 +211,14 @@ else:
 arg0_1_training_tokens = pb_tokens[pb_tokens['arg0_tag'] == 1].sample(n=training_size_half)
 arg0_0_training_tokens = pb_tokens[pb_tokens['arg0_tag'] == 0].sample(n=training_size_half)
 
+arg0_1_training_tokens['classifier'] = 0
+arg0_0_training_tokens['classifier'] = 0
+
 arg1_1_training_tokens = pb_tokens[pb_tokens['arg1_tag'] == 1].sample(n=training_size_half)
 arg1_0_training_tokens = pb_tokens[pb_tokens['arg1_tag'] == 0].sample(n=training_size_half)
+
+arg1_1_training_tokens['classifier'] = 1
+arg1_0_training_tokens['classifier'] = 1
 
 all_training_tokens = pd.concat([arg0_1_training_tokens, arg0_0_training_tokens, arg1_1_training_tokens, arg1_0_training_tokens])
 
@@ -241,6 +247,7 @@ for model_name in models:
         arg0_tag INTEGER NOT NULL,
         arg1_tag INTEGER NOT NULL,
         control_tag INTEGER NOT NULL,
+        classifier INTEGER NOT NULL,
         """ + ',\n'.join([f'layer{x} BLOB NOT NULL' for x in layer_info.keys()]) + ');'
 
     cur.execute(create_query)
@@ -280,9 +287,9 @@ for model_name in models:
         # word_states = word_states.index_select(0, layer_index).detach().numpy()
 
         query = f"""INSERT INTO """ + model_name.replace('-', '_') + f"""
-                (inst_id, arg0_tag, arg1_tag, control_tag, {', '.join([layer_info[x]['layer_name'] for x in layer_info.keys()])})
+                (inst_id, arg0_tag, arg1_tag, control_tag, classifier, {', '.join([layer_info[x]['layer_name'] for x in layer_info.keys()])})
                 VALUES
-                ({keycount}, {row['arg0_tag']}, {row['arg1_tag']}, {row['control_tag']}, {', '.join(['?' for x in range(layer_count)])})"""
+                ({keycount}, {row['arg0_tag']}, {row['arg1_tag']}, {row['control_tag']}, {row['classifier']}, {', '.join(['?' for x in range(layer_count)])})"""
         
         cur.execute(query, tuple(layers))
         #training_set.append([word_states, arg0_tags[idx], arg1_tags[idx], control_tag])

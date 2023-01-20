@@ -100,10 +100,10 @@ for model in models:
 
         results.append([model, layer_index, train_size, weight_decay, arg0_score, arg0_selec, arg1_score, arg1_selec])
         print([layer_index, train_size, weight_decay, arg0_score, arg0_selec, arg1_score, arg1_selec])
-        #pickle.dump(arg0_clf, open("arg0_clf.p", "wb"))
-        #pickle.dump(arg1_clf, open("arg1_clf.p", "wb"))
+        pickle.dump(arg0_clf, open(f"Probe/classifiers/{model}_{layer_index}_arg0_clf.p", "wb"))
+        pickle.dump(arg1_clf, open(f"Probe/classifiers/{model}_{layer_index}_arg1_clf.p", "wb"))
 
-print(results)
+#print(results)
 
 with open("hyperparameter_results.tsv", "w") as f:
     for x in results:

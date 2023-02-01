@@ -1,167 +1,110 @@
 # Imports
 import numpy as np
+from transformers import BertConfig
 import pickle
 from sklearn.linear_model import SGDClassifier
 from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import train_test_split
 import torch
 from progress.bar import Bar
+import sqlite3
 
-import random
+#---------------- Setup ----------------#
 
+# Set hyperparameters + info vars
+training_set = 'training.squlite'
+train_size = 10
 
-# Load training set
-# List containing propbank info:
-#   inst level:
-#       sent (list), sent id (int), fileid (str), arg (list):
-#           arg contents (list), arg length (int), arg index (tuple), role (ARG1/ARG0), hidden states for range
-training_set = pickle.load(open("training_set_multi.p", "rb"))
-
-print(len(training_set))
 # Load classifier, using scikit learn's defaults
 model = SGDClassifier()
+weight_decay = 0.01
+model = SGDClassifier()
 
-# Get activation for each layer for each test item (the garden paths)
+# Header for results file
+results = ["model_name", "layer", "sample_size", "weight_decay", "arg0_score", "arg0_selec", "arg1_score", "arg1_selec", "control_score"]
 
-# Layers to test on
-#layers = [0, 5, 11]
-layer = 8
+# Models being tested
+models = ['bert-large-uncased', 'bert-base-uncased', 'bert-base-cased', 'roberta-base', 'roberta-large']
 
-# 0.1, 1, 10, 100% of the training data
-#training_set_sizes = [50, 500, 5000]
-#50000]
-training_set_sizes = [5000]
+# Define sql connection 
+conn = sqlite3.connect('training.sqlite')
+cur = conn.cursor()
 
-#weight_decay_params = [0.01, 1, 1.0, 10.0]
-weight_decay_params = [0.01]
-
-param_sets = [(x, y) for x in training_set_sizes for y in weight_decay_params]
-
-results = [["sample_size", "weight_decay", "arg0_score", "arg0_selec", "arg1_score", "arg1_selec", "control_score", "arg0_samples", "arg1_samples", "arg0_arg1_crossover"]]
-
-#print(param_sets)
-
-
-for param in param_sets:
-
-    train_size = param[0]
-    train_size_half = train_size//2
-    print(train_size)
-    print(train_size_half)
-    weight_decay = param[1]
-
-    # Initialize training lists
-    vectors = []
-    arg0_labels = []
-    arg1_labels = []
-    control_labels = []
-
-    layer_index = torch.LongTensor(range(layer, layer+1))
     
-    # loop through and subselect for layer
-    for word in training_set:
-        vector = word[0]
-        vectors.append(vector)
-        arg0_labels.append(word[1])
-        arg1_labels.append(word[2])
-        control_labels.append(word[3])
-        
-    # Get numbers of training items for each set
-    arg0_samples = train_size_half
-    arg1_samples = train_size_half
+# sqlite retreive the training sets
+def get_training(cursor, model_name, layer_index, training_size, label):
+    
+    train_size_half = training_size//2
 
-    #---------------- Generate randomized, length matched training sets ----------------#
+    # Get data from database
+    query = f"SELECT arg{label}_tag, control_tag, layer{layer_index} FROM {model_name.replace('-', '_')} WHERE classifier == {label}"
+    cursor.execute(query)
+    data = cursor.fetchall()
 
-    # Get indexes of arg1s
-    arg0_all_1_idxes = [idx for idx, x in enumerate(arg0_labels) if x == 1]
-    arg0_all_0_idxes = [idx for idx, x in enumerate(arg0_labels) if x == 0]
-    arg1_all_1_idxes = [idx for idx, x in enumerate(arg1_labels) if x == 1]
-    arg1_all_0_idxes = [idx for idx, x in enumerate(arg1_labels) if x == 0]
-    control_all_1_idxes = [idx for idx, x in enumerate(control_labels) if x == 1]
-    control_all_0_idxes = [idx for idx, x in enumerate(control_labels) if x == 1]
+    # Convert to numpy arrays
+    all_data = np.squeeze(np.array([pickle.loads(x[2]) for x in data]))
+    all_tags = np.array([x[0] for x in data])
+    all_control = np.array([x[1] for x in data])
 
-    # Shuffle order
-    random.shuffle(arg0_all_1_idxes)
-    random.shuffle(arg0_all_0_idxes)
-    random.shuffle(arg1_all_1_idxes)
-    random.shuffle(arg1_all_0_idxes)
-    random.shuffle(control_all_1_idxes)
-    random.shuffle(control_all_0_idxes)
+    return all_data, all_tags, all_control
 
+# Train classifiers
 
-    # Subselect to training size
-    arg0_all_1_idxes = arg0_all_1_idxes[:train_size_half]
-    arg0_all_0_idxes = arg0_all_0_idxes[:train_size_half]
-    arg1_all_1_idxes = arg0_all_1_idxes[:train_size_half]
-    arg1_all_0_idxes = arg0_all_0_idxes[:train_size_half]
+for model in models:
 
+    layer_count = BertConfig.from_pretrained(model).num_hidden_layers
 
-    # Generate lists of vectors for all four
-    arg0_1_vectors = [x for idx, x in enumerate(vectors) if idx in arg0_all_1_idxes]
-    arg0_0_vectors = [x for idx, x in enumerate(vectors) if idx in arg0_all_0_idxes]
-    arg1_1_vectors = [x for idx, x in enumerate(vectors) if idx in arg1_all_1_idxes]
-    arg1_0_vectors = [x for idx, x in enumerate(vectors) if idx in arg1_all_0_idxes]
+    for layer_index in range(layer_count):
+        print(f"Processing layer {layer_index} of model {model}")
 
-    # Generate control lables for Arg0, Arg1 classifeirs
-    arg0_control_labels = [x for idx, x in enumerate(control_labels) if idx in arg0_all_1_idxes or idx in arg0_all_0_idxes]
-    arg1_control_labels = [x for idx, x in enumerate(control_labels) if idx in arg1_all_1_idxes or idx in arg1_all_0_idxes]
+        arg0_vectors, arg0_labels, arg0_control_labels = get_training(cur, model, layer_index, train_size, '0')
+        arg1_vectors, arg1_labels, arg1_control_labels = get_training(cur, model, layer_index, train_size, '1')
 
-    # Concatinate vectors
-    print(arg0_1_vectors[0].shape)
-    arg0_vectors = np.squeeze(np.concatenate((arg0_1_vectors, arg0_0_vectors), axis=0))
-    arg1_vectors = np.squeeze(np.concatenate((arg1_1_vectors, arg1_0_vectors), axis=0))
-    print(arg0_vectors.shape)
+        print(f"arg0_vector size is {arg0_vectors.shape}, arg0_labels size is {arg0_labels.shape}, control_labels size is {arg0_control_labels.shape}")
+        #---------------- Arg0 Classifier ----------------#
+        print([x.shape for x in [arg0_vectors, arg0_labels, arg0_control_labels]])
+        # Train test split
+        arg0_vectors_train, arg0_vectors_test, arg0_labels_train, arg0_labels_test, arg0_control_labels_train, arg0_control_labels_test = train_test_split(arg0_vectors, arg0_labels, arg0_control_labels)
 
-    # Make arrays of the labels
-    arg0_labels = np.concatenate((np.array(np.ones(train_size_half)), np.array(np.zeros(train_size_half))))
-    arg1_labels = np.concatenate((np.array(np.ones(train_size_half)), np.array(np.zeros(train_size_half))))
-    arg0_control_labels = np.array(arg0_control_labels)
-    arg1_control_labels = np.array(arg1_control_labels)
+        # Make pipeline
+        arg0_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
+        arg0_control_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
 
+        # Train main and control classifiers
+        arg0_clf.fit(arg0_vectors_train, arg0_labels_train)
+        arg0_control_clf.fit(arg0_vectors_train, arg0_control_labels_train)
 
-    #---------------- Arg0 Classifier ----------------#
-    print([x.shape for x in [arg0_vectors, arg0_labels, arg0_control_labels]])
-    # Train test split
-    arg0_vectors_train, arg0_vectors_test, arg0_labels_train, arg0_labels_test, arg0_control_labels_train, arg0_control_labels_test = train_test_split(arg0_vectors, arg0_labels, arg0_control_labels)
+        # Score arg0 classifiers
+        arg0_score = arg0_clf.score(arg0_vectors_test, arg0_labels_test)
+        arg0_control_score = arg0_clf.score(arg0_vectors_test, arg0_control_labels_test)
+        arg0_selec = arg0_score - arg0_control_score
 
-    # Make pipeline
-    arg0_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
-    arg0_control_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
+        #---------------- Arg1 Classifier ----------------#
+        # Train test split
+        arg1_vectors_train, arg1_vectors_test, arg1_labels_train, arg1_labels_test, arg1_control_labels_train, arg1_control_labels_test = train_test_split(arg1_vectors, arg1_labels, arg1_control_labels)
 
-    # Train main and control classifiers
-    arg0_clf.fit(arg0_vectors_train, arg0_labels_train)
-    arg0_control_clf.fit(arg0_vectors_train, arg0_control_labels_train)
+        # Make pipeline
+        arg1_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
+        arg1_control_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
 
-    # Score arg0 classifiers
-    arg0_score = arg0_clf.score(arg0_vectors_test, arg0_labels_test)
-    arg0_control_score = arg0_clf.score(arg0_vectors_test, arg0_control_labels_test)
-    arg0_selec = arg0_score - arg0_control_score
+        # Train main and control classifiers
+        arg1_clf.fit(arg1_vectors_train, arg1_labels_train)
+        arg1_control_clf.fit(arg1_vectors_train, arg1_control_labels_train)
 
-    #---------------- Arg1 Classifier ----------------#
-    # Train test split
-    arg1_vectors_train, arg1_vectors_test, arg1_labels_train, arg1_labels_test, arg1_control_labels_train, arg1_control_labels_test = train_test_split(arg1_vectors, arg1_labels, arg1_control_labels)
+        # Score arg1 classifiers
+        arg1_score = arg1_clf.score(arg1_vectors_test, arg1_labels_test)
+        arg1_control_score = arg1_clf.score(arg1_vectors_test, arg1_control_labels_test)
+        arg1_selec = arg1_score - arg1_control_score
 
-    # Make pipeline
-    arg1_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
-    arg1_control_clf = make_pipeline(SGDClassifier(loss="log_loss", penalty='l2', alpha=weight_decay, max_iter=1000))
+        # "sample_size", "weight_decay", "arg0_score", "arg0_selec", "arg1_score", "arg1_selec", "control_score", "arg0_samples", "arg1_samples", "arg0_arg1_crossover"
 
-    # Train main and control classifiers
-    arg1_clf.fit(arg1_vectors_train, arg1_labels_train)
-    arg1_control_clf.fit(arg1_vectors_train, arg1_control_labels_train)
+        results.append([model, layer_index, train_size, weight_decay, arg0_score, arg0_selec, arg1_score, arg1_selec])
+        print([layer_index, train_size, weight_decay, arg0_score, arg0_selec, arg1_score, arg1_selec])
+        pickle.dump(arg0_clf, open(f"Probe/classifiers/{model}_{layer_index}_arg0_clf.p", "wb"))
+        pickle.dump(arg1_clf, open(f"Probe/classifiers/{model}_{layer_index}_arg1_clf.p", "wb"))
 
-    # Score arg1 classifiers
-    arg1_score = arg1_clf.score(arg1_vectors_test, arg1_labels_test)
-    arg1_control_score = arg1_clf.score(arg1_vectors_test, arg1_control_labels_test)
-    arg1_selec = arg1_score - arg1_control_score
+#print(results)
 
-    # "sample_size", "weight_decay", "arg0_score", "arg0_selec", "arg1_score", "arg1_selec", "control_score", "arg0_samples", "arg1_samples", "arg0_arg1_crossover"
-
-    results.append([train_size, weight_decay, arg0_score, arg0_selec, arg1_score, arg1_selec, arg0_samples, arg1_samples])
-    print([train_size, weight_decay, arg0_score, arg0_selec, arg1_score, arg1_selec, arg0_samples, arg1_samples])
-    #pickle.dump(arg0_clf, open("arg0_clf.p", "wb"))
-    #pickle.dump(arg1_clf, open("arg1_clf.p", "wb"))
-
-print(results)
 with open("hyperparameter_results.tsv", "w") as f:
     for x in results:
         f.write("\t".join([str(y) for y in x]))
